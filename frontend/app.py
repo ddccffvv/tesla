@@ -77,7 +77,6 @@ def bla(accountid):
 	data = list(cur.fetchall())
 	cur.execute("select updated FROM ChargeStates WHERE carid=%s;", (session.get("carid")))
 	starttime = cur.fetchone()
-	print starttime
 	starttime = datetime.datetime.fromtimestamp(int(starttime[0]))
 	timestamp = {"year":0, "month":0, "day":0, "hour":0, "minute":0}
 	timestamp["year"] = starttime.year
