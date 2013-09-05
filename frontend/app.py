@@ -1,17 +1,28 @@
 from flask import Flask
 from flask import render_template, flash, request, session, redirect, url_for
 import sqlite3, sys, os
+import MySQLdb
+
+ENVIRON = "dev" # Change to PROD for other stuff
 app = Flask(__name__)
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
 	error = None
 	if request.method == "POST":
-		if request.form["username"] != "demo" or request.form["password"] != "demo":
+		username = request.form["username"]
+		password = request.form["password"]
+
+		cursor = dbconnection.cursor()
+		cursor.execute("SELECT id, accountid from users WHERE username=%s and password=%s", (username, password))
+		content = cursor.fetchone()
+		if content == None:
 			error = "Invalid username or password."
 		else:
 			session['logged_in'] = True
-			session['username'] = request.form["username"]
+			session['username'] = username
+			session["userid"] = content[0]
+			session["accountid"] = content[1]
 			flash("You were logged in")
 			return redirect(url_for("index"))
 	return render_template("login.html", error=error)
@@ -27,8 +38,12 @@ def logout():
 def details():
 	return render_template("details.html")
 
-@app.route("/signup")
+@app.route("/signup", methods=["POST"]) # Get is simply blocked as 404
 def signup():
+	email = request.form["email"]
+	fileh = open("signups.txt","a")
+	fileh.write(email + "\n")
+	fileh.close()
 	return "thanks"
 
 @app.route("/")
@@ -93,5 +108,21 @@ def distance(origin, destination):
 	return d
 
 if __name__ == "__main__":
+
+	# Setup sql connection
+	if ENVIRON == "dev":
+		db_location = "localhost"
+		db_username = "root"
+		db_password = "toor"
+		db_database = "smartcharger"
+	elif ENVIRON == "prod":
+		db_location = "localhost"
+		db_username = "tesla"
+		db_password = "tesla"
+		db_database = "tesla"	
+	else:
+		sys.exit(1)
+	dbconnection = MySQLdb.connect(db_location, db_username, db_password, db_database)
+	
 	app.secret_key = os.urandom(30)
     	app.run(host='0.0.0.0',debug=True,port=8080)
