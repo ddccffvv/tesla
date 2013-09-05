@@ -19,6 +19,10 @@ def login():
 		if content == None:
 			error = "Invalid username or password."
 		else:
+			# Fetch the car info
+			cursor.execute("SELECT id from vehicles WHERE accountid=%s ORDER BY id DESC",(content[1])) # TODO currently only working with a single car
+			carid = cursor.fetchone()
+			session['carid'] = carid[0]
 			session['logged_in'] = True
 			session['username'] = username
 			session["userid"] = content[0]
@@ -44,12 +48,18 @@ def signup():
 	fileh = open("signups.txt","a")
 	fileh.write(email + "\n")
 	fileh.close()
-	return "thanks"
+	session["signup"] = True
+	# TODO fix this into a proper message
+	flash("Thank you for signing up to our beta program. When new spots are available you might be contacted.")
+	return redirect(url_for("index"))
 
 @app.route("/")
 def index():
 	if session.get("logged_in"):
-		return bla(session.get("username"))
+		return bla(session.get("accountid"))
+	elif session.get("signup"):
+		flash("Thank you for signing up to our beta program. When new spots are available you might be contacted.")
+		session["signup"] = False
 	return render_template("index.html", title="Welcome to EVCloud")
 
 @app.route("/about")
@@ -60,14 +70,13 @@ def about():
 def contact():
 	return render_template("contact.html", title="Contact EVCloud", page="contact")
 
-def bla(username):
-	conn = sqlite3.connect('/home/alice/tesla_aggregator_bart/tesla_data.db')
-	cur = conn.cursor()
-	cur.execute("select battery_level from chargestates;")
+def bla(accountid):
+	#conn = sqlite3.connect('/home/alice/tesla_aggregator_bart/tesla_data.db')
+	cur = dbconnection.cursor()
+	cur.execute("select battery_level from ChargeStates WHERE carid=%s;",(session.get("carid")))
 	data = list(cur.fetchall())
-	cur.execute("select latitude,longitude,updated from drivestates;")
+	cur.execute("select latitude,longitude,updated from DriveStates WHERE carid=%s;",(session.get("carid")))
 	lat_long = list(cur.fetchall())
-	conn.close()
 	data = "[ " + ",".join(map(lambda x: str(x[0]), data)) + " ]"
 	d = defaultdict(list)
 	for (latitude, longitude, updated) in lat_long:
