@@ -75,6 +75,17 @@ def bla(accountid):
 	cur = dbconnection.cursor()
 	cur.execute("select battery_level from ChargeStates WHERE carid=%s;",(session.get("carid")))
 	data = list(cur.fetchall())
+	cur.execute("select updated FROM ChargeStates WHERE carid=%s;", (session.get("carid")))
+	starttime = cur.fetchone()
+	print starttime
+	starttime = datetime.datetime.fromtimestamp(int(starttime[0]))
+	timestamp = {"year":0, "month":0, "day":0, "hour":0, "minute":0}
+	timestamp["year"] = starttime.year
+	timestamp["month"] = starttime.month
+	timestamp["day"] = starttime.day
+	timestamp["hour"] = starttime.hour
+	timestamp["minute"] = starttime.minute
+
 	cur.execute("select latitude,longitude,updated from DriveStates WHERE carid=%s;",(session.get("carid")))
 	lat_long = list(cur.fetchall())
 	data = "[ " + ",".join(map(lambda x: str(x[0]), data)) + " ]"
@@ -91,7 +102,7 @@ def bla(accountid):
 			dist +=  float(distance(i,j))
 		print "total: " + str(dist)
 		lat_long.append((k, str(dist)))
-	return render_template("test.html", data = data, entries=lat_long, page="dashboard", title="Dashboard")
+	return render_template("test.html", data = data, timestamp= timestamp, entries=lat_long, page="dashboard", title="Dashboard")
     #except:
 	#print "Unexpected error:", str(sys.exc_info()[0].message)
         #return "error..."

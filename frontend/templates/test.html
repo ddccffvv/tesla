@@ -80,8 +80,8 @@ $(function () {
             series: [{
                 type: 'area',
                 name: 'Charge Level',
-                pointInterval: 300000,
-                pointStart: Date.UTC(2013, 7, 29, 14, 40),
+                pointInterval: 50000,
+                pointStart: Date.UTC({{timestamp.year}}, {{timestamp.month}}, {{timestamp.day}}, {{timestamp.hour}}, {{timestamp.minute}}),
                 data: {{data}}
             }]
         });
