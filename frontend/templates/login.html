@@ -1,0 +1,35 @@
+<html lang="en">
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="/static/js/bootstrap.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-43775970-1', 'evse.eu');
+			ga('send', 'pageview');
+
+		</script>
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/css/signin.css">
+	</head>
+	<body>
+		<div class="container">
+			<form class="form-signin" action="{{ url_for('login') }}" method="post">
+				<h1>Welcome to EVCloud</h1>
+				<h2 class="form-signin-heading">Please sign in:</h2>
+				{% if error %}
+				<div class="alert alert-danger">{{error}}</div>
+				{% endif %}
+				<input type="text" name="username" class="form-control" placeholder="Email address" autofocus>
+				<input type="password" name="password" class="form-control" placeholder="Password">
+				<label class="checkbox">
+					<input type="checkbox" value"remember-me"> Remember me
+				</label>
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+			</form>
+		</div>
+	</body>
+</html>

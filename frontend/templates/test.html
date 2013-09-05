@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container" style="padding-top:50px">
+	<h1> Dashboard </h1>
+	<hr>
+	<h2> Battery Charge over time </h2>
+	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<h2> Estimated km driven</h2>
+	<table class="table table-bordered">
+		<tr>
+			<th>Day</th>
+			<th>Km driven</th>
+		</tr>
+		{% for day, km in entries %}
+		<tr>
+			<td>{{day}}</td>
+			<td>{{km}} km</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
+
+<script>
+$(function () {
+        $('#container').highcharts({
+            chart: {
+                zoomType: 'x',
+                spacingRight: 20
+            },
+            title: {
+                text: 'Battery Charge Levels'
+            },
+            subtitle: {
+                text: document.ontouchstart === undefined ?
+                    'Click and drag in the plot area to zoom in' :
+                    'Pinch the chart to zoom in'
+            },
+            xAxis: {
+                type: 'datetime',
+                maxZoom: 900, // 15 minutes
+                title: {
+                    text: null
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Charge Level'
+                }
+            },
+            tooltip: {
+                shared: true
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                area: {
+                    fillColor: {
+                        linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+                        stops: [
+                            [0, Highcharts.getOptions().colors[0]],
+                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+                        ]
+                    },
+                    lineWidth: 1,
+                    marker: {
+                        enabled: false
+                    },
+                    shadow: false,
+                    states: {
+                        hover: {
+                            lineWidth: 1
+                        }
+                    },
+                    threshold: null
+                }
+            },
+
+            series: [{
+                type: 'area',
+                name: 'Charge Level',
+                pointInterval: 300000,
+                pointStart: Date.UTC(2013, 7, 29, 14, 40),
+                data: {{data}}
+            }]
+        });
+    });
+
+</script>
+{% endblock %}

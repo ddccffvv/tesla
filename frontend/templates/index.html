@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+
+	<!-- Main component for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<h2>Get access to all your electric car stats</h2>
+		<p class="lead">Some explanation</p>
+		<form class="form" action="{{ url_for('signup') }}" method="post">
+			<input type="text" name="email" class="" placeholder="Email address" autofocus>
+			<button class="btn btn-lg btn-success" type="submit">Sign up</button>
+		</form>
+	</div>
+
+</div> <!-- /container -->
+	{% endblock %}
