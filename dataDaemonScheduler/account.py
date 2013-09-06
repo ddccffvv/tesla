@@ -21,6 +21,7 @@ class Account()
 	def prepareJob(self):
 		c = rpyc.connect("localhost", 65123)
 		self.pyteslaobj = c.root.getLoginToken(self.accountid)
+		c.close()
 
 	def runjob(self):
 		for vehicle in self.pyteslaobj.vehicles():
