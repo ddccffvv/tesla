@@ -20,3 +20,14 @@ dataDaemon
 
 Contains the code for the back-end.
 Goes and fetches the data on regular intervals.
+
+tests
+-----
+
+General testing 
+
+
+admin-scripts
+-------------
+
+Scripts for administration

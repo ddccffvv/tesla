@@ -3,7 +3,7 @@ from flask import render_template, flash, request, session, redirect, url_for
 import sqlite3, sys, os
 import MySQLdb
 
-ENVIRON = "dev" # Change to PROD for other stuff
+ENVIRON = "prod" # Change to PROD for other stuff
 app = Flask(__name__)
 
 @app.route("/login", methods=["GET", "POST"])
