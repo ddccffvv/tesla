@@ -14,7 +14,7 @@ Insert Accounts
 Accounts are just a master entry for all users (bit like 1 account multiple users)
 
 
-	INSERT INTO accounts (subscriptionplan, registrationdata, subscriptiondata, resellerid) VALUES (1, NOW(), NOW(), <result step 1>)
+	INSERT INTO accounts (subscriptionplan, registrationdate, subscriptiondate, resellerid) VALUES (1, NOW(), NOW(), <result step 1>)
 	SELECT id from accounts ORDER BY id DESC LIMIT 0, 1	# Select the last id, maybe this requires a bit more work
 
 Insert User Account
