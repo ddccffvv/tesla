@@ -1,29 +1,32 @@
 Create a new set of credentials in the database
 ==============
 
-1. Insert Reseller
+Insert Reseller
+-----------------
 Before entering a new account, we need to make sure the reseller is in place. Currently 1 is us
 
 
 SELECT id from resellers WHERE name="EVCloud"
 
 
-2. Insert Accounts
+Insert Accounts
+----------------
 Accounts are just a master entry for all users (bit like 1 account multiple users)
 
 
 INSERT INTO accounts (subscriptionplan, registrationdata, subscriptiondata, resellerid) VALUES (1, NOW(), NOW(), <result step 1>)
 SELECT id from accounts ORDER BY id DESC LIMIT 0, 1	# Select the last id, maybe this requires a bit more work
 
-3. Insert User Account
+Insert User Account
+--------------
 Now you can insert the user account
 
 
 INSERT INTO users (accountid, username, password, lastlogin, lastpasswordchange) VALUES (<result step 2>, <username>, <password>, "","")
 
 
-3b optional: Insert user information
-
+optional: Insert user information
+-------------------
 
 Fields: 
 * userid
@@ -41,7 +44,8 @@ Fields:
 * fax
 * email
 
-4. Insert car & credentials
+Insert car & credentials
+-----------
 This takes a bit more work :)
 First you need to add the new car in the table vehicles
 
