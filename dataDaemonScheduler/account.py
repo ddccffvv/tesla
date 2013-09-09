@@ -5,7 +5,7 @@ import rpyc
 
 import time
 
-class Account()
+class Account():
 
 
 	def __init__(self, parent, accountid, username, updateinterval):
@@ -19,11 +19,16 @@ class Account()
 		self.vehicleid = None
 
 	def prepareJob(self):
-		c = rpyc.connect("localhost", 65123)
-		self.pyteslaobj = c.root.getLoginToken(self.accountid)
-		c.close()
+		self.c = rpyc.connect("localhost", 65123)
+		self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+		print "1"
+		print self.pyteslaobj
+		# c.close()
+		# Doing the above kills the object
 
-	def runjob(self):
+	def runJob(self):
+		print "2"
+		print self.pyteslaobj
 		for vehicle in self.pyteslaobj.vehicles():
 			# Charge states
 			charge_state_data = vehicle.charge_state
@@ -35,10 +40,12 @@ class Account()
 
 
 		
-	def runMetajob(self):			
+	def runMetaJob(self):			
 		# Meta job, meta data
+		print "3"
+		print self.pyteslaobj
 		for vehicle in self.pyteslaobj.vehicles():
-			carid = vehicle.carid
+			carid = vehicle.id
 			vinnumber = vehicle.vin
 			try:
 				carmobile = vehicle.mobile_enabled
@@ -51,8 +58,7 @@ class Account()
 					# log this!!
 					break
 
-
-			vehicleid = self.dbhandler.executeQuery("SELECT id from vehicles WHERE carid=% and vinnumber=%s and accountid=%s", (carid, vinnumber, self.accountid))
+			vehicleid = self.dbhandler.executeQuery("SELECT id from vehicles WHERE carid=%s and vinnumber=%s and accountid=%s", (carid, vinnumber, self.accountid))
 			if vehicleid == None:
 				# Add it
 				self.dbhandler.executeQueryNoResult("INSERT INTO vehicles (carid, vinnumber, accountid, mobile_enabled, updated, brandid, typeid, countryid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",(carid, vinnumber, self.accountid, carmobile, int(time.time()), 1, 1, 1), commit=True)

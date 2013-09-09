@@ -6,7 +6,7 @@
 
 import databasehandler
 import logger
-
+import time
 import schedulemanager
 
 class dataDaemon():
@@ -26,3 +26,7 @@ class dataDaemon():
 
 if __name__ == "__main__":
 	dd = dataDaemon()
+	while True:
+		time.sleep(2)
+		# We need this
+		print "Still running"

@@ -3,6 +3,9 @@ from apscheduler.scheduler import Scheduler
 
 from account import Account
 
+import logging
+logging.basicConfig()
+
 class ScheduleManager():
 
 
@@ -11,13 +14,13 @@ class ScheduleManager():
 		self.accounts = []
 		self.jobs = []
 		self.metajobs = []
-		self.createCarObjects()
+		#self.createCarObjects()
 
 		self.sched = Scheduler()
 
-		createCarObjects()
+		self.createCarObjects()
 
-		self.sched.add_interval_job(createCarObjects, minutes=5)
+		self.sched.add_interval_job(self.createCarObjects, minutes=5)
 
 		self.sched.start()
 
@@ -43,13 +46,14 @@ class ScheduleManager():
 
 	
 	def startAllAccounts(self):
+		
 		for account in self.accounts:
 			if not account.running:
 				# We schedule the task
 				account.prepareJob()
-				account.runMetajob()
-				self.jobs.append( self.sched.add_interval_job(	runjob, account, seconds=account.updateinterval) ) 
-				self.metajobs.append( self.sched.add_interal_job (runMetajob, account, minutes= 30) )
+				account.runMetaJob()
+				self.jobs.append (self.sched.add_interval_job( self.runjob, args=[account], seconds= int(account.updateinterval)) )
+				self.metajobs.append( self.sched.add_interval_job (self.runMetajob, args=[account], minutes= 30) )
 				account.running = True
 
 	def runjob(self, account):
