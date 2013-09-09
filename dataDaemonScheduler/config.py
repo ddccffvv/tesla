@@ -5,6 +5,7 @@ Configuration
 '''
 
 ENVIRON = "dev" # Change to prod for production
+ENVIRON = "prod" # Change to prod for production
 
 if ENVIRON == "dev":
 	db_location="localhost"

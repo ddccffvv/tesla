@@ -2,7 +2,7 @@
 
 import pytesla
 import rpyc
-
+from util import log 
 import time
 
 class Account():
@@ -21,14 +21,12 @@ class Account():
 	def prepareJob(self):
 		self.c = rpyc.connect("localhost", 65123)
 		self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
-		print "1"
-		print self.pyteslaobj
+		log("Preparing job")
 		# c.close()
 		# Doing the above kills the object
 
 	def runJob(self):
-		print "2"
-		print self.pyteslaobj
+		log("Running interval job")
 		for vehicle in self.pyteslaobj.vehicles():
 			# Charge states
 			charge_state_data = vehicle.charge_state
@@ -42,8 +40,7 @@ class Account():
 		
 	def runMetaJob(self):			
 		# Meta job, meta data
-		print "3"
-		print self.pyteslaobj
+		log( "Running Meta Job")
 		for vehicle in self.pyteslaobj.vehicles():
 			carid = vehicle.id
 			vinnumber = vehicle.vin

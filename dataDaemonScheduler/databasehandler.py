@@ -10,7 +10,7 @@ class DatabaseHandler():
 		self.connection = mysql.connect(db_location, db_username, db_password, db_database)
 
 	def executeQueryNoResult(self, query, parameters=None, commit=False):
-		print parameters
+		self.connection = mysql.connect(db_location, db_username, db_password, db_database)
 		cursor = self.connection.cursor()
 		if parameters == None:
 			cursor.execute(query)
@@ -18,9 +18,10 @@ class DatabaseHandler():
 			cursor.execute(query, parameters)
 		if commit:
 			self.connection.commit()
+		self.connection.close()
 
 	def executeQuery(self, query, parameters=None, commit=False):
-		print parameters
+		self.connection = mysql.connect(db_location, db_username, db_password, db_database)
 		cursor = self.connection.cursor()
 		if parameters == None:
 			cursor.execute(query)
@@ -30,7 +31,9 @@ class DatabaseHandler():
 		if commit:
 			self.connection.commit()
 
-		return cursor.fetchall()
+		bla = cursor.fetchall()
+		self.connection.close()
+		return bla
 
 	def __del__(self):
 		self.connection.close()	

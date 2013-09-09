@@ -4,6 +4,7 @@
 
 '''
 
+from util import log
 import databasehandler
 import logger
 import time
@@ -29,4 +30,4 @@ if __name__ == "__main__":
 	while True:
 		time.sleep(2)
 		# We need this
-		print "Still running"
+		log( "Still running")
