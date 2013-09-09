@@ -1,0 +1,33 @@
+'''
+
+	Main starting point for the dataDaemon
+
+'''
+
+from util import log
+import databasehandler
+import logger
+import time
+import schedulemanager
+
+class dataDaemon():
+
+	def __init__(self):
+		self.databasehandler = databasehandler.DatabaseHandler(self)
+		self.logger = logger.Logger(self)
+
+		self.schedulemanager = schedulemanager.ScheduleManager(self)
+
+	def getDatabaseHandler(self):
+		return self.databasehandler		
+
+	def log(self, msg):
+		self.logger.log(msg)
+
+
+if __name__ == "__main__":
+	dd = dataDaemon()
+	while True:
+		time.sleep(2)
+		# We need this
+		log( "Still running")
