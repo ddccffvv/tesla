@@ -22,70 +22,97 @@
 </div>
 
 <script>
-$(function () {
-        $('#container').highcharts({
-            chart: {
-                zoomType: 'x',
-                spacingRight: 20
-            },
-            title: {
-                text: 'Battery Charge Levels'
-            },
-            subtitle: {
-                text: document.ontouchstart === undefined ?
-                    'Click and drag in the plot area to zoom in' :
-                    'Pinch the chart to zoom in'
-            },
-            xAxis: {
-                type: 'datetime',
-                maxZoom: 900, // 15 minutes
-                title: {
-                    text: null
-                }
-            },
-            yAxis: {
-                title: {
-                    text: 'Charge Level'
-                }
-            },
-            tooltip: {
-                shared: true
-            },
-            legend: {
-                enabled: false
-            },
-            plotOptions: {
-                area: {
-                    fillColor: {
-                        linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
-                        stops: [
-                            [0, Highcharts.getOptions().colors[0]],
-                            [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
-                        ]
-                    },
-                    lineWidth: 1,
-                    marker: {
-                        enabled: false
-                    },
-                    shadow: false,
-                    states: {
-                        hover: {
-                            lineWidth: 1
-                        }
-                    },
-                    threshold: null
-                }
-            },
+	$(function () {
+		$('#container').highcharts({
+			chart: {
+				zoomType: 'x',
+				spacingRight: 20
+			},
+			title: {
+				text: 'Battery Charge Levels'
+			},
+			subtitle: {
+				text: document.ontouchstart === undefined ?
+				'Click and drag in the plot area to zoom in' :
+				'Pinch the chart to zoom in'
+			},
+			xAxis: {
+				type: 'datetime',
+				maxZoom: 900, // 15 minutes
+				title: {
+					text: null
+				}
+			},
+			yAxis: {
+				title: {
+					text: 'Charge Level'
+				}
+			},
+			tooltip: {
+				shared: true
+			},
+			legend: {
+				enabled: false
+			},
+			plotOptions: {
+				area: {
+					fillColor: {
+						linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+						stops: [
+						[0, Highcharts.getOptions().colors[0]],
+						[1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+						]
+					},
+					lineWidth: 1,
+					marker: {
+						enabled: false
+					},
+					shadow: false,
+					states: {
+						hover: {
+							lineWidth: 1
+						}
+					},
+					threshold: null
+				}
+			},
 
-            series: [{
-                type: 'area',
-                name: 'Charge Level',
-                pointInterval: 50000,
-                pointStart: Date.UTC({{timestamp.year}}, {{timestamp.month}}, {{timestamp.day}}, {{timestamp.hour}}, {{timestamp.minute}}),
-                data: {{data}}
-            }]
-        });
-    });
+			series: [{
+				type: 'area',
+				name: 'Charge Level',
+				pointInterval: 50000,
+				{% if timestamp %}
+				pointStart: Date.UTC({{timestamp.year}}, {{timestamp.month}}, {{timestamp.day}}, {{timestamp.hour}}, {{timestamp.minute}}),
+				{% endif %}
+				data: {{data}}
+			}],
+			lang: {
+				// Custom language option            
+				noData: "There is not yet data to display"    
+			},
+			/* Custom options */
+			noData: {
+				// Custom positioning/aligning options
+				position: {	
+					//align: 'right',
+					//verticalAlign: 'bottom'
+				},
+				// Custom svg attributes
+				attr: {
+					//'stroke-width': 1,
+					//stroke: '#cccccc'
+				},
+				// Custom css
+				style: {                    
+					//fontWeight: 'bold',     
+					//fontSize: '15px',
+					//color: '#202030'        
+				}
+			}
+
+
+		});
+	});
 
 </script>
 {% endblock %}
