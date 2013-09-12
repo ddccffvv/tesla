@@ -45,7 +45,7 @@ class Account():
 					traceback.print_tb(exc_traceback, file =sys.stdout)
 					print "*** Exception ***"
 					traceback.print_exception(exc_type, exc_value, exc_traceback, file=sys.stdout)
-					print "*** Traceback exc ***":
+					print "*** Traceback exc ***"
 					traceback.print_exc()
 					print "*** format_exc, first and last line ***"
 					formatted_lines = traceback.format_exc().splitlines()
@@ -71,7 +71,7 @@ class Account():
 					traceback.print_tb(exc_traceback, file =sys.stdout)
 					print "*** Exception ***"
 					traceback.print_exception(exc_type, exc_value, exc_traceback, file=sys.stdout)
-					print "*** Traceback exc ***":
+					print "*** Traceback exc ***"
 					traceback.print_exc()
 					print "*** format_exc, first and last line ***"
 					formatted_lines = traceback.format_exc().splitlines()
@@ -133,7 +133,7 @@ class Account():
 					traceback.print_tb(exc_traceback, file =sys.stdout)
 					print "*** Exception ***"
 					traceback.print_exception(exc_type, exc_value, exc_traceback, file=sys.stdout)
-					print "*** Traceback exc ***":
+					print "*** Traceback exc ***"
 					traceback.print_exc()
 					print "*** format_exc, first and last line ***"
 					formatted_lines = traceback.format_exc().splitlines()
@@ -166,7 +166,7 @@ class Account():
 					traceback.print_tb(exc_traceback, file =sys.stdout)
 					print "*** Exception ***"
 					traceback.print_exception(exc_type, exc_value, exc_traceback, file=sys.stdout)
-					print "*** Traceback exc ***":
+					print "*** Traceback exc ***"
 					traceback.print_exc()
 					print "*** format_exc, first and last line ***"
 					formatted_lines = traceback.format_exc().splitlines()
@@ -199,7 +199,7 @@ class Account():
 					traceback.print_tb(exc_traceback, file =sys.stdout)
 					print "*** Exception ***"
 					traceback.print_exception(exc_type, exc_value, exc_traceback, file=sys.stdout)
-					print "*** Traceback exc ***":
+					print "*** Traceback exc ***"
 					traceback.print_exc()
 					print "*** format_exc, first and last line ***"
 					formatted_lines = traceback.format_exc().splitlines()
