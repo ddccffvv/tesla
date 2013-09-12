@@ -67,7 +67,9 @@ def car_profile():
 		return redirect(url_for("logout"))
 	if not 'userid' in session:
 		return redirect(url_for("logout"))
-
+	if request.method == "POST":
+		# Adding the content
+		success = "The car has been added!"
 	return render_template('car_profile.html',success = "")
 		
 @app.route("/change-password", methods=["GET", "POST"])
