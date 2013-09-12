@@ -2,7 +2,8 @@
 from apscheduler.scheduler import Scheduler
 
 from account import Account
-
+from util import log, debug
+from config import DEBUG
 import logging
 logging.basicConfig()
 
@@ -16,12 +17,21 @@ class ScheduleManager():
 		self.metajobs = []
 		#self.createCarObjects()
 
+		if DEBUG:
+			debug.debug("Starting the scheduler object")
 		self.sched = Scheduler()
 
+		if DEBUG:
+			debug.debug("Creating all the required objects from our database")
 		self.createCarObjects()
 
+		if DEBUG:
+			debug.debug("Automate the previous creation on a 5 minute basis")
 		self.sched.add_interval_job(self.createCarObjects, minutes=5)
 
+
+		if DEBUG:
+			debug.debug("Start the scheduler!")
 		self.sched.start()
 
 
@@ -46,7 +56,8 @@ class ScheduleManager():
 
 	
 	def startAllAccounts(self):
-		
+		if DEBUG:
+			debug.debug("Starting all the accounts. We append a runJob and a runMetaJob to the scheduler")
 		for account in self.accounts:
 			if not account.running:
 				# We schedule the task
@@ -58,10 +69,14 @@ class ScheduleManager():
 
 	def runjob(self, account):
 		# Running the job at hand :)
+		if DEBUG:
+			debug.debug("Running the job for account: " + str(account.accountid))
 		account.runJob()
 
 	def runMetajob(self, account):
 		# Running a different job, the meta one
+		if DEBUG:
+			debug.debug("Running the metajob for account: " + str(account.accountid))
 		account.rubMetaJob()
 
 	def log(self, msg):

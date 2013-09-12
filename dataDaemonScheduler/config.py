@@ -6,7 +6,8 @@ Configuration
 
 ENVIRON = "dev" # Change to prod for production
 ENVIRON = "prod" # Change to prod for production
-
+#DEBUG = False
+DEBUG = True 
 if ENVIRON == "dev":
 	db_location="localhost"
 	db_username="root"

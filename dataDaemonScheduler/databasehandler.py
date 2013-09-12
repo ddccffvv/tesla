@@ -7,7 +7,6 @@ class DatabaseHandler():
 
 	def __init__(self, parent):
 		self.parent = parent
-		self.connection = mysql.connect(db_location, db_username, db_password, db_database)
 
 	def executeQueryNoResult(self, query, parameters=None, commit=False):
 		self.connection = mysql.connect(db_location, db_username, db_password, db_database)
