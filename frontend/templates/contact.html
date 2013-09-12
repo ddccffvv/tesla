@@ -2,8 +2,21 @@
 {% block body %}
 
 <div class="container" style="padding-top:50px">
-	<h1> About </h1>
+	<h1> Contact Us </h1>
 	<hr>
+	{% if success != "" %}
+		<div class="alert alert-success">{{success}}</div>
+	{% endif %}
+
+	<form action="{{ url_for('contact')}}" method="post">
+	<table style="border: 0px;">
+	<tr><td>Name: </td><td><input type="text" name="name" /></td></tr>
+	<tr><td>Email: </td><td><input type="text" name="email" /></td></tr>
+	<tr><td></td><td>Message:</td></tr>
+	<tr><td></td><td><textarea name="message" cols=50 rows=10></textarea></td></tr>
+	<tr><td></td><td><input type="submit" value="Submit" /></td></tr>
+	</table>
+	</form>
 </div>
 
 {% endblock %}

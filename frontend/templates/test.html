@@ -4,6 +4,11 @@
 <div class="container" style="padding-top:50px">
 	<h1> Dashboard </h1>
 	<hr>
+	
+	{% if not car %}
+		<div class="alert alert-warning">It appears you have not configured a car yet for your account. <a href="{{url_for("car_profile")}}" class="alert-link">Please do so here!</a></div>
+	{% endif %}
+
 	<h2> Battery Charge over time </h2>
 	<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 	<h2> Estimated km driven</h2>

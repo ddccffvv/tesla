@@ -4,15 +4,17 @@ import MySQLdb as mysql
 from optparse import OptionParser
 import bcrypt
 
-
+ENVIRON = "dev" # prod
 usage = "usage: %prog [options]"
 parser = OptionParser(usage=usage)
 parser.add_option("-u", "--username", dest="username", help="The username")
 parser.add_option("-p", "--password", dest="password", help="The password")
 
 (options, args) = parser.parse_args()
-
-connection = mysql.connect("localhost", "tesla", "tesla", "tesla")
+if ENVIRON == "prod":
+	connection = mysql.connect("localhost", "tesla", "tesla", "tesla")
+elif ENVIRON == "dev":
+	connection = mysql.connect("localhost", "root", "toor", "smartcharger")
 cursor = connection.cursor()
 
 cursor.execute("INSERT INTO accounts (subscriptionplan, registrationdate, subscriptiondate, resellerid) VALUES (1, NOW(), NOW(), 1)")

@@ -4,7 +4,8 @@ from flask.ext.bcrypt import Bcrypt
 import sqlite3, sys, os
 import MySQLdb
 
-ENVIRON = "prod" # Change to PROD for other stuff
+#ENVIRON = "prod" # Change to PROD for other stuff
+ENVIRON = "dev"
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
 
@@ -60,6 +61,15 @@ def signup():
 	session["signup"] = True
 	return redirect(url_for("index"))
 
+@app.route("/car_profile", methods=["GET","POST"])
+def car_profile():
+	if not 'logged_in' in session:
+		return redirect(url_for("logout"))
+	if not 'userid' in session:
+		return redirect(url_for("logout"))
+
+	return render_template('car_profile.html',success = "")
+		
 @app.route("/change-password", methods=["GET", "POST"])
 def change_password():
 	#first check if we are logged in...
@@ -107,15 +117,26 @@ def index():
 def about():
 	return render_template("about.html", title="About EVCloud", page="about")
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET","POST"])
 def contact():
-	return render_template("contact.html", title="Contact EVCloud", page="contact")
+	if request.method == "POST":
+		# Save the information
+		name = request.form["name"]
+		email = request.form["email"]
+		message = request.form["message"]
+
+		# pending sqlalchemy inclusion
+	
+		return render_template("contact.html", title="Contact EVCloud", page="contact", success = "Thank you! We will contact you as soon as possible.")
+	return render_template("contact.html", title="Contact EVCloud", page="contact", success="")
 
 @app.route("/dashboard")
 def dashboard():
+	car = False
 	if not "logged_in" in session:
 		return redirect(url_for("index"))
 	if "carid" in session:
+		car = True # To handle the alert & link
 		cur = dbconnection.cursor()
 		cur.execute("select battery_level from ChargeStates WHERE carid=%s;",(session.get("carid")))
 		data = list(cur.fetchall())
@@ -145,9 +166,9 @@ def dashboard():
 				dist +=  float(distance(i,j))
 			print "total: " + str(dist)
 			lat_long.append((k, str(dist)))
-		return render_template("test.html", data = data, timestamp= timestamp, entries=lat_long, page="dashboard", title="Dashboard")
+		return render_template("test.html", data = data, timestamp= timestamp, entries=lat_long, page="dashboard", title="Dashboard",car=car)
 	else:
-		return render_template("test.html", data = "[]", timestamp= None, entries=[], page="dashboard", title="Dashboard")
+		return render_template("test.html", data = "[]", timestamp= None, entries=[], page="dashboard", title="Dashboard", car=car)
 
 import datetime
 from collections import defaultdict
