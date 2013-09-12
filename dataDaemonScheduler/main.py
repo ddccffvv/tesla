@@ -15,8 +15,8 @@ class dataDaemon():
 
 	def __init__(self):
 		if DEBUG:
-			debug.debug("Loading databasehandler & logger")
-		self.databasehandler = databasehandler.DatabaseHandler(self)
+			debug.debug("Loading logger")
+		#self.databasehandler = databasehandler.DatabaseHandler(self)
 		self.logger = logger.Logger(self)
 
 		if DEBUG:
@@ -28,7 +28,10 @@ class dataDaemon():
 			debug.debug("Schedule managr is loading, resorting to loop to keep the process alive")
 
 	def getDatabaseHandler(self):
-		return self.databasehandler		
+		#return self.databasehandler
+		if DEBUG:
+			debug.debug("Returning new database object")
+		return databasehandler.DatabaseHandler(self)
 
 	def log(self, msg):
 		self.logger.log(msg)
