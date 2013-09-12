@@ -4,7 +4,7 @@
 
 '''
 
-from util import log
+from util import log, debug
 import databasehandler
 import logger
 import time
@@ -26,6 +26,7 @@ class dataDaemon():
 
 
 if __name__ == "__main__":
+	debug.debug("Starting the dataDaemon
 	dd = dataDaemon()
 	while True:
 		time.sleep(2)
