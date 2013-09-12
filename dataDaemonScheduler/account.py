@@ -87,7 +87,7 @@ class Account():
 		
 	def runMetaJob(self):			
 		# Meta job, meta data
-		log( "Running Meta Job")
+		#log( "Running Meta Job")
 		for vehicle in self.pyteslaobj.vehicles():
 			carid = vehicle.id
 			vinnumber = vehicle.vin

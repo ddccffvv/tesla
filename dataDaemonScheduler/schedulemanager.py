@@ -77,7 +77,7 @@ class ScheduleManager():
 		# Running a different job, the meta one
 		if DEBUG:
 			debug.debug("Running the metajob for account: " + str(account.accountid))
-		account.rubMetaJob()
+		account.runMetaJob()
 
 	def log(self, msg):
 		self.parent.log(msg)	
