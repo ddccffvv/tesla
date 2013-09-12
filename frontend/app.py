@@ -3,6 +3,9 @@ from flask import render_template, flash, request, session, redirect, url_for
 from flask.ext.bcrypt import Bcrypt
 import sqlite3, sys, os
 import MySQLdb
+import pytesla
+import rpyc
+import time
 
 #ENVIRON = "prod" # Change to PROD for other stuff
 ENVIRON = "dev"
@@ -63,14 +66,55 @@ def signup():
 
 @app.route("/car_profile", methods=["GET","POST"])
 def car_profile():
+	success = ""
 	if not 'logged_in' in session:
 		return redirect(url_for("logout"))
 	if not 'userid' in session:
 		return redirect(url_for("logout"))
+	
+	cursor = dbconnection.cursor()
+	
 	if request.method == "POST":
 		# Adding the content
-		success = "The car has been added!"
-	return render_template('car_profile.html',success = "")
+		tesla_username = request.form["tesla_email"]
+		tesla_password = request.form["tesla_password"]
+
+		# We will fetch the pytesla stuff ourselves to check
+		try:
+			pyobj = pytesla.Connection(tesla_username, tesla_password)
+			cars = 0
+			print "--DEBUG -- Connected to tesla"
+			for vehicle in pyobj.vehicles():
+				carid = vehicle.id
+				vinnumber = vehicle.vin
+				try:
+					carmobile = vehicle.mobile_enabled
+				except:
+					# Car could be asleep waiting
+					# Sleep?
+					carmobile = False
+				print "-- DEBUG -- All information required found adding it!"
+				cursor.execute("INSERT INTO vehicles (accountid, brandid, typeid, vinnumber, countryid, mobile_enabled, carid, updated) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)", (session["accountid"], 1, 1, vinnumber, 1, carmobile, carid, int(time.time())))
+				dbconnection.commit()
+				# Insert into credential manager
+				con = rpyc.connect("localhost",65123)
+				con.root.insertCredentials("Tesla",session["accountid"], [tesla_username, tesla_password])
+				con.close()
+				cars = cars + 1
+			if cars == 1:
+				success = "The car has been added successfully"
+			elif cars > 1:
+				success = str(cars) + " have been added successfully"
+			else:
+				success = "No car was found!"
+		except:
+			success = "Failed to connect, please retry or verify the credentials"
+
+
+
+	
+	
+	return render_template('car_profile.html',success = success)
 		
 @app.route("/change-password", methods=["GET", "POST"])
 def change_password():
