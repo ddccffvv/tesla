@@ -1,0 +1,2322 @@
+[2013-09-13 10:59:24] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 10:59:24] -- DEBUG -- Loading logger
+[2013-09-13 10:59:24] -- DEBUG -- Returning new database object
+[2013-09-13 10:59:24] -- DEBUG -- Loading complete
+[2013-09-13 10:59:24] -- DEBUG -- Starting the schedule manager
+[2013-09-13 10:59:24] -- DEBUG -- Starting the scheduler object
+[2013-09-13 10:59:24] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 10:59:24] -- DEBUG -- Returning new database object
+[2013-09-13 10:59:24] -- DEBUG -- Returning new database object
+[2013-09-13 10:59:24] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 10:59:24] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 10:59:36] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-13 10:59:36] -- DEBUG -- Start the scheduler!
+[2013-09-13 10:59:36] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-13 10:59:38] -- DEBUG -- Still running
+[2013-09-13 10:59:40] -- DEBUG -- Still running
+[2013-09-13 10:59:42] -- DEBUG -- Still running
+[2013-09-13 10:59:44] -- DEBUG -- Still running
+[2013-09-13 10:59:46] -- DEBUG -- Still running
+[2013-09-13 10:59:48] -- DEBUG -- Still running
+[2013-09-13 10:59:50] -- DEBUG -- Still running
+[2013-09-13 10:59:52] -- DEBUG -- Still running
+[2013-09-13 10:59:54] -- DEBUG -- Still running
+[2013-09-13 10:59:56] -- DEBUG -- Still running
+[2013-09-13 10:59:58] -- DEBUG -- Still running
+[2013-09-13 11:00:00] -- DEBUG -- Still running
+[2013-09-13 11:00:02] -- DEBUG -- Still running
+[2013-09-13 11:00:04] -- DEBUG -- Still running
+[2013-09-13 11:00:06] -- DEBUG -- Still running
+[2013-09-13 11:00:08] -- DEBUG -- Still running
+[2013-09-13 11:00:10] -- DEBUG -- Still running
+[2013-09-13 11:00:12] -- DEBUG -- Still running
+[2013-09-13 11:00:14] -- DEBUG -- Still running
+[2013-09-13 11:00:16] -- DEBUG -- Still running
+[2013-09-13 11:00:18] -- DEBUG -- Still running
+[2013-09-13 11:00:20] -- DEBUG -- Still running
+[2013-09-13 11:00:22] -- DEBUG -- Still running
+[2013-09-13 11:00:24] -- DEBUG -- Still running
+[2013-09-13 11:00:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:00:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:00:26] -- DEBUG -- Still running
+[2013-09-13 11:00:28] -- DEBUG -- Still running
+[2013-09-13 11:00:30] -- DEBUG -- Still running
+[2013-09-13 11:00:32] -- DEBUG -- Still running
+[2013-09-13 11:00:34] -- DEBUG -- Still running
+[2013-09-13 11:00:36] -- DEBUG -- Still running
+[2013-09-13 11:00:38] -- DEBUG -- Still running
+[2013-09-13 11:00:40] -- DEBUG -- Still running
+[2013-09-13 11:00:42] -- DEBUG -- Still running
+[2013-09-13 11:00:44] -- DEBUG -- Still running
+[2013-09-13 11:00:46] -- DEBUG -- Still running
+[2013-09-13 11:00:48] -- DEBUG -- Still running
+[2013-09-13 11:00:50] -- DEBUG -- Still running
+[2013-09-13 11:00:52] -- DEBUG -- Still running
+[2013-09-13 11:00:54] -- DEBUG -- Still running
+[2013-09-13 11:00:56] -- DEBUG -- Still running
+[2013-09-13 11:00:58] -- DEBUG -- Still running
+[2013-09-13 11:01:00] -- DEBUG -- Still running
+[2013-09-13 11:01:02] -- DEBUG -- Still running
+[2013-09-13 11:01:04] -- DEBUG -- Still running
+[2013-09-13 11:01:06] -- DEBUG -- Still running
+[2013-09-13 11:01:08] -- DEBUG -- Still running
+[2013-09-13 11:01:10] -- DEBUG -- Still running
+[2013-09-13 11:01:12] -- DEBUG -- Still running
+[2013-09-13 11:01:14] -- DEBUG -- Still running
+[2013-09-13 11:01:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:01:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:01:16] -- DEBUG -- Still running
+[2013-09-13 11:01:18] -- DEBUG -- Still running
+[2013-09-13 11:01:20] -- DEBUG -- Still running
+[2013-09-13 11:01:22] -- DEBUG -- Still running
+[2013-09-13 11:01:24] -- DEBUG -- Still running
+[2013-09-13 11:01:26] -- DEBUG -- Still running
+[2013-09-13 11:01:28] -- DEBUG -- Still running
+[2013-09-13 11:01:30] -- DEBUG -- Still running
+[2013-09-13 11:01:32] -- DEBUG -- Still running
+[2013-09-13 11:01:34] -- DEBUG -- Still running
+[2013-09-13 11:01:36] -- DEBUG -- Still running
+[2013-09-13 11:01:38] -- DEBUG -- Still running
+[2013-09-13 11:01:40] -- DEBUG -- Still running
+[2013-09-13 11:01:42] -- DEBUG -- Still running
+[2013-09-13 11:01:44] -- DEBUG -- Still running
+[2013-09-13 11:01:46] -- DEBUG -- Still running
+[2013-09-13 11:01:48] -- DEBUG -- Still running
+[2013-09-13 11:01:50] -- DEBUG -- Still running
+[2013-09-13 11:01:52] -- DEBUG -- Still running
+[2013-09-13 11:01:54] -- DEBUG -- Still running
+[2013-09-13 11:01:56] -- DEBUG -- Still running
+[2013-09-13 11:01:58] -- DEBUG -- Still running
+[2013-09-13 11:02:00] -- DEBUG -- Still running
+[2013-09-13 11:02:02] -- DEBUG -- Still running
+[2013-09-13 11:02:04] -- DEBUG -- Still running
+[2013-09-13 11:02:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:02:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:02:06] -- DEBUG -- Still running
+[2013-09-13 11:02:08] -- DEBUG -- Still running
+[2013-09-13 11:02:10] -- DEBUG -- Still running
+[2013-09-13 11:02:12] -- DEBUG -- Still running
+[2013-09-13 11:02:14] -- DEBUG -- Still running
+[2013-09-13 11:02:16] -- DEBUG -- Still running
+[2013-09-13 11:02:18] -- DEBUG -- Still running
+[2013-09-13 11:02:20] -- DEBUG -- Still running
+[2013-09-13 11:02:22] -- DEBUG -- Still running
+[2013-09-13 11:02:24] -- DEBUG -- Still running
+[2013-09-13 11:02:26] -- DEBUG -- Still running
+[2013-09-13 11:02:28] -- DEBUG -- Still running
+[2013-09-13 11:02:30] -- DEBUG -- Still running
+[2013-09-13 11:02:32] -- DEBUG -- Still running
+[2013-09-13 11:02:34] -- DEBUG -- Still running
+[2013-09-13 11:02:36] -- DEBUG -- Still running
+[2013-09-13 11:02:38] -- DEBUG -- Still running
+[2013-09-13 11:02:40] -- DEBUG -- Still running
+[2013-09-13 11:02:42] -- DEBUG -- Still running
+[2013-09-13 11:02:44] -- DEBUG -- Still running
+[2013-09-13 11:02:46] -- DEBUG -- Still running
+[2013-09-13 11:02:48] -- DEBUG -- Still running
+[2013-09-13 11:02:50] -- DEBUG -- Still running
+[2013-09-13 11:02:52] -- DEBUG -- Still running
+[2013-09-13 11:02:54] -- DEBUG -- Still running
+[2013-09-13 11:02:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:02:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:02:56] -- DEBUG -- Still running
+[2013-09-13 11:02:58] -- DEBUG -- Still running
+[2013-09-13 11:03:00] -- DEBUG -- Still running
+[2013-09-13 11:03:02] -- DEBUG -- Still running
+[2013-09-13 11:03:04] -- DEBUG -- Still running
+[2013-09-13 11:03:06] -- DEBUG -- Still running
+[2013-09-13 11:03:08] -- DEBUG -- Still running
+[2013-09-13 11:03:10] -- DEBUG -- Still running
+[2013-09-13 11:03:12] -- DEBUG -- Still running
+[2013-09-13 11:03:14] -- DEBUG -- Still running
+[2013-09-13 11:03:16] -- DEBUG -- Still running
+[2013-09-13 11:03:18] -- DEBUG -- Still running
+[2013-09-13 11:03:20] -- DEBUG -- Still running
+[2013-09-13 11:03:22] -- DEBUG -- Still running
+[2013-09-13 11:03:24] -- DEBUG -- Still running
+[2013-09-13 11:03:26] -- DEBUG -- Still running
+[2013-09-13 11:03:28] -- DEBUG -- Still running
+[2013-09-13 11:03:30] -- DEBUG -- Still running
+[2013-09-13 11:03:32] -- DEBUG -- Still running
+[2013-09-13 11:03:34] -- DEBUG -- Still running
+[2013-09-13 11:03:36] -- DEBUG -- Still running
+[2013-09-13 11:03:38] -- DEBUG -- Still running
+[2013-09-13 11:03:40] -- DEBUG -- Still running
+[2013-09-13 11:03:42] -- DEBUG -- Still running
+[2013-09-13 11:03:44] -- DEBUG -- Still running
+[2013-09-13 11:03:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:03:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:03:46] -- DEBUG -- Still running
+[2013-09-13 11:03:48] -- DEBUG -- Still running
+[2013-09-13 11:03:50] -- DEBUG -- Still running
+[2013-09-13 11:03:52] -- DEBUG -- Still running
+[2013-09-13 11:03:54] -- DEBUG -- Still running
+[2013-09-13 11:03:56] -- DEBUG -- Still running
+[2013-09-13 11:03:58] -- DEBUG -- Still running
+[2013-09-13 11:04:00] -- DEBUG -- Still running
+[2013-09-13 11:04:02] -- DEBUG -- Still running
+[2013-09-13 11:04:04] -- DEBUG -- Still running
+[2013-09-13 11:04:06] -- DEBUG -- Still running
+[2013-09-13 11:04:09] -- DEBUG -- Still running
+[2013-09-13 11:04:11] -- DEBUG -- Still running
+[2013-09-13 11:04:13] -- DEBUG -- Still running
+[2013-09-13 11:04:15] -- DEBUG -- Still running
+[2013-09-13 11:04:17] -- DEBUG -- Still running
+[2013-09-13 11:04:19] -- DEBUG -- Still running
+[2013-09-13 11:04:21] -- DEBUG -- Still running
+[2013-09-13 11:04:23] -- DEBUG -- Still running
+[2013-09-13 11:04:25] -- DEBUG -- Still running
+[2013-09-13 11:04:27] -- DEBUG -- Still running
+[2013-09-13 11:04:29] -- DEBUG -- Still running
+[2013-09-13 11:04:31] -- DEBUG -- Still running
+[2013-09-13 11:04:33] -- DEBUG -- Still running
+[2013-09-13 11:04:35] -- DEBUG -- Still running
+[2013-09-13 11:04:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:04:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:04:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:04:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:04:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:04:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:04:37] -- DEBUG -- Still running
+[2013-09-13 11:04:39] -- DEBUG -- Still running
+[2013-09-13 11:04:41] -- DEBUG -- Still running
+[2013-09-13 11:04:43] -- DEBUG -- Still running
+[2013-09-13 11:04:45] -- DEBUG -- Still running
+[2013-09-13 11:04:47] -- DEBUG -- Still running
+[2013-09-13 11:04:49] -- DEBUG -- Still running
+[2013-09-13 11:04:51] -- DEBUG -- Still running
+[2013-09-13 11:04:53] -- DEBUG -- Still running
+[2013-09-13 11:04:55] -- DEBUG -- Still running
+[2013-09-13 11:04:57] -- DEBUG -- Still running
+[2013-09-13 11:04:59] -- DEBUG -- Still running
+[2013-09-13 11:05:01] -- DEBUG -- Still running
+[2013-09-13 11:05:03] -- DEBUG -- Still running
+[2013-09-13 11:05:05] -- DEBUG -- Still running
+[2013-09-13 11:05:07] -- DEBUG -- Still running
+[2013-09-13 11:05:09] -- DEBUG -- Still running
+[2013-09-13 11:05:11] -- DEBUG -- Still running
+[2013-09-13 11:05:13] -- DEBUG -- Still running
+[2013-09-13 11:05:15] -- DEBUG -- Still running
+[2013-09-13 11:05:17] -- DEBUG -- Still running
+[2013-09-13 11:05:19] -- DEBUG -- Still running
+[2013-09-13 11:05:21] -- DEBUG -- Still running
+[2013-09-13 11:05:23] -- DEBUG -- Still running
+[2013-09-13 11:05:25] -- DEBUG -- Still running
+[2013-09-13 11:05:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:05:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:05:27] -- DEBUG -- Still running
+[2013-09-13 11:05:29] -- DEBUG -- Still running
+[2013-09-13 11:05:31] -- DEBUG -- Still running
+[2013-09-13 11:05:33] -- DEBUG -- Still running
+[2013-09-13 11:05:35] -- DEBUG -- Still running
+[2013-09-13 11:05:37] -- DEBUG -- Still running
+[2013-09-13 11:05:39] -- DEBUG -- Still running
+[2013-09-13 11:05:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:05:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:05:41] -- DEBUG -- Still running
+[2013-09-13 11:05:43] -- DEBUG -- Still running
+[2013-09-13 11:05:44] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:05:45] -- DEBUG -- Still running
+[2013-09-13 11:05:47] -- DEBUG -- Still running
+[2013-09-13 11:05:49] -- DEBUG -- Still running
+[2013-09-13 11:05:51] -- DEBUG -- Still running
+[2013-09-13 11:05:53] -- DEBUG -- Still running
+[2013-09-13 11:05:55] -- DEBUG -- Still running
+[2013-09-13 11:05:57] -- DEBUG -- Still running
+[2013-09-13 11:05:59] -- DEBUG -- Still running
+[2013-09-13 11:06:01] -- DEBUG -- Still running
+[2013-09-13 11:06:03] -- DEBUG -- Still running
+[2013-09-13 11:06:05] -- DEBUG -- Still running
+[2013-09-13 11:06:07] -- DEBUG -- Still running
+[2013-09-13 11:06:09] -- DEBUG -- Still running
+[2013-09-13 11:06:11] -- DEBUG -- Still running
+[2013-09-13 11:06:13] -- DEBUG -- Still running
+[2013-09-13 11:06:15] -- DEBUG -- Still running
+[2013-09-13 11:06:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:06:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:06:17] -- DEBUG -- Still running
+[2013-09-13 11:06:19] -- DEBUG -- Still running
+[2013-09-13 11:06:21] -- DEBUG -- Still running
+[2013-09-13 11:06:23] -- DEBUG -- Still running
+[2013-09-13 11:06:25] -- DEBUG -- Still running
+[2013-09-13 11:06:27] -- DEBUG -- Still running
+[2013-09-13 11:06:29] -- DEBUG -- Still running
+[2013-09-13 11:06:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:06:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:06:31] -- DEBUG -- Still running
+[2013-09-13 11:06:33] -- DEBUG -- Still running
+[2013-09-13 11:06:35] -- DEBUG -- Still running
+[2013-09-13 11:06:37] -- DEBUG -- Still running
+[2013-09-13 11:06:39] -- DEBUG -- Still running
+[2013-09-13 11:06:41] -- DEBUG -- Still running
+[2013-09-13 11:06:43] -- DEBUG -- Still running
+[2013-09-13 11:06:43] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:06:45] -- DEBUG -- Still running
+[2013-09-13 11:06:47] -- DEBUG -- Still running
+[2013-09-13 11:06:49] -- DEBUG -- Still running
+[2013-09-13 11:06:51] -- DEBUG -- Still running
+[2013-09-13 11:06:53] -- DEBUG -- Still running
+[2013-09-13 11:06:55] -- DEBUG -- Still running
+[2013-09-13 11:06:57] -- DEBUG -- Still running
+[2013-09-13 11:06:59] -- DEBUG -- Still running
+[2013-09-13 11:07:01] -- DEBUG -- Still running
+[2013-09-13 11:07:03] -- DEBUG -- Still running
+[2013-09-13 11:07:05] -- DEBUG -- Still running
+[2013-09-13 11:07:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:07:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:07:07] -- DEBUG -- Still running
+[2013-09-13 11:07:09] -- DEBUG -- Still running
+[2013-09-13 11:07:11] -- DEBUG -- Still running
+[2013-09-13 11:07:13] -- DEBUG -- Still running
+[2013-09-13 11:07:15] -- DEBUG -- Still running
+[2013-09-13 11:07:17] -- DEBUG -- Still running
+[2013-09-13 11:07:19] -- DEBUG -- Still running
+[2013-09-13 11:07:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:07:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:07:21] -- DEBUG -- Still running
+[2013-09-13 11:07:23] -- DEBUG -- Still running
+[2013-09-13 11:07:25] -- DEBUG -- Still running
+[2013-09-13 11:07:27] -- DEBUG -- Still running
+[2013-09-13 11:07:29] -- DEBUG -- Still running
+[2013-09-13 11:07:31] -- DEBUG -- Still running
+[2013-09-13 11:07:33] -- DEBUG -- Still running
+[2013-09-13 11:07:35] -- DEBUG -- Still running
+[2013-09-13 11:07:37] -- DEBUG -- Still running
+[2013-09-13 11:07:39] -- DEBUG -- Still running
+[2013-09-13 11:07:41] -- DEBUG -- Still running
+[2013-09-13 11:07:43] -- DEBUG -- Still running
+[2013-09-13 11:07:45] -- DEBUG -- Still running
+[2013-09-13 11:07:47] -- DEBUG -- Still running
+[2013-09-13 11:07:49] -- DEBUG -- Still running
+[2013-09-13 11:07:51] -- DEBUG -- Still running
+[2013-09-13 11:07:53] -- DEBUG -- Still running
+[2013-09-13 11:07:55] -- DEBUG -- Still running
+[2013-09-13 11:07:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:07:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:07:57] -- DEBUG -- Still running
+[2013-09-13 11:07:59] -- DEBUG -- Still running
+[2013-09-13 11:08:01] -- DEBUG -- Still running
+[2013-09-13 11:08:03] -- DEBUG -- Still running
+[2013-09-13 11:08:05] -- DEBUG -- Still running
+[2013-09-13 11:08:07] -- DEBUG -- Still running
+[2013-09-13 11:08:09] -- DEBUG -- Still running
+[2013-09-13 11:08:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:08:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:08:11] -- DEBUG -- Still running
+[2013-09-13 11:08:13] -- DEBUG -- Still running
+[2013-09-13 11:08:15] -- DEBUG -- Still running
+[2013-09-13 11:08:17] -- DEBUG -- Still running
+[2013-09-13 11:08:19] -- DEBUG -- Still running
+[2013-09-13 11:08:21] -- DEBUG -- Still running
+[2013-09-13 11:08:23] -- DEBUG -- Still running
+[2013-09-13 11:08:25] -- DEBUG -- Still running
+[2013-09-13 11:08:27] -- DEBUG -- Still running
+[2013-09-13 11:08:29] -- DEBUG -- Still running
+[2013-09-13 11:08:31] -- DEBUG -- Still running
+[2013-09-13 11:08:33] -- DEBUG -- Still running
+[2013-09-13 11:08:35] -- DEBUG -- Still running
+[2013-09-13 11:08:37] -- DEBUG -- Still running
+[2013-09-13 11:08:39] -- DEBUG -- Still running
+[2013-09-13 11:08:41] -- DEBUG -- Still running
+[2013-09-13 11:08:43] -- DEBUG -- Still running
+[2013-09-13 11:08:45] -- DEBUG -- Still running
+[2013-09-13 11:08:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:08:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:08:47] -- DEBUG -- Still running
+[2013-09-13 11:08:49] -- DEBUG -- Still running
+[2013-09-13 11:08:51] -- DEBUG -- Still running
+[2013-09-13 11:08:53] -- DEBUG -- Still running
+[2013-09-13 11:08:55] -- DEBUG -- Still running
+[2013-09-13 11:08:57] -- DEBUG -- Still running
+[2013-09-13 11:08:59] -- DEBUG -- Still running
+[2013-09-13 11:08:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:08:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:09:01] -- DEBUG -- Still running
+[2013-09-13 11:09:03] -- DEBUG -- Still running
+[2013-09-13 11:09:05] -- DEBUG -- Still running
+[2013-09-13 11:09:07] -- DEBUG -- Still running
+[2013-09-13 11:09:09] -- DEBUG -- Still running
+[2013-09-13 11:09:11] -- DEBUG -- Still running
+[2013-09-13 11:09:13] -- DEBUG -- Still running
+[2013-09-13 11:09:15] -- DEBUG -- Still running
+[2013-09-13 11:09:17] -- DEBUG -- Still running
+[2013-09-13 11:09:19] -- DEBUG -- Still running
+[2013-09-13 11:09:21] -- DEBUG -- Still running
+[2013-09-13 11:09:23] -- DEBUG -- Still running
+[2013-09-13 11:09:25] -- DEBUG -- Still running
+[2013-09-13 11:09:27] -- DEBUG -- Still running
+[2013-09-13 11:09:29] -- DEBUG -- Still running
+[2013-09-13 11:09:31] -- DEBUG -- Still running
+[2013-09-13 11:09:33] -- DEBUG -- Still running
+[2013-09-13 11:09:35] -- DEBUG -- Still running
+[2013-09-13 11:09:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:09:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:09:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:09:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:09:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:09:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:09:37] -- DEBUG -- Still running
+[2013-09-13 11:09:39] -- DEBUG -- Still running
+[2013-09-13 11:09:41] -- DEBUG -- Still running
+[2013-09-13 11:09:43] -- DEBUG -- Still running
+[2013-09-13 11:09:45] -- DEBUG -- Still running
+[2013-09-13 11:09:47] -- DEBUG -- Still running
+[2013-09-13 11:09:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:09:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:09:49] -- DEBUG -- Still running
+[2013-09-13 11:09:51] -- DEBUG -- Still running
+[2013-09-13 11:09:53] -- DEBUG -- Still running
+[2013-09-13 11:09:55] -- DEBUG -- Still running
+[2013-09-13 11:09:57] -- DEBUG -- Still running
+[2013-09-13 11:09:59] -- DEBUG -- Still running
+[2013-09-13 11:10:01] -- DEBUG -- Still running
+[2013-09-13 11:10:03] -- DEBUG -- Still running
+[2013-09-13 11:10:05] -- DEBUG -- Still running
+[2013-09-13 11:10:07] -- DEBUG -- Still running
+[2013-09-13 11:10:09] -- DEBUG -- Still running
+[2013-09-13 11:10:11] -- DEBUG -- Still running
+[2013-09-13 11:10:13] -- DEBUG -- Still running
+[2013-09-13 11:10:15] -- DEBUG -- Still running
+[2013-09-13 11:10:17] -- DEBUG -- Still running
+[2013-09-13 11:10:19] -- DEBUG -- Still running
+[2013-09-13 11:10:21] -- DEBUG -- Still running
+[2013-09-13 11:10:23] -- DEBUG -- Still running
+[2013-09-13 11:10:25] -- DEBUG -- Still running
+[2013-09-13 11:10:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:10:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:10:27] -- DEBUG -- Still running
+[2013-09-13 11:10:29] -- DEBUG -- Still running
+[2013-09-13 11:10:31] -- DEBUG -- Still running
+[2013-09-13 11:10:33] -- DEBUG -- Still running
+[2013-09-13 11:10:35] -- DEBUG -- Still running
+[2013-09-13 11:10:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:10:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:10:37] -- DEBUG -- Still running
+[2013-09-13 11:10:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:10:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:10:39] -- DEBUG -- Still running
+[2013-09-13 11:10:41] -- DEBUG -- Still running
+[2013-09-13 11:10:43] -- DEBUG -- Still running
+[2013-09-13 11:10:45] -- DEBUG -- Still running
+[2013-09-13 11:10:47] -- DEBUG -- Still running
+[2013-09-13 11:10:49] -- DEBUG -- Still running
+[2013-09-13 11:10:51] -- DEBUG -- Still running
+[2013-09-13 11:10:53] -- DEBUG -- Still running
+[2013-09-13 11:10:55] -- DEBUG -- Still running
+[2013-09-13 11:10:57] -- DEBUG -- Still running
+[2013-09-13 11:10:59] -- DEBUG -- Still running
+[2013-09-13 11:11:01] -- DEBUG -- Still running
+[2013-09-13 11:11:03] -- DEBUG -- Still running
+[2013-09-13 11:11:05] -- DEBUG -- Still running
+[2013-09-13 11:11:07] -- DEBUG -- Still running
+[2013-09-13 11:11:09] -- DEBUG -- Still running
+[2013-09-13 11:11:11] -- DEBUG -- Still running
+[2013-09-13 11:11:13] -- DEBUG -- Still running
+[2013-09-13 11:11:15] -- DEBUG -- Still running
+[2013-09-13 11:11:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:11:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:11:17] -- DEBUG -- Still running
+[2013-09-13 11:11:19] -- DEBUG -- Still running
+[2013-09-13 11:11:21] -- DEBUG -- Still running
+[2013-09-13 11:11:23] -- DEBUG -- Still running
+[2013-09-13 11:11:23] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state
+    return self._command('charge_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state\n    return self._command(\'charge_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 38, 'runJob', 'charge_state_data = vehicle.charge_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+*** tb_lineno *** 38
+[2013-09-13 11:11:25] -- DEBUG -- Still running
+[2013-09-13 11:11:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:11:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:11:27] -- DEBUG -- Still running
+[2013-09-13 11:11:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:11:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:11:29] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:11:29] -- DEBUG -- Still running
+[2013-09-13 11:11:31] -- DEBUG -- Still running
+[2013-09-13 11:11:33] -- DEBUG -- Still running
+[2013-09-13 11:11:35] -- DEBUG -- Still running
+[2013-09-13 11:11:37] -- DEBUG -- Still running
+[2013-09-13 11:11:39] -- DEBUG -- Still running
+[2013-09-13 11:11:41] -- DEBUG -- Still running
+[2013-09-13 11:11:43] -- DEBUG -- Still running
+[2013-09-13 11:11:45] -- DEBUG -- Still running
+[2013-09-13 11:11:47] -- DEBUG -- Still running
+[2013-09-13 11:11:49] -- DEBUG -- Still running
+[2013-09-13 11:11:51] -- DEBUG -- Still running
+[2013-09-13 11:11:53] -- DEBUG -- Still running
+[2013-09-13 11:11:55] -- DEBUG -- Still running
+[2013-09-13 11:11:57] -- DEBUG -- Still running
+[2013-09-13 11:11:59] -- DEBUG -- Still running
+[2013-09-13 11:12:01] -- DEBUG -- Still running
+[2013-09-13 11:12:03] -- DEBUG -- Still running
+[2013-09-13 11:12:05] -- DEBUG -- Still running
+[2013-09-13 11:12:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:12:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:12:07] -- DEBUG -- Still running
+[2013-09-13 11:12:09] -- DEBUG -- Still running
+[2013-09-13 11:12:11] -- DEBUG -- Still running
+[2013-09-13 11:12:13] -- DEBUG -- Still running
+[2013-09-13 11:12:15] -- DEBUG -- Still running
+[2013-09-13 11:12:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:12:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:12:17] -- DEBUG -- Still running
+[2013-09-13 11:12:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:12:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:12:19] -- DEBUG -- Still running
+[2013-09-13 11:12:21] -- DEBUG -- Still running
+[2013-09-13 11:12:23] -- DEBUG -- Still running
+[2013-09-13 11:12:25] -- DEBUG -- Still running
+[2013-09-13 11:12:27] -- DEBUG -- Still running
+[2013-09-13 11:12:29] -- DEBUG -- Still running
+[2013-09-13 11:12:31] -- DEBUG -- Still running
+[2013-09-13 11:12:33] -- DEBUG -- Still running
+[2013-09-13 11:12:35] -- DEBUG -- Still running
+[2013-09-13 11:12:37] -- DEBUG -- Still running
+[2013-09-13 11:12:39] -- DEBUG -- Still running
+[2013-09-13 11:12:41] -- DEBUG -- Still running
+[2013-09-13 11:12:43] -- DEBUG -- Still running
+[2013-09-13 11:12:45] -- DEBUG -- Still running
+[2013-09-13 11:12:47] -- DEBUG -- Still running
+[2013-09-13 11:12:49] -- DEBUG -- Still running
+[2013-09-13 11:12:51] -- DEBUG -- Still running
+[2013-09-13 11:12:53] -- DEBUG -- Still running
+[2013-09-13 11:12:55] -- DEBUG -- Still running
+[2013-09-13 11:12:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:12:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:12:57] -- DEBUG -- Still running
+[2013-09-13 11:12:59] -- DEBUG -- Still running
+[2013-09-13 11:13:01] -- DEBUG -- Still running
+[2013-09-13 11:13:03] -- DEBUG -- Still running
+[2013-09-13 11:13:05] -- DEBUG -- Still running
+[2013-09-13 11:13:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:13:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:13:07] -- DEBUG -- Still running
+[2013-09-13 11:13:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:13:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:13:09] -- DEBUG -- Still running
+[2013-09-13 11:13:11] -- DEBUG -- Still running
+[2013-09-13 11:13:13] -- DEBUG -- Still running
+[2013-09-13 11:13:15] -- DEBUG -- Still running
+[2013-09-13 11:13:17] -- DEBUG -- Still running
+[2013-09-13 11:13:19] -- DEBUG -- Still running
+[2013-09-13 11:13:21] -- DEBUG -- Still running
+[2013-09-13 11:13:23] -- DEBUG -- Still running
+[2013-09-13 11:13:25] -- DEBUG -- Still running
+[2013-09-13 11:13:27] -- DEBUG -- Still running
+[2013-09-13 11:13:29] -- DEBUG -- Still running
+[2013-09-13 11:13:31] -- DEBUG -- Still running
+[2013-09-13 11:13:33] -- DEBUG -- Still running
+[2013-09-13 11:13:35] -- DEBUG -- Still running
+[2013-09-13 11:13:37] -- DEBUG -- Still running
+[2013-09-13 11:13:39] -- DEBUG -- Still running
+[2013-09-13 11:13:41] -- DEBUG -- Still running
+[2013-09-13 11:13:43] -- DEBUG -- Still running
+[2013-09-13 11:13:45] -- DEBUG -- Still running
+[2013-09-13 11:13:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:13:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:13:47] -- DEBUG -- Still running
+[2013-09-13 11:13:49] -- DEBUG -- Still running
+[2013-09-13 11:13:51] -- DEBUG -- Still running
+[2013-09-13 11:13:53] -- DEBUG -- Still running
+[2013-09-13 11:13:55] -- DEBUG -- Still running
+[2013-09-13 11:13:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:13:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:13:57] -- DEBUG -- Still running
+[2013-09-13 11:13:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:13:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:13:59] -- DEBUG -- Still running
+[2013-09-13 11:14:01] -- DEBUG -- Still running
+[2013-09-13 11:14:03] -- DEBUG -- Still running
+[2013-09-13 11:14:05] -- DEBUG -- Still running
+[2013-09-13 11:14:07] -- DEBUG -- Still running
+[2013-09-13 11:14:09] -- DEBUG -- Still running
+[2013-09-13 11:14:11] -- DEBUG -- Still running
+[2013-09-13 11:14:13] -- DEBUG -- Still running
+[2013-09-13 11:14:15] -- DEBUG -- Still running
+[2013-09-13 11:14:17] -- DEBUG -- Still running
+[2013-09-13 11:14:19] -- DEBUG -- Still running
+[2013-09-13 11:14:21] -- DEBUG -- Still running
+[2013-09-13 11:14:23] -- DEBUG -- Still running
+[2013-09-13 11:14:25] -- DEBUG -- Still running
+[2013-09-13 11:14:27] -- DEBUG -- Still running
+[2013-09-13 11:14:29] -- DEBUG -- Still running
+[2013-09-13 11:14:31] -- DEBUG -- Still running
+[2013-09-13 11:14:33] -- DEBUG -- Still running
+[2013-09-13 11:14:35] -- DEBUG -- Still running
+[2013-09-13 11:14:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:14:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:14:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:14:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:14:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:14:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:14:37] -- DEBUG -- Still running
+[2013-09-13 11:14:39] -- DEBUG -- Still running
+[2013-09-13 11:14:41] -- DEBUG -- Still running
+[2013-09-13 11:14:43] -- DEBUG -- Still running
+[2013-09-13 11:14:45] -- DEBUG -- Still running
+[2013-09-13 11:14:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:14:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:14:47] -- DEBUG -- Still running
+[2013-09-13 11:14:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:14:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:14:49] -- DEBUG -- Still running
+[2013-09-13 11:14:51] -- DEBUG -- Still running
+[2013-09-13 11:14:53] -- DEBUG -- Still running
+[2013-09-13 11:14:55] -- DEBUG -- Still running
+[2013-09-13 11:14:57] -- DEBUG -- Still running
+[2013-09-13 11:14:59] -- DEBUG -- Still running
+[2013-09-13 11:15:01] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state
+    return self._command('charge_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state\n    return self._command(\'charge_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 38, 'runJob', 'charge_state_data = vehicle.charge_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+*** tb_lineno *** 38
+[2013-09-13 11:15:01] -- DEBUG -- Still running
+[2013-09-13 11:15:03] -- DEBUG -- Still running
+[2013-09-13 11:15:05] -- DEBUG -- Still running
+[2013-09-13 11:15:07] -- DEBUG -- Still running
+[2013-09-13 11:15:09] -- DEBUG -- Still running
+[2013-09-13 11:15:11] -- DEBUG -- Still running
+[2013-09-13 11:15:13] -- DEBUG -- Still running
+[2013-09-13 11:15:15] -- DEBUG -- Still running
+[2013-09-13 11:15:17] -- DEBUG -- Still running
+[2013-09-13 11:15:19] -- DEBUG -- Still running
+[2013-09-13 11:15:21] -- DEBUG -- Still running
+[2013-09-13 11:15:23] -- DEBUG -- Still running
+[2013-09-13 11:15:25] -- DEBUG -- Still running
+[2013-09-13 11:15:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:15:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:15:27] -- DEBUG -- Still running
+[2013-09-13 11:15:29] -- DEBUG -- Still running
+[2013-09-13 11:15:31] -- DEBUG -- Still running
+[2013-09-13 11:15:33] -- DEBUG -- Still running
+[2013-09-13 11:15:35] -- DEBUG -- Still running
+[2013-09-13 11:15:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:15:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:15:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:15:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:15:37] -- DEBUG -- Still running
+[2013-09-13 11:15:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:15:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:15:39] -- DEBUG -- Still running
+[2013-09-13 11:15:41] -- DEBUG -- Still running
+[2013-09-13 11:15:43] -- DEBUG -- Still running
+[2013-09-13 11:15:45] -- DEBUG -- Still running
+[2013-09-13 11:15:47] -- DEBUG -- Still running
+[2013-09-13 11:15:49] -- DEBUG -- Still running
+[2013-09-13 11:15:51] -- DEBUG -- Still running
+[2013-09-13 11:15:53] -- DEBUG -- Still running
+[2013-09-13 11:15:55] -- DEBUG -- Still running
+[2013-09-13 11:15:57] -- DEBUG -- Still running
+[2013-09-13 11:15:59] -- DEBUG -- Still running
+[2013-09-13 11:16:01] -- DEBUG -- Still running
+[2013-09-13 11:16:03] -- DEBUG -- Still running
+[2013-09-13 11:16:05] -- DEBUG -- Still running
+[2013-09-13 11:16:07] -- DEBUG -- Still running
+[2013-09-13 11:16:09] -- DEBUG -- Still running
+[2013-09-13 11:16:11] -- DEBUG -- Still running
+[2013-09-13 11:16:13] -- DEBUG -- Still running
+[2013-09-13 11:16:15] -- DEBUG -- Still running
+[2013-09-13 11:16:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:16:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:16:17] -- DEBUG -- Still running
+[2013-09-13 11:16:19] -- DEBUG -- Still running
+[2013-09-13 11:16:21] -- DEBUG -- Still running
+[2013-09-13 11:16:23] -- DEBUG -- Still running
+[2013-09-13 11:16:25] -- DEBUG -- Still running
+[2013-09-13 11:16:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:16:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:16:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:16:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:16:27] -- DEBUG -- Still running
+[2013-09-13 11:16:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:16:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:16:29] -- DEBUG -- Still running
+[2013-09-13 11:16:31] -- DEBUG -- Still running
+[2013-09-13 11:16:33] -- DEBUG -- Still running
+[2013-09-13 11:16:35] -- DEBUG -- Still running
+[2013-09-13 11:16:37] -- DEBUG -- Still running
+[2013-09-13 11:16:39] -- DEBUG -- Still running
+[2013-09-13 11:16:41] -- DEBUG -- Still running
+[2013-09-13 11:16:43] -- DEBUG -- Still running
+[2013-09-13 11:16:45] -- DEBUG -- Still running
+[2013-09-13 11:16:47] -- DEBUG -- Still running
+[2013-09-13 11:16:49] -- DEBUG -- Still running
+[2013-09-13 11:16:51] -- DEBUG -- Still running
+[2013-09-13 11:16:53] -- DEBUG -- Still running
+[2013-09-13 11:16:55] -- DEBUG -- Still running
+[2013-09-13 11:16:57] -- DEBUG -- Still running
+[2013-09-13 11:16:59] -- DEBUG -- Still running
+[2013-09-13 11:17:01] -- DEBUG -- Still running
+[2013-09-13 11:17:03] -- DEBUG -- Still running
+[2013-09-13 11:17:05] -- DEBUG -- Still running
+[2013-09-13 11:17:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:17:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:17:07] -- DEBUG -- Still running
+[2013-09-13 11:17:09] -- DEBUG -- Still running
+[2013-09-13 11:17:11] -- DEBUG -- Still running
+[2013-09-13 11:17:13] -- DEBUG -- Still running
+[2013-09-13 11:17:15] -- DEBUG -- Still running
+[2013-09-13 11:17:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:17:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:17:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:17:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:17:17] -- DEBUG -- Still running
+[2013-09-13 11:17:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:17:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:17:19] -- DEBUG -- Still running
+[2013-09-13 11:17:21] -- DEBUG -- Still running
+[2013-09-13 11:17:23] -- DEBUG -- Still running
+[2013-09-13 11:17:25] -- DEBUG -- Still running
+[2013-09-13 11:17:27] -- DEBUG -- Still running
+[2013-09-13 11:17:29] -- DEBUG -- Still running
+[2013-09-13 11:17:31] -- DEBUG -- Still running
+[2013-09-13 11:17:33] -- DEBUG -- Still running
+[2013-09-13 11:17:35] -- DEBUG -- Still running
+[2013-09-13 11:17:37] -- DEBUG -- Still running
+[2013-09-13 11:17:39] -- DEBUG -- Still running
+[2013-09-13 11:17:41] -- DEBUG -- Still running
+[2013-09-13 11:17:43] -- DEBUG -- Still running
+[2013-09-13 11:17:45] -- DEBUG -- Still running
+[2013-09-13 11:17:47] -- DEBUG -- Still running
+[2013-09-13 11:17:49] -- DEBUG -- Still running
+[2013-09-13 11:17:51] -- DEBUG -- Still running
+[2013-09-13 11:17:53] -- DEBUG -- Still running
+[2013-09-13 11:17:55] -- DEBUG -- Still running
+[2013-09-13 11:17:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:17:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:17:57] -- DEBUG -- Still running
+[2013-09-13 11:17:59] -- DEBUG -- Still running
+[2013-09-13 11:18:01] -- DEBUG -- Still running
+[2013-09-13 11:18:03] -- DEBUG -- Still running
+[2013-09-13 11:18:05] -- DEBUG -- Still running
+[2013-09-13 11:18:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:07] -- DEBUG -- Still running
+[2013-09-13 11:18:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:09] -- DEBUG -- Still running
+[2013-09-13 11:18:11] -- DEBUG -- Still running
+[2013-09-13 11:18:13] -- DEBUG -- Still running
+[2013-09-13 11:18:15] -- DEBUG -- Still running
+[2013-09-13 11:18:17] -- DEBUG -- Still running
+[2013-09-13 11:18:19] -- DEBUG -- Still running
+[2013-09-13 11:18:21] -- DEBUG -- Still running
+[2013-09-13 11:18:23] -- DEBUG -- Still running
+[2013-09-13 11:18:25] -- DEBUG -- Still running
+[2013-09-13 11:18:27] -- DEBUG -- Still running
+[2013-09-13 11:18:29] -- DEBUG -- Still running
+[2013-09-13 11:18:31] -- DEBUG -- Still running
+[2013-09-13 11:18:33] -- DEBUG -- Still running
+[2013-09-13 11:18:35] -- DEBUG -- Still running
+[2013-09-13 11:18:37] -- DEBUG -- Still running
+[2013-09-13 11:18:39] -- DEBUG -- Still running
+[2013-09-13 11:18:41] -- DEBUG -- Still running
+[2013-09-13 11:18:43] -- DEBUG -- Still running
+[2013-09-13 11:18:45] -- DEBUG -- Still running
+[2013-09-13 11:18:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:47] -- DEBUG -- Still running
+[2013-09-13 11:18:49] -- DEBUG -- Still running
+[2013-09-13 11:18:51] -- DEBUG -- Still running
+[2013-09-13 11:18:53] -- DEBUG -- Still running
+[2013-09-13 11:18:55] -- DEBUG -- Still running
+[2013-09-13 11:18:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:57] -- DEBUG -- Still running
+[2013-09-13 11:18:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:18:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:18:59] -- DEBUG -- Still running
+[2013-09-13 11:19:01] -- DEBUG -- Still running
+[2013-09-13 11:19:03] -- DEBUG -- Still running
+[2013-09-13 11:19:05] -- DEBUG -- Still running
+[2013-09-13 11:19:07] -- DEBUG -- Still running
+[2013-09-13 11:19:09] -- DEBUG -- Still running
+[2013-09-13 11:19:11] -- DEBUG -- Still running
+[2013-09-13 11:19:13] -- DEBUG -- Still running
+[2013-09-13 11:19:15] -- DEBUG -- Still running
+[2013-09-13 11:19:17] -- DEBUG -- Still running
+[2013-09-13 11:19:19] -- DEBUG -- Still running
+[2013-09-13 11:19:21] -- DEBUG -- Still running
+[2013-09-13 11:19:23] -- DEBUG -- Still running
+[2013-09-13 11:19:25] -- DEBUG -- Still running
+[2013-09-13 11:19:27] -- DEBUG -- Still running
+[2013-09-13 11:19:29] -- DEBUG -- Still running
+[2013-09-13 11:19:32] -- DEBUG -- Still running
+[2013-09-13 11:19:34] -- DEBUG -- Still running
+[2013-09-13 11:19:36] -- DEBUG -- Still running
+[2013-09-13 11:19:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:19:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:19:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:19:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:19:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:19:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:19:38] -- DEBUG -- Still running
+[2013-09-13 11:19:40] -- DEBUG -- Still running
+[2013-09-13 11:19:42] -- DEBUG -- Still running
+[2013-09-13 11:19:44] -- DEBUG -- Still running
+[2013-09-13 11:19:46] -- DEBUG -- Still running
+[2013-09-13 11:19:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:19:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:19:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:19:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:19:48] -- DEBUG -- Still running
+[2013-09-13 11:19:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:19:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:19:50] -- DEBUG -- Still running
+[2013-09-13 11:19:52] -- DEBUG -- Still running
+[2013-09-13 11:19:54] -- DEBUG -- Still running
+[2013-09-13 11:19:56] -- DEBUG -- Still running
+[2013-09-13 11:19:58] -- DEBUG -- Still running
+[2013-09-13 11:20:00] -- DEBUG -- Still running
+[2013-09-13 11:20:02] -- DEBUG -- Still running
+[2013-09-13 11:20:04] -- DEBUG -- Still running
+[2013-09-13 11:20:06] -- DEBUG -- Still running
+[2013-09-13 11:20:08] -- DEBUG -- Still running
+[2013-09-13 11:20:10] -- DEBUG -- Still running
+[2013-09-13 11:20:12] -- DEBUG -- Still running
+[2013-09-13 11:20:14] -- DEBUG -- Still running
+[2013-09-13 11:20:16] -- DEBUG -- Still running
+[2013-09-13 11:20:18] -- DEBUG -- Still running
+[2013-09-13 11:20:20] -- DEBUG -- Still running
+[2013-09-13 11:20:22] -- DEBUG -- Still running
+[2013-09-13 11:20:24] -- DEBUG -- Still running
+[2013-09-13 11:20:26] -- DEBUG -- Still running
+[2013-09-13 11:20:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:20:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:20:28] -- DEBUG -- Still running
+[2013-09-13 11:20:30] -- DEBUG -- Still running
+[2013-09-13 11:20:32] -- DEBUG -- Still running
+[2013-09-13 11:20:34] -- DEBUG -- Still running
+[2013-09-13 11:20:36] -- DEBUG -- Still running
+[2013-09-13 11:20:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:20:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:20:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:20:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:20:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:20:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:20:38] -- DEBUG -- Still running
+[2013-09-13 11:20:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:20:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:20:40] -- DEBUG -- Still running
+[2013-09-13 11:20:42] -- DEBUG -- Still running
+[2013-09-13 11:20:44] -- DEBUG -- Still running
+[2013-09-13 11:20:46] -- DEBUG -- Still running
+[2013-09-13 11:20:46] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:20:48] -- DEBUG -- Still running
+[2013-09-13 11:20:50] -- DEBUG -- Still running
+[2013-09-13 11:20:52] -- DEBUG -- Still running
+[2013-09-13 11:20:54] -- DEBUG -- Still running
+[2013-09-13 11:20:56] -- DEBUG -- Still running
+[2013-09-13 11:20:58] -- DEBUG -- Still running
+[2013-09-13 11:21:00] -- DEBUG -- Still running
+[2013-09-13 11:21:02] -- DEBUG -- Still running
+[2013-09-13 11:21:04] -- DEBUG -- Still running
+[2013-09-13 11:21:06] -- DEBUG -- Still running
+[2013-09-13 11:21:08] -- DEBUG -- Still running
+[2013-09-13 11:21:10] -- DEBUG -- Still running
+[2013-09-13 11:21:12] -- DEBUG -- Still running
+[2013-09-13 11:21:14] -- DEBUG -- Still running
+[2013-09-13 11:21:16] -- DEBUG -- Still running
+[2013-09-13 11:21:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:21:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:21:18] -- DEBUG -- Still running
+[2013-09-13 11:21:20] -- DEBUG -- Still running
+[2013-09-13 11:21:22] -- DEBUG -- Still running
+[2013-09-13 11:21:24] -- DEBUG -- Still running
+[2013-09-13 11:21:26] -- DEBUG -- Still running
+[2013-09-13 11:21:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:21:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:21:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:21:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:21:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:21:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:21:28] -- DEBUG -- Still running
+[2013-09-13 11:21:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:21:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:21:30] -- DEBUG -- Still running
+[2013-09-13 11:21:32] -- DEBUG -- Still running
+[2013-09-13 11:21:34] -- DEBUG -- Still running
+[2013-09-13 11:21:36] -- DEBUG -- Still running
+[2013-09-13 11:21:38] -- DEBUG -- Still running
+[2013-09-13 11:21:40] -- DEBUG -- Still running
+[2013-09-13 11:21:42] -- DEBUG -- Still running
+[2013-09-13 11:21:44] -- DEBUG -- Still running
+[2013-09-13 11:21:46] -- DEBUG -- Still running
+[2013-09-13 11:21:48] -- DEBUG -- Still running
+[2013-09-13 11:21:50] -- DEBUG -- Still running
+[2013-09-13 11:21:52] -- DEBUG -- Still running
+[2013-09-13 11:21:54] -- DEBUG -- Still running
+[2013-09-13 11:21:56] -- DEBUG -- Still running
+[2013-09-13 11:21:58] -- DEBUG -- Still running
+[2013-09-13 11:22:00] -- DEBUG -- Still running
+[2013-09-13 11:22:02] -- DEBUG -- Still running
+[2013-09-13 11:22:04] -- DEBUG -- Still running
+[2013-09-13 11:22:06] -- DEBUG -- Still running
+[2013-09-13 11:22:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:08] -- DEBUG -- Still running
+[2013-09-13 11:22:10] -- DEBUG -- Still running
+[2013-09-13 11:22:12] -- DEBUG -- Still running
+[2013-09-13 11:22:14] -- DEBUG -- Still running
+[2013-09-13 11:22:16] -- DEBUG -- Still running
+[2013-09-13 11:22:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:18] -- DEBUG -- Still running
+[2013-09-13 11:22:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:20] -- DEBUG -- Still running
+[2013-09-13 11:22:22] -- DEBUG -- Still running
+[2013-09-13 11:22:24] -- DEBUG -- Still running
+[2013-09-13 11:22:26] -- DEBUG -- Still running
+[2013-09-13 11:22:28] -- DEBUG -- Still running
+[2013-09-13 11:22:30] -- DEBUG -- Still running
+[2013-09-13 11:22:32] -- DEBUG -- Still running
+[2013-09-13 11:22:34] -- DEBUG -- Still running
+[2013-09-13 11:22:36] -- DEBUG -- Still running
+[2013-09-13 11:22:38] -- DEBUG -- Still running
+[2013-09-13 11:22:40] -- DEBUG -- Still running
+[2013-09-13 11:22:42] -- DEBUG -- Still running
+[2013-09-13 11:22:44] -- DEBUG -- Still running
+[2013-09-13 11:22:46] -- DEBUG -- Still running
+[2013-09-13 11:22:48] -- DEBUG -- Still running
+[2013-09-13 11:22:50] -- DEBUG -- Still running
+[2013-09-13 11:22:52] -- DEBUG -- Still running
+[2013-09-13 11:22:54] -- DEBUG -- Still running
+[2013-09-13 11:22:56] -- DEBUG -- Still running
+[2013-09-13 11:22:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:22:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:22:58] -- DEBUG -- Still running
+[2013-09-13 11:23:00] -- DEBUG -- Still running
+[2013-09-13 11:23:02] -- DEBUG -- Still running
+[2013-09-13 11:23:04] -- DEBUG -- Still running
+[2013-09-13 11:23:06] -- DEBUG -- Still running
+[2013-09-13 11:23:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:08] -- DEBUG -- Still running
+[2013-09-13 11:23:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:10] -- DEBUG -- Still running
+[2013-09-13 11:23:12] -- DEBUG -- Still running
+[2013-09-13 11:23:14] -- DEBUG -- Still running
+[2013-09-13 11:23:16] -- DEBUG -- Still running
+[2013-09-13 11:23:18] -- DEBUG -- Still running
+[2013-09-13 11:23:20] -- DEBUG -- Still running
+[2013-09-13 11:23:22] -- DEBUG -- Still running
+[2013-09-13 11:23:24] -- DEBUG -- Still running
+[2013-09-13 11:23:26] -- DEBUG -- Still running
+[2013-09-13 11:23:28] -- DEBUG -- Still running
+[2013-09-13 11:23:30] -- DEBUG -- Still running
+[2013-09-13 11:23:32] -- DEBUG -- Still running
+[2013-09-13 11:23:34] -- DEBUG -- Still running
+[2013-09-13 11:23:36] -- DEBUG -- Still running
+[2013-09-13 11:23:38] -- DEBUG -- Still running
+[2013-09-13 11:23:40] -- DEBUG -- Still running
+[2013-09-13 11:23:42] -- DEBUG -- Still running
+[2013-09-13 11:23:44] -- DEBUG -- Still running
+[2013-09-13 11:23:46] -- DEBUG -- Still running
+[2013-09-13 11:23:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:48] -- DEBUG -- Still running
+[2013-09-13 11:23:50] -- DEBUG -- Still running
+[2013-09-13 11:23:52] -- DEBUG -- Still running
+[2013-09-13 11:23:54] -- DEBUG -- Still running
+[2013-09-13 11:23:56] -- DEBUG -- Still running
+[2013-09-13 11:23:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:23:58] -- DEBUG -- Still running
+[2013-09-13 11:23:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:23:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:00] -- DEBUG -- Still running
+[2013-09-13 11:24:02] -- DEBUG -- Still running
+[2013-09-13 11:24:04] -- DEBUG -- Still running
+[2013-09-13 11:24:06] -- DEBUG -- Still running
+[2013-09-13 11:24:08] -- DEBUG -- Still running
+[2013-09-13 11:24:10] -- DEBUG -- Still running
+[2013-09-13 11:24:12] -- DEBUG -- Still running
+[2013-09-13 11:24:13] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:24:14] -- DEBUG -- Still running
+[2013-09-13 11:24:16] -- DEBUG -- Still running
+[2013-09-13 11:24:18] -- DEBUG -- Still running
+[2013-09-13 11:24:20] -- DEBUG -- Still running
+[2013-09-13 11:24:22] -- DEBUG -- Still running
+[2013-09-13 11:24:24] -- DEBUG -- Still running
+[2013-09-13 11:24:26] -- DEBUG -- Still running
+[2013-09-13 11:24:28] -- DEBUG -- Still running
+[2013-09-13 11:24:30] -- DEBUG -- Still running
+[2013-09-13 11:24:32] -- DEBUG -- Still running
+[2013-09-13 11:24:34] -- DEBUG -- Still running
+[2013-09-13 11:24:36] -- DEBUG -- Still running
+[2013-09-13 11:24:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:24:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:24:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:24:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:24:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:24:38] -- DEBUG -- Still running
+[2013-09-13 11:24:40] -- DEBUG -- Still running
+[2013-09-13 11:24:42] -- DEBUG -- Still running
+[2013-09-13 11:24:44] -- DEBUG -- Still running
+[2013-09-13 11:24:46] -- DEBUG -- Still running
+[2013-09-13 11:24:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:24:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:24:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:24:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:48] -- DEBUG -- Still running
+[2013-09-13 11:24:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:24:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:24:50] -- DEBUG -- Still running
+[2013-09-13 11:24:52] -- DEBUG -- Still running
+[2013-09-13 11:24:54] -- DEBUG -- Still running
+[2013-09-13 11:24:56] -- DEBUG -- Still running
+[2013-09-13 11:24:58] -- DEBUG -- Still running
+[2013-09-13 11:25:00] -- DEBUG -- Still running
+[2013-09-13 11:25:02] -- DEBUG -- Still running
+[2013-09-13 11:25:04] -- DEBUG -- Still running
+[2013-09-13 11:25:06] -- DEBUG -- Still running
+[2013-09-13 11:25:08] -- DEBUG -- Still running
+[2013-09-13 11:25:10] -- DEBUG -- Still running
+[2013-09-13 11:25:12] -- DEBUG -- Still running
+[2013-09-13 11:25:14] -- DEBUG -- Still running
+[2013-09-13 11:25:16] -- DEBUG -- Still running
+[2013-09-13 11:25:18] -- DEBUG -- Still running
+[2013-09-13 11:25:20] -- DEBUG -- Still running
+[2013-09-13 11:25:22] -- DEBUG -- Still running
+[2013-09-13 11:25:24] -- DEBUG -- Still running
+[2013-09-13 11:25:26] -- DEBUG -- Still running
+[2013-09-13 11:25:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:28] -- DEBUG -- Still running
+[2013-09-13 11:25:30] -- DEBUG -- Still running
+[2013-09-13 11:25:32] -- DEBUG -- Still running
+[2013-09-13 11:25:34] -- DEBUG -- Still running
+[2013-09-13 11:25:36] -- DEBUG -- Still running
+[2013-09-13 11:25:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:38] -- DEBUG -- Still running
+[2013-09-13 11:25:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:25:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:25:40] -- DEBUG -- Still running
+[2013-09-13 11:25:42] -- DEBUG -- Still running
+[2013-09-13 11:25:44] -- DEBUG -- Still running
+[2013-09-13 11:25:46] -- DEBUG -- Still running
+[2013-09-13 11:25:48] -- DEBUG -- Still running
+[2013-09-13 11:25:50] -- DEBUG -- Still running
+[2013-09-13 11:25:52] -- DEBUG -- Still running
+[2013-09-13 11:25:54] -- DEBUG -- Still running
+[2013-09-13 11:25:56] -- DEBUG -- Still running
+[2013-09-13 11:25:58] -- DEBUG -- Still running
+[2013-09-13 11:26:00] -- DEBUG -- Still running
+[2013-09-13 11:26:02] -- DEBUG -- Still running
+[2013-09-13 11:26:04] -- DEBUG -- Still running
+[2013-09-13 11:26:06] -- DEBUG -- Still running
+[2013-09-13 11:26:08] -- DEBUG -- Still running
+[2013-09-13 11:26:10] -- DEBUG -- Still running
+[2013-09-13 11:26:12] -- DEBUG -- Still running
+[2013-09-13 11:26:14] -- DEBUG -- Still running
+[2013-09-13 11:26:16] -- DEBUG -- Still running
+[2013-09-13 11:26:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:18] -- DEBUG -- Still running
+[2013-09-13 11:26:20] -- DEBUG -- Still running
+[2013-09-13 11:26:22] -- DEBUG -- Still running
+[2013-09-13 11:26:24] -- DEBUG -- Still running
+[2013-09-13 11:26:26] -- DEBUG -- Still running
+[2013-09-13 11:26:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:28] -- DEBUG -- Still running
+[2013-09-13 11:26:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:26:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:26:30] -- DEBUG -- Still running
+[2013-09-13 11:26:32] -- DEBUG -- Still running
+[2013-09-13 11:26:34] -- DEBUG -- Still running
+[2013-09-13 11:26:36] -- DEBUG -- Still running
+[2013-09-13 11:26:38] -- DEBUG -- Still running
+[2013-09-13 11:26:40] -- DEBUG -- Still running
+[2013-09-13 11:26:42] -- DEBUG -- Still running
+[2013-09-13 11:26:44] -- DEBUG -- Still running
+[2013-09-13 11:26:46] -- DEBUG -- Still running
+[2013-09-13 11:26:48] -- DEBUG -- Still running
+[2013-09-13 11:26:50] -- DEBUG -- Still running
+[2013-09-13 11:26:52] -- DEBUG -- Still running
+[2013-09-13 11:26:54] -- DEBUG -- Still running
+[2013-09-13 11:26:56] -- DEBUG -- Still running
+[2013-09-13 11:26:58] -- DEBUG -- Still running
+[2013-09-13 11:27:00] -- DEBUG -- Still running
+[2013-09-13 11:27:02] -- DEBUG -- Still running
+[2013-09-13 11:27:04] -- DEBUG -- Still running
+[2013-09-13 11:27:06] -- DEBUG -- Still running
+[2013-09-13 11:27:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:08] -- DEBUG -- Still running
+[2013-09-13 11:27:10] -- DEBUG -- Still running
+[2013-09-13 11:27:12] -- DEBUG -- Still running
+[2013-09-13 11:27:14] -- DEBUG -- Still running
+[2013-09-13 11:27:16] -- DEBUG -- Still running
+[2013-09-13 11:27:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:18] -- DEBUG -- Still running
+[2013-09-13 11:27:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:20] -- DEBUG -- Still running
+[2013-09-13 11:27:22] -- DEBUG -- Still running
+[2013-09-13 11:27:24] -- DEBUG -- Still running
+[2013-09-13 11:27:26] -- DEBUG -- Still running
+[2013-09-13 11:27:28] -- DEBUG -- Still running
+[2013-09-13 11:27:30] -- DEBUG -- Still running
+[2013-09-13 11:27:32] -- DEBUG -- Still running
+[2013-09-13 11:27:34] -- DEBUG -- Still running
+[2013-09-13 11:27:36] -- DEBUG -- Still running
+[2013-09-13 11:27:38] -- DEBUG -- Still running
+[2013-09-13 11:27:40] -- DEBUG -- Still running
+[2013-09-13 11:27:42] -- DEBUG -- Still running
+[2013-09-13 11:27:44] -- DEBUG -- Still running
+[2013-09-13 11:27:46] -- DEBUG -- Still running
+[2013-09-13 11:27:48] -- DEBUG -- Still running
+[2013-09-13 11:27:50] -- DEBUG -- Still running
+[2013-09-13 11:27:52] -- DEBUG -- Still running
+[2013-09-13 11:27:54] -- DEBUG -- Still running
+[2013-09-13 11:27:56] -- DEBUG -- Still running
+[2013-09-13 11:27:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:27:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:27:58] -- DEBUG -- Still running
+[2013-09-13 11:28:00] -- DEBUG -- Still running
+[2013-09-13 11:28:02] -- DEBUG -- Still running
+[2013-09-13 11:28:04] -- DEBUG -- Still running
+[2013-09-13 11:28:06] -- DEBUG -- Still running
+[2013-09-13 11:28:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:08] -- DEBUG -- Still running
+[2013-09-13 11:28:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:10] -- DEBUG -- Still running
+[2013-09-13 11:28:12] -- DEBUG -- Still running
+[2013-09-13 11:28:14] -- DEBUG -- Still running
+[2013-09-13 11:28:16] -- DEBUG -- Still running
+[2013-09-13 11:28:18] -- DEBUG -- Still running
+[2013-09-13 11:28:20] -- DEBUG -- Still running
+[2013-09-13 11:28:22] -- DEBUG -- Still running
+[2013-09-13 11:28:24] -- DEBUG -- Still running
+[2013-09-13 11:28:26] -- DEBUG -- Still running
+[2013-09-13 11:28:28] -- DEBUG -- Still running
+[2013-09-13 11:28:30] -- DEBUG -- Still running
+[2013-09-13 11:28:32] -- DEBUG -- Still running
+[2013-09-13 11:28:34] -- DEBUG -- Still running
+[2013-09-13 11:28:36] -- DEBUG -- Still running
+[2013-09-13 11:28:38] -- DEBUG -- Still running
+[2013-09-13 11:28:40] -- DEBUG -- Still running
+[2013-09-13 11:28:42] -- DEBUG -- Still running
+[2013-09-13 11:28:44] -- DEBUG -- Still running
+[2013-09-13 11:28:46] -- DEBUG -- Still running
+[2013-09-13 11:28:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:48] -- DEBUG -- Still running
+[2013-09-13 11:28:50] -- DEBUG -- Still running
+[2013-09-13 11:28:52] -- DEBUG -- Still running
+[2013-09-13 11:28:54] -- DEBUG -- Still running
+[2013-09-13 11:28:56] -- DEBUG -- Still running
+[2013-09-13 11:28:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:28:58] -- DEBUG -- Still running
+[2013-09-13 11:28:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:28:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:00] -- DEBUG -- Still running
+[2013-09-13 11:29:02] -- DEBUG -- Still running
+[2013-09-13 11:29:04] -- DEBUG -- Still running
+[2013-09-13 11:29:06] -- DEBUG -- Still running
+[2013-09-13 11:29:08] -- DEBUG -- Still running
+[2013-09-13 11:29:10] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state
+    return self._command('charge_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state\n    return self._command(\'charge_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 38, 'runJob', 'charge_state_data = vehicle.charge_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+*** tb_lineno *** 38
+[2013-09-13 11:29:10] -- DEBUG -- Still running
+[2013-09-13 11:29:12] -- DEBUG -- Still running
+[2013-09-13 11:29:14] -- DEBUG -- Still running
+[2013-09-13 11:29:16] -- DEBUG -- Still running
+[2013-09-13 11:29:18] -- DEBUG -- Still running
+[2013-09-13 11:29:20] -- DEBUG -- Still running
+[2013-09-13 11:29:22] -- DEBUG -- Still running
+[2013-09-13 11:29:24] -- DEBUG -- Still running
+[2013-09-13 11:29:26] -- DEBUG -- Still running
+[2013-09-13 11:29:28] -- DEBUG -- Still running
+[2013-09-13 11:29:30] -- DEBUG -- Still running
+[2013-09-13 11:29:32] -- DEBUG -- Still running
+[2013-09-13 11:29:34] -- DEBUG -- Still running
+[2013-09-13 11:29:36] -- DEBUG -- Still running
+[2013-09-13 11:29:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:36] -- DEBUG -- Running the metajob for account: 2
+[2013-09-13 11:29:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:29:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:29:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:29:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:29:38] -- DEBUG -- Still running
+[2013-09-13 11:29:40] -- DEBUG -- Still running
+[2013-09-13 11:29:42] -- DEBUG -- Still running
+[2013-09-13 11:29:44] -- DEBUG -- Still running
+[2013-09-13 11:29:46] -- DEBUG -- Still running
+[2013-09-13 11:29:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:48] -- DEBUG -- Still running
+[2013-09-13 11:29:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:29:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:29:50] -- DEBUG -- Still running
+[2013-09-13 11:29:52] -- DEBUG -- Still running
+[2013-09-13 11:29:54] -- DEBUG -- Still running
+[2013-09-13 11:29:56] -- DEBUG -- Still running
+[2013-09-13 11:29:58] -- DEBUG -- Still running
+[2013-09-13 11:30:00] -- DEBUG -- Still running
+[2013-09-13 11:30:02] -- DEBUG -- Still running
+[2013-09-13 11:30:04] -- DEBUG -- Still running
+[2013-09-13 11:30:06] -- DEBUG -- Still running
+[2013-09-13 11:30:08] -- DEBUG -- Still running
+[2013-09-13 11:30:10] -- DEBUG -- Still running
+[2013-09-13 11:30:12] -- DEBUG -- Still running
+[2013-09-13 11:30:14] -- DEBUG -- Still running
+[2013-09-13 11:30:16] -- DEBUG -- Still running
+[2013-09-13 11:30:18] -- DEBUG -- Still running
+[2013-09-13 11:30:20] -- DEBUG -- Still running
+[2013-09-13 11:30:22] -- DEBUG -- Still running
+[2013-09-13 11:30:24] -- DEBUG -- Still running
+[2013-09-13 11:30:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:26] -- DEBUG -- Still running
+[2013-09-13 11:30:28] -- DEBUG -- Still running
+[2013-09-13 11:30:30] -- DEBUG -- Still running
+[2013-09-13 11:30:32] -- DEBUG -- Still running
+[2013-09-13 11:30:34] -- DEBUG -- Still running
+[2013-09-13 11:30:36] -- DEBUG -- Still running
+[2013-09-13 11:30:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:38] -- DEBUG -- Still running
+[2013-09-13 11:30:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:40] -- DEBUG -- Still running
+[2013-09-13 11:30:40] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:30:40] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:30:42] -- DEBUG -- Still running
+[2013-09-13 11:30:44] -- DEBUG -- Still running
+[2013-09-13 11:30:45] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:30:46] -- DEBUG -- Still running
+[2013-09-13 11:30:48] -- DEBUG -- Still running
+[2013-09-13 11:30:50] -- DEBUG -- Still running
+[2013-09-13 11:30:52] -- DEBUG -- Still running
+[2013-09-13 11:30:54] -- DEBUG -- Still running
+[2013-09-13 11:30:56] -- DEBUG -- Still running
+[2013-09-13 11:30:58] -- DEBUG -- Still running
+[2013-09-13 11:31:00] -- DEBUG -- Still running
+[2013-09-13 11:31:02] -- DEBUG -- Still running
+[2013-09-13 11:31:04] -- DEBUG -- Still running
+[2013-09-13 11:31:06] -- DEBUG -- Still running
+[2013-09-13 11:31:08] -- DEBUG -- Still running
+[2013-09-13 11:31:10] -- DEBUG -- Still running
+[2013-09-13 11:31:12] -- DEBUG -- Still running
+[2013-09-13 11:31:14] -- DEBUG -- Still running
+[2013-09-13 11:31:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:16] -- DEBUG -- Still running
+[2013-09-13 11:31:18] -- DEBUG -- Still running
+[2013-09-13 11:31:20] -- DEBUG -- Still running
+[2013-09-13 11:31:22] -- DEBUG -- Still running
+[2013-09-13 11:31:24] -- DEBUG -- Still running
+[2013-09-13 11:31:26] -- DEBUG -- Still running
+[2013-09-13 11:31:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:28] -- DEBUG -- Still running
+[2013-09-13 11:31:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:30] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:31:30] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:31:30] -- DEBUG -- Still running
+[2013-09-13 11:31:32] -- DEBUG -- Still running
+[2013-09-13 11:31:34] -- DEBUG -- Still running
+[2013-09-13 11:31:35] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:31:36] -- DEBUG -- Still running
+[2013-09-13 11:31:38] -- DEBUG -- Still running
+[2013-09-13 11:31:40] -- DEBUG -- Still running
+[2013-09-13 11:31:42] -- DEBUG -- Still running
+[2013-09-13 11:31:44] -- DEBUG -- Still running
+[2013-09-13 11:31:46] -- DEBUG -- Still running
+[2013-09-13 11:31:48] -- DEBUG -- Still running
+[2013-09-13 11:31:50] -- DEBUG -- Still running
+[2013-09-13 11:31:52] -- DEBUG -- Still running
+[2013-09-13 11:31:54] -- DEBUG -- Still running
+[2013-09-13 11:31:56] -- DEBUG -- Still running
+[2013-09-13 11:31:58] -- DEBUG -- Still running
+[2013-09-13 11:32:00] -- DEBUG -- Still running
+[2013-09-13 11:32:02] -- DEBUG -- Still running
+[2013-09-13 11:32:04] -- DEBUG -- Still running
+[2013-09-13 11:32:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:06] -- DEBUG -- Still running
+[2013-09-13 11:32:08] -- DEBUG -- Still running
+[2013-09-13 11:32:10] -- DEBUG -- Still running
+[2013-09-13 11:32:12] -- DEBUG -- Still running
+[2013-09-13 11:32:14] -- DEBUG -- Still running
+[2013-09-13 11:32:16] -- DEBUG -- Still running
+[2013-09-13 11:32:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:18] -- DEBUG -- Still running
+[2013-09-13 11:32:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:20] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:20] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:20] -- DEBUG -- Still running
+[2013-09-13 11:32:22] -- DEBUG -- Still running
+[2013-09-13 11:32:24] -- DEBUG -- Still running
+[2013-09-13 11:32:26] -- DEBUG -- Still running
+[2013-09-13 11:32:28] -- DEBUG -- Still running
+[2013-09-13 11:32:30] -- DEBUG -- Still running
+[2013-09-13 11:32:32] -- DEBUG -- Still running
+[2013-09-13 11:32:34] -- DEBUG -- Still running
+[2013-09-13 11:32:36] -- DEBUG -- Still running
+[2013-09-13 11:32:38] -- DEBUG -- Still running
+[2013-09-13 11:32:40] -- DEBUG -- Still running
+[2013-09-13 11:32:42] -- DEBUG -- Still running
+[2013-09-13 11:32:44] -- DEBUG -- Still running
+[2013-09-13 11:32:46] -- DEBUG -- Still running
+[2013-09-13 11:32:48] -- DEBUG -- Still running
+[2013-09-13 11:32:50] -- DEBUG -- Still running
+[2013-09-13 11:32:52] -- DEBUG -- Still running
+[2013-09-13 11:32:54] -- DEBUG -- Still running
+[2013-09-13 11:32:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:32:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:32:56] -- DEBUG -- Still running
+[2013-09-13 11:32:58] -- DEBUG -- Still running
+[2013-09-13 11:33:00] -- DEBUG -- Still running
+[2013-09-13 11:33:02] -- DEBUG -- Still running
+[2013-09-13 11:33:04] -- DEBUG -- Still running
+[2013-09-13 11:33:06] -- DEBUG -- Still running
+[2013-09-13 11:33:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:08] -- DEBUG -- Still running
+[2013-09-13 11:33:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:10] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:10] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:10] -- DEBUG -- Still running
+[2013-09-13 11:33:12] -- DEBUG -- Still running
+[2013-09-13 11:33:14] -- DEBUG -- Still running
+[2013-09-13 11:33:16] -- DEBUG -- Still running
+[2013-09-13 11:33:18] -- DEBUG -- Still running
+[2013-09-13 11:33:20] -- DEBUG -- Still running
+[2013-09-13 11:33:22] -- DEBUG -- Still running
+[2013-09-13 11:33:24] -- DEBUG -- Still running
+[2013-09-13 11:33:26] -- DEBUG -- Still running
+[2013-09-13 11:33:28] -- DEBUG -- Still running
+[2013-09-13 11:33:30] -- DEBUG -- Still running
+[2013-09-13 11:33:32] -- DEBUG -- Still running
+[2013-09-13 11:33:34] -- DEBUG -- Still running
+[2013-09-13 11:33:36] -- DEBUG -- Still running
+[2013-09-13 11:33:38] -- DEBUG -- Still running
+[2013-09-13 11:33:40] -- DEBUG -- Still running
+[2013-09-13 11:33:42] -- DEBUG -- Still running
+[2013-09-13 11:33:44] -- DEBUG -- Still running
+[2013-09-13 11:33:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:46] -- DEBUG -- Still running
+[2013-09-13 11:33:48] -- DEBUG -- Still running
+[2013-09-13 11:33:50] -- DEBUG -- Still running
+[2013-09-13 11:33:52] -- DEBUG -- Still running
+[2013-09-13 11:33:54] -- DEBUG -- Still running
+[2013-09-13 11:33:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:56] -- DEBUG -- Still running
+[2013-09-13 11:33:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:33:58] -- DEBUG -- Still running
+[2013-09-13 11:33:59] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:33:59] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:00] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:00] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:00] -- DEBUG -- Still running
+[2013-09-13 11:34:02] -- DEBUG -- Still running
+[2013-09-13 11:34:04] -- DEBUG -- Still running
+[2013-09-13 11:34:06] -- DEBUG -- Still running
+[2013-09-13 11:34:07] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:34:08] -- DEBUG -- Still running
+[2013-09-13 11:34:10] -- DEBUG -- Still running
+[2013-09-13 11:34:12] -- DEBUG -- Still running
+[2013-09-13 11:34:14] -- DEBUG -- Still running
+[2013-09-13 11:34:16] -- DEBUG -- Still running
+[2013-09-13 11:34:18] -- DEBUG -- Still running
+[2013-09-13 11:34:20] -- DEBUG -- Still running
+[2013-09-13 11:34:22] -- DEBUG -- Still running
+[2013-09-13 11:34:24] -- DEBUG -- Still running
+[2013-09-13 11:34:26] -- DEBUG -- Still running
+[2013-09-13 11:34:28] -- DEBUG -- Still running
+[2013-09-13 11:34:30] -- DEBUG -- Still running
+[2013-09-13 11:34:32] -- DEBUG -- Still running
+[2013-09-13 11:34:34] -- DEBUG -- Still running
+[2013-09-13 11:34:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:34:36] -- DEBUG -- Returning new database object
+[2013-09-13 11:34:36] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:34:36] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:34:36] -- DEBUG -- Still running
+[2013-09-13 11:34:38] -- DEBUG -- Still running
+[2013-09-13 11:34:40] -- DEBUG -- Still running
+[2013-09-13 11:34:42] -- DEBUG -- Still running
+[2013-09-13 11:34:44] -- DEBUG -- Still running
+[2013-09-13 11:34:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Still running
+[2013-09-13 11:34:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:47] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:49] -- DEBUG -- Still running
+[2013-09-13 11:34:49] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:49] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:49] -- DEBUG -- Running the metajob for account: 2
+[2013-09-13 11:34:50] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:34:50] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:34:51] -- DEBUG -- Still running
+[2013-09-13 11:34:53] -- DEBUG -- Still running
+[2013-09-13 11:34:55] -- DEBUG -- Still running
+[2013-09-13 11:34:57] -- DEBUG -- Still running
+[2013-09-13 11:34:59] -- DEBUG -- Still running
+[2013-09-13 11:35:01] -- DEBUG -- Still running
+[2013-09-13 11:35:03] -- DEBUG -- Still running
+[2013-09-13 11:35:05] -- DEBUG -- Still running
+[2013-09-13 11:35:07] -- DEBUG -- Still running
+[2013-09-13 11:35:09] -- DEBUG -- Still running
+[2013-09-13 11:35:11] -- DEBUG -- Still running
+[2013-09-13 11:35:13] -- DEBUG -- Still running
+[2013-09-13 11:35:15] -- DEBUG -- Still running
+[2013-09-13 11:35:17] -- DEBUG -- Still running
+[2013-09-13 11:35:19] -- DEBUG -- Still running
+[2013-09-13 11:35:21] -- DEBUG -- Still running
+[2013-09-13 11:35:23] -- DEBUG -- Still running
+[2013-09-13 11:35:25] -- DEBUG -- Still running
+[2013-09-13 11:35:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:27] -- DEBUG -- Still running
+[2013-09-13 11:35:29] -- DEBUG -- Still running
+[2013-09-13 11:35:31] -- DEBUG -- Still running
+[2013-09-13 11:35:33] -- DEBUG -- Still running
+[2013-09-13 11:35:35] -- DEBUG -- Still running
+[2013-09-13 11:35:36] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:36] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Still running
+[2013-09-13 11:35:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:37] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:39] -- DEBUG -- Still running
+[2013-09-13 11:35:39] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:39] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:40] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:35:40] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:35:41] -- DEBUG -- Still running
+[2013-09-13 11:35:43] -- DEBUG -- Still running
+[2013-09-13 11:35:45] -- DEBUG -- Still running
+[2013-09-13 11:35:47] -- DEBUG -- Still running
+[2013-09-13 11:35:49] -- DEBUG -- Still running
+[2013-09-13 11:35:51] -- DEBUG -- Still running
+[2013-09-13 11:35:53] -- DEBUG -- Still running
+[2013-09-13 11:35:55] -- DEBUG -- Still running
+[2013-09-13 11:35:57] -- DEBUG -- Still running
+[2013-09-13 11:35:59] -- DEBUG -- Still running
+[2013-09-13 11:36:01] -- DEBUG -- Still running
+[2013-09-13 11:36:03] -- DEBUG -- Still running
+[2013-09-13 11:36:05] -- DEBUG -- Still running
+[2013-09-13 11:36:07] -- DEBUG -- Still running
+[2013-09-13 11:36:09] -- DEBUG -- Still running
+[2013-09-13 11:36:11] -- DEBUG -- Still running
+[2013-09-13 11:36:13] -- DEBUG -- Still running
+[2013-09-13 11:36:15] -- DEBUG -- Still running
+[2013-09-13 11:36:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:17] -- DEBUG -- Still running
+[2013-09-13 11:36:19] -- DEBUG -- Still running
+[2013-09-13 11:36:21] -- DEBUG -- Still running
+[2013-09-13 11:36:23] -- DEBUG -- Still running
+[2013-09-13 11:36:25] -- DEBUG -- Still running
+[2013-09-13 11:36:26] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:26] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Still running
+[2013-09-13 11:36:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:27] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:29] -- DEBUG -- Still running
+[2013-09-13 11:36:29] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:29] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:30] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:36:30] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:36:31] -- DEBUG -- Still running
+[2013-09-13 11:36:33] -- DEBUG -- Still running
+[2013-09-13 11:36:35] -- DEBUG -- Still running
+[2013-09-13 11:36:37] -- DEBUG -- Still running
+[2013-09-13 11:36:39] -- DEBUG -- Still running
+[2013-09-13 11:36:41] -- DEBUG -- Still running
+[2013-09-13 11:36:43] -- DEBUG -- Still running
+[2013-09-13 11:36:45] -- DEBUG -- Still running
+[2013-09-13 11:36:47] -- DEBUG -- Still running
+[2013-09-13 11:36:49] -- DEBUG -- Still running
+[2013-09-13 11:36:51] -- DEBUG -- Still running
+[2013-09-13 11:36:53] -- DEBUG -- Still running
+[2013-09-13 11:36:55] -- DEBUG -- Still running
+[2013-09-13 11:36:57] -- DEBUG -- Still running
+[2013-09-13 11:36:59] -- DEBUG -- Still running
+[2013-09-13 11:37:01] -- DEBUG -- Still running
+[2013-09-13 11:37:03] -- DEBUG -- Still running
+[2013-09-13 11:37:05] -- DEBUG -- Still running
+[2013-09-13 11:37:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:07] -- DEBUG -- Still running
+[2013-09-13 11:37:09] -- DEBUG -- Still running
+[2013-09-13 11:37:11] -- DEBUG -- Still running
+[2013-09-13 11:37:13] -- DEBUG -- Still running
+[2013-09-13 11:37:15] -- DEBUG -- Still running
+[2013-09-13 11:37:16] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:16] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Still running
+[2013-09-13 11:37:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:17] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:19] -- DEBUG -- Still running
+[2013-09-13 11:37:19] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:19] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:20] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:20] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:21] -- DEBUG -- Still running
+[2013-09-13 11:37:23] -- DEBUG -- Still running
+[2013-09-13 11:37:25] -- DEBUG -- Still running
+[2013-09-13 11:37:27] -- DEBUG -- Still running
+[2013-09-13 11:37:29] -- DEBUG -- Still running
+[2013-09-13 11:37:31] -- DEBUG -- Still running
+[2013-09-13 11:37:33] -- DEBUG -- Still running
+[2013-09-13 11:37:35] -- DEBUG -- Still running
+[2013-09-13 11:37:37] -- DEBUG -- Still running
+[2013-09-13 11:37:39] -- DEBUG -- Still running
+[2013-09-13 11:37:41] -- DEBUG -- Still running
+[2013-09-13 11:37:43] -- DEBUG -- Still running
+[2013-09-13 11:37:45] -- DEBUG -- Still running
+[2013-09-13 11:37:47] -- DEBUG -- Still running
+[2013-09-13 11:37:49] -- DEBUG -- Still running
+[2013-09-13 11:37:51] -- DEBUG -- Still running
+[2013-09-13 11:37:53] -- DEBUG -- Still running
+[2013-09-13 11:37:55] -- DEBUG -- Still running
+[2013-09-13 11:37:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:37:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:37:57] -- DEBUG -- Still running
+[2013-09-13 11:37:59] -- DEBUG -- Still running
+[2013-09-13 11:38:01] -- DEBUG -- Still running
+[2013-09-13 11:38:03] -- DEBUG -- Still running
+[2013-09-13 11:38:05] -- DEBUG -- Still running
+[2013-09-13 11:38:06] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:06] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Still running
+[2013-09-13 11:38:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:07] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:09] -- DEBUG -- Still running
+[2013-09-13 11:38:09] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:09] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:10] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:10] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:11] -- DEBUG -- Still running
+[2013-09-13 11:38:13] -- DEBUG -- Still running
+[2013-09-13 11:38:15] -- DEBUG -- Still running
+[2013-09-13 11:38:17] -- DEBUG -- Still running
+[2013-09-13 11:38:19] -- DEBUG -- Still running
+[2013-09-13 11:38:21] -- DEBUG -- Still running
+[2013-09-13 11:38:23] -- DEBUG -- Still running
+[2013-09-13 11:38:25] -- DEBUG -- Still running
+[2013-09-13 11:38:27] -- DEBUG -- Still running
+[2013-09-13 11:38:29] -- DEBUG -- Still running
+[2013-09-13 11:38:31] -- DEBUG -- Still running
+[2013-09-13 11:38:33] -- DEBUG -- Still running
+[2013-09-13 11:38:35] -- DEBUG -- Still running
+[2013-09-13 11:38:37] -- DEBUG -- Still running
+[2013-09-13 11:38:39] -- DEBUG -- Still running
+[2013-09-13 11:38:41] -- DEBUG -- Still running
+[2013-09-13 11:38:43] -- DEBUG -- Still running
+[2013-09-13 11:38:45] -- DEBUG -- Still running
+[2013-09-13 11:38:46] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:46] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:47] -- DEBUG -- Still running
+[2013-09-13 11:38:49] -- DEBUG -- Still running
+[2013-09-13 11:38:51] -- DEBUG -- Still running
+[2013-09-13 11:38:53] -- DEBUG -- Still running
+[2013-09-13 11:38:55] -- DEBUG -- Still running
+[2013-09-13 11:38:56] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:56] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Still running
+[2013-09-13 11:38:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Running the job for account: 2
+[2013-09-13 11:38:57] -- DEBUG -- Ruuning the interval job for account: 2
+[2013-09-13 11:38:59] -- DEBUG -- Still running
+[2013-09-13 11:38:59] -- DEBUG -- Running the job for acc
