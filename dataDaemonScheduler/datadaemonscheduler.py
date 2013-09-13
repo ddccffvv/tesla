@@ -45,4 +45,5 @@ if __name__ == "__main__":
 		time.sleep(2)
 		# We need this
 		if DEBUG:
-			debug.debug( "Still running")
+			pass
+			#debug.debug( "Still running")

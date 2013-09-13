@@ -1,0 +1,115 @@
+[2013-09-13 14:26:05] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 14:26:05] -- DEBUG -- Loading logger
+[2013-09-13 14:26:05] -- DEBUG -- Returning new database object
+[2013-09-13 14:26:05] -- DEBUG -- Loading complete
+[2013-09-13 14:26:05] -- DEBUG -- Starting the schedule manager
+[2013-09-13 14:26:05] -- DEBUG -- Starting the scheduler object
+[2013-09-13 14:26:05] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 14:26:05] -- DEBUG -- Returning new database object
+[2013-09-13 14:26:05] -- DEBUG -- Returning new database object
+[2013-09-13 14:26:05] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 14:26:05] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 14:28:41] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 14:28:41] -- DEBUG -- Loading logger
+[2013-09-13 14:28:41] -- DEBUG -- Returning new database object
+[2013-09-13 14:28:41] -- DEBUG -- Loading complete
+[2013-09-13 14:28:41] -- DEBUG -- Starting the schedule manager
+[2013-09-13 14:28:41] -- DEBUG -- Starting the scheduler object
+[2013-09-13 14:28:41] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 14:28:41] -- DEBUG -- Returning new database object
+[2013-09-13 14:28:41] -- DEBUG -- Returning new database object
+[2013-09-13 14:28:41] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 14:28:41] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 26, in prepareJob
+    self.c = rpyc.connect("localhost", 65123)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/utils/factory.py", line 89, in connect
+    s = SocketStream.connect(host, port, ipv6 = ipv6)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/stream.py", line 114, in connect
+    return cls(cls._connect(host, port, **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/stream.py", line 92, in _connect
+    s.connect((host, port))
+  File "<string>", line 1, in connect
+socket.error: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 118, in runMetaJob
+    climate_state_data = vehicle.climate_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 435, in sync_request
+    self.serve(0.1)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 383, in serve
+    data = self._recv(timeout, wait_for_lock = True)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 340, in _recv
+    if self._channel.poll(timeout):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/channel.py", line 43, in poll
+    return self.stream.poll(timeout)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/stream.py", line 39, in poll
+    rl, _, _ = select([self], [], [], timeout)
+KeyboardInterrupt
+[2013-09-13 14:42:40] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 14:42:40] -- DEBUG -- Loading logger
+[2013-09-13 14:42:40] -- DEBUG -- Returning new database object
+[2013-09-13 14:42:40] -- DEBUG -- Loading complete
+[2013-09-13 14:42:40] -- DEBUG -- Starting the schedule manager
+[2013-09-13 14:42:40] -- DEBUG -- Starting the scheduler object
+[2013-09-13 14:42:40] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 14:42:40] -- DEBUG -- Returning new database object
+[2013-09-13 14:42:40] -- DEBUG -- Returning new database object
+[2013-09-13 14:42:40] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 14:42:40] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 14:42:46] -- DEBUG -- !!!Failed to fetch the climate data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 118, in runMetaJob
+    climate_state_data = vehicle.climate_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 435, in sync_request
+    self.serve(0.1)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 383, in serve
+    data = self._recv(timeout, wait_for_lock = True)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 340, in _recv
+    if self._channel.poll(timeout):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/channel.py", line 43, in poll
+    return self.stream.poll(timeout)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/stream.py", line 39, in poll
+    rl, _, _ = select([self], [], [], timeout)
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 118, in runMetaJob
+    climate_state_data = vehicle.climate_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 435, in sync_request
+    self.serve(0.1)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 383, in serve
+    data = self._recv(timeout, wait_for_lock = True)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 340, in _recv
+    if self._channel.poll(timeout):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/channel.py", line 43, in poll
+    return self.stream.poll(timeout)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/stream.py", line 39, in poll
+    rl, _, _ = select([self], [], [], timeout)
+KeyboardInterrupt
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+KeyboardInterrupt
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 118, in runMetaJob\n    climate_state_data = vehicle.climate_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 435, in sync_request\n    self.serve(0.1)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 383, in serve\n    data = self._recv(timeout, wait_for_lock = True)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/pKilled

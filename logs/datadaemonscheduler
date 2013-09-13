@@ -1,0 +1,50 @@
+[2013-09-13 14:51:00] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 14:51:00] -- DEBUG -- Loading logger
+[2013-09-13 14:51:00] -- DEBUG -- Returning new database object
+[2013-09-13 14:51:00] -- DEBUG -- Loading complete
+[2013-09-13 14:51:00] -- DEBUG -- Starting the schedule manager
+[2013-09-13 14:51:00] -- DEBUG -- Starting the scheduler object
+[2013-09-13 14:51:00] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 14:51:00] -- DEBUG -- Returning new database object
+[2013-09-13 14:51:00] -- DEBUG -- Returning new database object
+[2013-09-13 14:51:00] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 14:51:00] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 15:15:28] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 15:15:28] -- DEBUG -- Loading logger
+[2013-09-13 15:15:28] -- DEBUG -- Returning new database object
+[2013-09-13 15:15:28] -- DEBUG -- Loading complete
+[2013-09-13 15:15:28] -- DEBUG -- Starting the schedule manager
+[2013-09-13 15:15:28] -- DEBUG -- Starting the scheduler object
+[2013-09-13 15:15:28] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 15:15:28] -- DEBUG -- Returning new database object
+[2013-09-13 15:15:28] -- DEBUG -- Returning new database object
+[2013-09-13 15:15:28] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 15:15:28] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 15:15:41] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-13 15:15:41] -- DEBUG -- Start the scheduler!
+[2013-09-13 15:15:41] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-13 15:16:31] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:16:31] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:17:21] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:17:21] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:17:33] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+[2013-09-13 15:18:11] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:18:11] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:19:01] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:19:01] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:19:51] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:19:51] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:20:41] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:20:41] -- DEBUG -- Returning new database object
+[2013-09-13 15:20:41] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:20:41] -- DEBUG -- Returning new database object
+[2013-09-13 15:20:41] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 15:20:41] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 15:21:31] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:21:31] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:21:48] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:21:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:22:21] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:22:21] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 15:22:38] -- DEBUG -- Running the job for account: 2
+[2013-09-13 15:22:38] -- DEBUG -- Running the interval job for account: 2
