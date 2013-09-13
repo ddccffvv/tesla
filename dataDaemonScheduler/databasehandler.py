@@ -33,6 +33,3 @@ class DatabaseHandler():
 		bla = cursor.fetchall()
 		self.connection.close()
 		return bla
-
-	def __del__(self):
-		self.connection.close()	

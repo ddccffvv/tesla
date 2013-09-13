@@ -31,7 +31,7 @@ class Account():
 	def runJob(self):
 		#log("Running interval job")
 		if DEBUG:
-			debug.debug("Ruuning the interval job for account: " + str(self.accountid))
+			debug.debug("Running the interval job for account: " + str(self.accountid))
 		for vehicle in self.pyteslaobj.vehicles():
 			# Charge states
 			try:

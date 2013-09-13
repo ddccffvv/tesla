@@ -71,6 +71,7 @@ class ScheduleManager():
 		# Running the job at hand :)
 		if DEBUG:
 			debug.debug("Running the job for account: " + str(account.accountid))
+			print account
 		account.runJob()
 
 	def runMetajob(self, account):

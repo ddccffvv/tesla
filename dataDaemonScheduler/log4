@@ -1,0 +1,1661 @@
+[2013-09-13 11:54:04] -- DEBUG -- Starting the dataDaemon
+[2013-09-13 11:54:04] -- DEBUG -- Loading logger
+[2013-09-13 11:54:04] -- DEBUG -- Returning new database object
+[2013-09-13 11:54:04] -- DEBUG -- Loading complete
+[2013-09-13 11:54:04] -- DEBUG -- Starting the schedule manager
+[2013-09-13 11:54:04] -- DEBUG -- Starting the scheduler object
+[2013-09-13 11:54:04] -- DEBUG -- Creating all the required objects from our database
+[2013-09-13 11:54:04] -- DEBUG -- Returning new database object
+[2013-09-13 11:54:04] -- DEBUG -- Returning new database object
+[2013-09-13 11:54:04] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:54:04] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:54:18] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-13 11:54:18] -- DEBUG -- Start the scheduler!
+[2013-09-13 11:54:18] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-13 11:54:20] -- DEBUG -- Still running
+[2013-09-13 11:54:22] -- DEBUG -- Still running
+[2013-09-13 11:54:24] -- DEBUG -- Still running
+[2013-09-13 11:54:26] -- DEBUG -- Still running
+[2013-09-13 11:54:28] -- DEBUG -- Still running
+[2013-09-13 11:54:30] -- DEBUG -- Still running
+[2013-09-13 11:54:32] -- DEBUG -- Still running
+[2013-09-13 11:54:34] -- DEBUG -- Still running
+[2013-09-13 11:54:36] -- DEBUG -- Still running
+[2013-09-13 11:54:38] -- DEBUG -- Still running
+[2013-09-13 11:54:40] -- DEBUG -- Still running
+[2013-09-13 11:54:42] -- DEBUG -- Still running
+[2013-09-13 11:54:44] -- DEBUG -- Still running
+[2013-09-13 11:54:46] -- DEBUG -- Still running
+[2013-09-13 11:54:48] -- DEBUG -- Still running
+[2013-09-13 11:54:50] -- DEBUG -- Still running
+[2013-09-13 11:54:52] -- DEBUG -- Still running
+[2013-09-13 11:54:54] -- DEBUG -- Still running
+[2013-09-13 11:54:56] -- DEBUG -- Still running
+[2013-09-13 11:54:58] -- DEBUG -- Still running
+[2013-09-13 11:55:00] -- DEBUG -- Still running
+[2013-09-13 11:55:02] -- DEBUG -- Still running
+[2013-09-13 11:55:04] -- DEBUG -- Still running
+[2013-09-13 11:55:06] -- DEBUG -- Still running
+[2013-09-13 11:55:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:55:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:55:08] -- DEBUG -- Still running
+[2013-09-13 11:55:10] -- DEBUG -- Still running
+[2013-09-13 11:55:12] -- DEBUG -- Still running
+[2013-09-13 11:55:14] -- DEBUG -- Still running
+[2013-09-13 11:55:16] -- DEBUG -- Still running
+[2013-09-13 11:55:18] -- DEBUG -- Still running
+[2013-09-13 11:55:20] -- DEBUG -- Still running
+[2013-09-13 11:55:22] -- DEBUG -- Still running
+[2013-09-13 11:55:24] -- DEBUG -- Still running
+[2013-09-13 11:55:26] -- DEBUG -- Still running
+[2013-09-13 11:55:28] -- DEBUG -- Still running
+[2013-09-13 11:55:30] -- DEBUG -- Still running
+[2013-09-13 11:55:32] -- DEBUG -- Still running
+[2013-09-13 11:55:34] -- DEBUG -- Still running
+[2013-09-13 11:55:36] -- DEBUG -- Still running
+[2013-09-13 11:55:38] -- DEBUG -- Still running
+[2013-09-13 11:55:40] -- DEBUG -- Still running
+[2013-09-13 11:55:42] -- DEBUG -- Still running
+[2013-09-13 11:55:44] -- DEBUG -- Still running
+[2013-09-13 11:55:46] -- DEBUG -- Still running
+[2013-09-13 11:55:48] -- DEBUG -- Still running
+[2013-09-13 11:55:50] -- DEBUG -- Still running
+[2013-09-13 11:55:52] -- DEBUG -- Still running
+[2013-09-13 11:55:54] -- DEBUG -- Still running
+[2013-09-13 11:55:56] -- DEBUG -- Still running
+[2013-09-13 11:55:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:55:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:55:58] -- DEBUG -- Still running
+[2013-09-13 11:56:00] -- DEBUG -- Still running
+[2013-09-13 11:56:02] -- DEBUG -- Still running
+[2013-09-13 11:56:04] -- DEBUG -- Still running
+[2013-09-13 11:56:05] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob
+    charge_state_data = vehicle.charge_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state
+    return self._command('charge_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 38, in charge_state\n    return self._command(\'charge_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 38, 'runJob', 'charge_state_data = vehicle.charge_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 38, in runJob\n    charge_state_data = vehicle.charge_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+*** tb_lineno *** 38
+[2013-09-13 11:56:06] -- DEBUG -- Still running
+[2013-09-13 11:56:08] -- DEBUG -- Still running
+[2013-09-13 11:56:10] -- DEBUG -- Still running
+[2013-09-13 11:56:12] -- DEBUG -- Still running
+[2013-09-13 11:56:14] -- DEBUG -- Still running
+[2013-09-13 11:56:16] -- DEBUG -- Still running
+[2013-09-13 11:56:16] -- DEBUG -- !!!Failed to fetch the drive data for account 2 and vehicle 4. See error printing below!!!
+*** Traceback ***
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+*** Exception ***
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob
+    drive_state_data = vehicle.drive_state
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__
+    return syncreq(self, consts.HANDLE_GETATTR, name)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+urllib2.HTTPError: 
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr
+    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr
+    return accessor(obj, name, *args)
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state
+    return self._command('drive_state')
+  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command
+    return self._conn.read_json_path(('vehicles/%s/command/%s' + get) % (self.id, verb))
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path
+    return Session.read_json(self, _ENDPOINT + path, post_data)
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json
+    data = self.read_url( url, post_data ).read()
+  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url
+    f = req.open(self._encode(url), data=post)
+  File "/usr/lib/python2.6/urllib2.py", line 397, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 435, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Not Available
+
+*** Traceback exc ***
+*** format_exc, first and last line ***
+Traceback (most recent call last):
+
+*** format_exception ***
+['Traceback (most recent call last):\n', '  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n', 'urllib2.HTTPError: \n\n========= Remote Traceback (1) =========\nTraceback (most recent call last):\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request\n    res = self._HANDLERS[handler](self, *args)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 538, in _handle_getattr\n    return self._access_attr(oid, name, (), "_rpyc_getattr", "allow_getattr", getattr)\n  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 504, in _access_attr\n    return accessor(obj, name, *args)\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 46, in drive_state\n    return self._command(\'drive_state\')\n  File "/home/alice/tesla/CredentialMgr/pytesla/vehicle.py", line 60, in _command\n    return self._conn.read_json_path((\'vehicles/%s/command/%s\' + get) % (self.id, verb))\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 89, in read_json_path\n    return Session.read_json(self, _ENDPOINT + path, post_data)\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 65, in read_json\n    data = self.read_url( url, post_data ).read()\n  File "/home/alice/tesla/CredentialMgr/pytesla/connection.py", line 59, in read_url\n    f = req.open(self._encode(url), data=post)\n  File "/usr/lib/python2.6/urllib2.py", line 397, in open\n    response = meth(req, response)\n  File "/usr/lib/python2.6/urllib2.py", line 510, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "/usr/lib/python2.6/urllib2.py", line 435, in error\n    return self._call_chain(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 369, in _call_chain\n    result = func(*args)\n  File "/usr/lib/python2.6/urllib2.py", line 518, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 503: Service Not Available\n\n']
+*** extract_tb ***
+[('/home/alice/tesla/dataDaemonScheduler/account.py', 63, 'runJob', 'drive_state_data = vehicle.drive_state'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 148, '__getattribute__', 'return syncreq(self, consts.HANDLE_GETATTR, name)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py', 71, 'syncreq', 'return conn.sync_request(handler, oid, *args)'), ('/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py', 438, 'sync_request', 'raise obj')]
+*** format_tb ***
+['  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 63, in runJob\n    drive_state_data = vehicle.drive_state\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 148, in __getattribute__\n    return syncreq(self, consts.HANDLE_GETATTR, name)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq\n    return conn.sync_request(handler, oid, *args)\n', '  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request\n    raise obj\n']
+[2013-09-13 11:56:18] -- DEBUG -- Still running
+[2013-09-13 11:56:20] -- DEBUG -- Still running
+[2013-09-13 11:56:22] -- DEBUG -- Still running
+[2013-09-13 11:56:24] -- DEBUG -- Still running
+[2013-09-13 11:56:26] -- DEBUG -- Still running
+[2013-09-13 11:56:28] -- DEBUG -- Still running
+[2013-09-13 11:56:30] -- DEBUG -- Still running
+[2013-09-13 11:56:32] -- DEBUG -- Still running
+[2013-09-13 11:56:34] -- DEBUG -- Still running
+[2013-09-13 11:56:36] -- DEBUG -- Still running
+[2013-09-13 11:56:38] -- DEBUG -- Still running
+[2013-09-13 11:56:40] -- DEBUG -- Still running
+[2013-09-13 11:56:42] -- DEBUG -- Still running
+[2013-09-13 11:56:44] -- DEBUG -- Still running
+[2013-09-13 11:56:46] -- DEBUG -- Still running
+[2013-09-13 11:56:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:56:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:56:48] -- DEBUG -- Still running
+[2013-09-13 11:56:50] -- DEBUG -- Still running
+[2013-09-13 11:56:52] -- DEBUG -- Still running
+[2013-09-13 11:56:54] -- DEBUG -- Still running
+[2013-09-13 11:56:56] -- DEBUG -- Still running
+[2013-09-13 11:56:58] -- DEBUG -- Still running
+[2013-09-13 11:57:00] -- DEBUG -- Still running
+[2013-09-13 11:57:02] -- DEBUG -- Still running
+[2013-09-13 11:57:04] -- DEBUG -- Still running
+[2013-09-13 11:57:06] -- DEBUG -- Still running
+[2013-09-13 11:57:08] -- DEBUG -- Still running
+[2013-09-13 11:57:10] -- DEBUG -- Still running
+[2013-09-13 11:57:12] -- DEBUG -- Still running
+[2013-09-13 11:57:14] -- DEBUG -- Still running
+[2013-09-13 11:57:16] -- DEBUG -- Still running
+[2013-09-13 11:57:18] -- DEBUG -- Still running
+[2013-09-13 11:57:20] -- DEBUG -- Still running
+[2013-09-13 11:57:22] -- DEBUG -- Still running
+[2013-09-13 11:57:24] -- DEBUG -- Still running
+[2013-09-13 11:57:26] -- DEBUG -- Still running
+[2013-09-13 11:57:28] -- DEBUG -- Still running
+[2013-09-13 11:57:30] -- DEBUG -- Still running
+[2013-09-13 11:57:32] -- DEBUG -- Still running
+[2013-09-13 11:57:34] -- DEBUG -- Still running
+[2013-09-13 11:57:36] -- DEBUG -- Still running
+[2013-09-13 11:57:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:57:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:57:38] -- DEBUG -- Still running
+[2013-09-13 11:57:40] -- DEBUG -- Still running
+[2013-09-13 11:57:42] -- DEBUG -- Still running
+[2013-09-13 11:57:44] -- DEBUG -- Still running
+[2013-09-13 11:57:46] -- DEBUG -- Still running
+[2013-09-13 11:57:48] -- DEBUG -- Still running
+[2013-09-13 11:57:50] -- DEBUG -- Still running
+[2013-09-13 11:57:52] -- DEBUG -- Still running
+[2013-09-13 11:57:54] -- DEBUG -- Still running
+[2013-09-13 11:57:56] -- DEBUG -- Still running
+[2013-09-13 11:57:58] -- DEBUG -- Still running
+[2013-09-13 11:58:00] -- DEBUG -- Still running
+[2013-09-13 11:58:02] -- DEBUG -- Still running
+[2013-09-13 11:58:04] -- DEBUG -- Still running
+[2013-09-13 11:58:06] -- DEBUG -- Still running
+[2013-09-13 11:58:08] -- DEBUG -- Still running
+[2013-09-13 11:58:10] -- DEBUG -- Still running
+[2013-09-13 11:58:12] -- DEBUG -- Still running
+[2013-09-13 11:58:14] -- DEBUG -- Still running
+[2013-09-13 11:58:16] -- DEBUG -- Still running
+[2013-09-13 11:58:18] -- DEBUG -- Still running
+[2013-09-13 11:58:20] -- DEBUG -- Still running
+[2013-09-13 11:58:22] -- DEBUG -- Still running
+[2013-09-13 11:58:24] -- DEBUG -- Still running
+[2013-09-13 11:58:26] -- DEBUG -- Still running
+[2013-09-13 11:58:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:58:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:58:28] -- DEBUG -- Still running
+[2013-09-13 11:58:30] -- DEBUG -- Still running
+[2013-09-13 11:58:32] -- DEBUG -- Still running
+[2013-09-13 11:58:34] -- DEBUG -- Still running
+[2013-09-13 11:58:36] -- DEBUG -- Still running
+[2013-09-13 11:58:38] -- DEBUG -- Still running
+[2013-09-13 11:58:40] -- DEBUG -- Still running
+[2013-09-13 11:58:42] -- DEBUG -- Still running
+[2013-09-13 11:58:44] -- DEBUG -- Still running
+[2013-09-13 11:58:46] -- DEBUG -- Still running
+[2013-09-13 11:58:48] -- DEBUG -- Still running
+[2013-09-13 11:58:50] -- DEBUG -- Still running
+[2013-09-13 11:58:52] -- DEBUG -- Still running
+[2013-09-13 11:58:54] -- DEBUG -- Still running
+[2013-09-13 11:58:56] -- DEBUG -- Still running
+[2013-09-13 11:58:58] -- DEBUG -- Still running
+[2013-09-13 11:59:00] -- DEBUG -- Still running
+[2013-09-13 11:59:02] -- DEBUG -- Still running
+[2013-09-13 11:59:04] -- DEBUG -- Still running
+[2013-09-13 11:59:06] -- DEBUG -- Still running
+[2013-09-13 11:59:08] -- DEBUG -- Still running
+[2013-09-13 11:59:10] -- DEBUG -- Still running
+[2013-09-13 11:59:12] -- DEBUG -- Still running
+[2013-09-13 11:59:14] -- DEBUG -- Still running
+[2013-09-13 11:59:16] -- DEBUG -- Still running
+[2013-09-13 11:59:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 11:59:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 11:59:18] -- DEBUG -- Returning new database object
+[2013-09-13 11:59:18] -- DEBUG -- Returning new database object
+[2013-09-13 11:59:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 11:59:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 11:59:18] -- DEBUG -- Still running
+[2013-09-13 11:59:20] -- DEBUG -- Still running
+[2013-09-13 11:59:22] -- DEBUG -- Still running
+[2013-09-13 11:59:24] -- DEBUG -- Still running
+[2013-09-13 11:59:26] -- DEBUG -- Still running
+[2013-09-13 11:59:28] -- DEBUG -- Still running
+[2013-09-13 11:59:30] -- DEBUG -- Still running
+[2013-09-13 11:59:32] -- DEBUG -- Still running
+[2013-09-13 11:59:34] -- DEBUG -- Still running
+[2013-09-13 11:59:36] -- DEBUG -- Still running
+[2013-09-13 11:59:38] -- DEBUG -- Still running
+[2013-09-13 11:59:40] -- DEBUG -- Still running
+[2013-09-13 11:59:42] -- DEBUG -- Still running
+[2013-09-13 11:59:44] -- DEBUG -- Still running
+[2013-09-13 11:59:46] -- DEBUG -- Still running
+[2013-09-13 11:59:48] -- DEBUG -- Still running
+[2013-09-13 11:59:50] -- DEBUG -- Still running
+[2013-09-13 11:59:52] -- DEBUG -- Still running
+[2013-09-13 11:59:54] -- DEBUG -- Still running
+[2013-09-13 11:59:56] -- DEBUG -- Still running
+[2013-09-13 11:59:58] -- DEBUG -- Still running
+[2013-09-13 12:00:00] -- DEBUG -- Still running
+[2013-09-13 12:00:02] -- DEBUG -- Still running
+[2013-09-13 12:00:04] -- DEBUG -- Still running
+[2013-09-13 12:00:06] -- DEBUG -- Still running
+[2013-09-13 12:00:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:00:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:00:08] -- DEBUG -- Still running
+[2013-09-13 12:00:10] -- DEBUG -- Still running
+[2013-09-13 12:00:12] -- DEBUG -- Still running
+[2013-09-13 12:00:14] -- DEBUG -- Still running
+[2013-09-13 12:00:16] -- DEBUG -- Still running
+[2013-09-13 12:00:18] -- DEBUG -- Still running
+[2013-09-13 12:00:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:00:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:00:20] -- DEBUG -- Still running
+[2013-09-13 12:00:22] -- DEBUG -- Still running
+[2013-09-13 12:00:24] -- DEBUG -- Still running
+[2013-09-13 12:00:26] -- DEBUG -- Still running
+[2013-09-13 12:00:28] -- DEBUG -- Still running
+[2013-09-13 12:00:30] -- DEBUG -- Still running
+[2013-09-13 12:00:32] -- DEBUG -- Still running
+[2013-09-13 12:00:34] -- DEBUG -- Still running
+[2013-09-13 12:00:36] -- DEBUG -- Still running
+[2013-09-13 12:00:38] -- DEBUG -- Still running
+[2013-09-13 12:00:40] -- DEBUG -- Still running
+[2013-09-13 12:00:42] -- DEBUG -- Still running
+[2013-09-13 12:00:44] -- DEBUG -- Still running
+[2013-09-13 12:00:46] -- DEBUG -- Still running
+[2013-09-13 12:00:48] -- DEBUG -- Still running
+[2013-09-13 12:00:50] -- DEBUG -- Still running
+[2013-09-13 12:00:52] -- DEBUG -- Still running
+[2013-09-13 12:00:54] -- DEBUG -- Still running
+[2013-09-13 12:00:56] -- DEBUG -- Still running
+[2013-09-13 12:00:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:00:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:00:58] -- DEBUG -- Still running
+[2013-09-13 12:01:00] -- DEBUG -- Still running
+[2013-09-13 12:01:02] -- DEBUG -- Still running
+[2013-09-13 12:01:04] -- DEBUG -- Still running
+[2013-09-13 12:01:06] -- DEBUG -- Still running
+[2013-09-13 12:01:08] -- DEBUG -- Still running
+[2013-09-13 12:01:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:01:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:01:10] -- DEBUG -- Still running
+[2013-09-13 12:01:12] -- DEBUG -- Still running
+[2013-09-13 12:01:14] -- DEBUG -- Still running
+[2013-09-13 12:01:16] -- DEBUG -- Still running
+[2013-09-13 12:01:18] -- DEBUG -- Still running
+[2013-09-13 12:01:20] -- DEBUG -- Still running
+[2013-09-13 12:01:22] -- DEBUG -- Still running
+[2013-09-13 12:01:24] -- DEBUG -- Still running
+[2013-09-13 12:01:26] -- DEBUG -- Still running
+[2013-09-13 12:01:28] -- DEBUG -- Still running
+[2013-09-13 12:01:30] -- DEBUG -- Still running
+[2013-09-13 12:01:32] -- DEBUG -- Still running
+[2013-09-13 12:01:34] -- DEBUG -- Still running
+[2013-09-13 12:01:36] -- DEBUG -- Still running
+[2013-09-13 12:01:38] -- DEBUG -- Still running
+[2013-09-13 12:01:40] -- DEBUG -- Still running
+[2013-09-13 12:01:42] -- DEBUG -- Still running
+[2013-09-13 12:01:44] -- DEBUG -- Still running
+[2013-09-13 12:01:46] -- DEBUG -- Still running
+[2013-09-13 12:01:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:01:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:01:48] -- DEBUG -- Still running
+[2013-09-13 12:01:50] -- DEBUG -- Still running
+[2013-09-13 12:01:52] -- DEBUG -- Still running
+[2013-09-13 12:01:54] -- DEBUG -- Still running
+[2013-09-13 12:01:56] -- DEBUG -- Still running
+[2013-09-13 12:01:58] -- DEBUG -- Still running
+[2013-09-13 12:01:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:01:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:02:00] -- DEBUG -- Still running
+[2013-09-13 12:02:02] -- DEBUG -- Still running
+[2013-09-13 12:02:04] -- DEBUG -- Still running
+[2013-09-13 12:02:06] -- DEBUG -- Still running
+[2013-09-13 12:02:08] -- DEBUG -- Still running
+[2013-09-13 12:02:10] -- DEBUG -- Still running
+[2013-09-13 12:02:12] -- DEBUG -- Still running
+[2013-09-13 12:02:14] -- DEBUG -- Still running
+[2013-09-13 12:02:16] -- DEBUG -- Still running
+[2013-09-13 12:02:18] -- DEBUG -- Still running
+[2013-09-13 12:02:20] -- DEBUG -- Still running
+[2013-09-13 12:02:22] -- DEBUG -- Still running
+[2013-09-13 12:02:24] -- DEBUG -- Still running
+[2013-09-13 12:02:26] -- DEBUG -- Still running
+[2013-09-13 12:02:28] -- DEBUG -- Still running
+[2013-09-13 12:02:30] -- DEBUG -- Still running
+[2013-09-13 12:02:32] -- DEBUG -- Still running
+[2013-09-13 12:02:34] -- DEBUG -- Still running
+[2013-09-13 12:02:36] -- DEBUG -- Still running
+[2013-09-13 12:02:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:02:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:02:38] -- DEBUG -- Still running
+[2013-09-13 12:02:40] -- DEBUG -- Still running
+[2013-09-13 12:02:42] -- DEBUG -- Still running
+[2013-09-13 12:02:44] -- DEBUG -- Still running
+[2013-09-13 12:02:46] -- DEBUG -- Still running
+[2013-09-13 12:02:48] -- DEBUG -- Still running
+[2013-09-13 12:02:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:02:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:02:50] -- DEBUG -- Still running
+[2013-09-13 12:02:52] -- DEBUG -- Still running
+[2013-09-13 12:02:54] -- DEBUG -- Still running
+[2013-09-13 12:02:56] -- DEBUG -- Still running
+[2013-09-13 12:02:58] -- DEBUG -- Still running
+[2013-09-13 12:03:00] -- DEBUG -- Still running
+[2013-09-13 12:03:02] -- DEBUG -- Still running
+[2013-09-13 12:03:04] -- DEBUG -- Still running
+[2013-09-13 12:03:06] -- DEBUG -- Still running
+[2013-09-13 12:03:08] -- DEBUG -- Still running
+[2013-09-13 12:03:10] -- DEBUG -- Still running
+[2013-09-13 12:03:12] -- DEBUG -- Still running
+[2013-09-13 12:03:14] -- DEBUG -- Still running
+[2013-09-13 12:03:16] -- DEBUG -- Still running
+[2013-09-13 12:03:18] -- DEBUG -- Still running
+[2013-09-13 12:03:20] -- DEBUG -- Still running
+[2013-09-13 12:03:22] -- DEBUG -- Still running
+[2013-09-13 12:03:24] -- DEBUG -- Still running
+[2013-09-13 12:03:26] -- DEBUG -- Still running
+[2013-09-13 12:03:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:03:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:03:28] -- DEBUG -- Still running
+[2013-09-13 12:03:30] -- DEBUG -- Still running
+[2013-09-13 12:03:32] -- DEBUG -- Still running
+[2013-09-13 12:03:34] -- DEBUG -- Still running
+[2013-09-13 12:03:36] -- DEBUG -- Still running
+[2013-09-13 12:03:38] -- DEBUG -- Still running
+[2013-09-13 12:03:39] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:03:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:03:40] -- DEBUG -- Still running
+[2013-09-13 12:03:42] -- DEBUG -- Still running
+[2013-09-13 12:03:44] -- DEBUG -- Still running
+[2013-09-13 12:03:46] -- DEBUG -- Still running
+[2013-09-13 12:03:48] -- DEBUG -- Still running
+[2013-09-13 12:03:50] -- DEBUG -- Still running
+[2013-09-13 12:03:52] -- DEBUG -- Still running
+[2013-09-13 12:03:54] -- DEBUG -- Still running
+[2013-09-13 12:03:56] -- DEBUG -- Still running
+[2013-09-13 12:03:58] -- DEBUG -- Still running
+[2013-09-13 12:04:00] -- DEBUG -- Still running
+[2013-09-13 12:04:02] -- DEBUG -- Still running
+[2013-09-13 12:04:04] -- DEBUG -- Still running
+[2013-09-13 12:04:06] -- DEBUG -- Still running
+[2013-09-13 12:04:08] -- DEBUG -- Still running
+[2013-09-13 12:04:10] -- DEBUG -- Still running
+[2013-09-13 12:04:12] -- DEBUG -- Still running
+[2013-09-13 12:04:14] -- DEBUG -- Still running
+[2013-09-13 12:04:16] -- DEBUG -- Still running
+[2013-09-13 12:04:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:04:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:04:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:04:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:04:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 12:04:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 12:04:18] -- DEBUG -- Still running
+[2013-09-13 12:04:20] -- DEBUG -- Still running
+[2013-09-13 12:04:22] -- DEBUG -- Still running
+[2013-09-13 12:04:24] -- DEBUG -- Still running
+[2013-09-13 12:04:26] -- DEBUG -- Still running
+[2013-09-13 12:04:28] -- DEBUG -- Still running
+[2013-09-13 12:04:29] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:04:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:04:30] -- DEBUG -- Still running
+[2013-09-13 12:04:32] -- DEBUG -- Still running
+[2013-09-13 12:04:34] -- DEBUG -- Still running
+[2013-09-13 12:04:36] -- DEBUG -- Still running
+[2013-09-13 12:04:38] -- DEBUG -- Still running
+[2013-09-13 12:04:40] -- DEBUG -- Still running
+[2013-09-13 12:04:42] -- DEBUG -- Still running
+[2013-09-13 12:04:44] -- DEBUG -- Still running
+[2013-09-13 12:04:46] -- DEBUG -- Still running
+[2013-09-13 12:04:48] -- DEBUG -- Still running
+[2013-09-13 12:04:50] -- DEBUG -- Still running
+[2013-09-13 12:04:52] -- DEBUG -- Still running
+[2013-09-13 12:04:54] -- DEBUG -- Still running
+[2013-09-13 12:04:56] -- DEBUG -- Still running
+[2013-09-13 12:04:58] -- DEBUG -- Still running
+[2013-09-13 12:05:00] -- DEBUG -- Still running
+[2013-09-13 12:05:02] -- DEBUG -- Still running
+[2013-09-13 12:05:04] -- DEBUG -- Still running
+[2013-09-13 12:05:06] -- DEBUG -- Still running
+[2013-09-13 12:05:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:05:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:05:08] -- DEBUG -- Still running
+[2013-09-13 12:05:10] -- DEBUG -- Still running
+[2013-09-13 12:05:12] -- DEBUG -- Still running
+[2013-09-13 12:05:14] -- DEBUG -- Still running
+[2013-09-13 12:05:16] -- DEBUG -- Still running
+[2013-09-13 12:05:18] -- DEBUG -- Still running
+[2013-09-13 12:05:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:05:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:05:20] -- DEBUG -- Still running
+[2013-09-13 12:05:22] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:05:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:05:22] -- DEBUG -- Still running
+[2013-09-13 12:05:24] -- DEBUG -- Still running
+[2013-09-13 12:05:26] -- DEBUG -- Still running
+[2013-09-13 12:05:28] -- DEBUG -- Still running
+[2013-09-13 12:05:30] -- DEBUG -- Still running
+[2013-09-13 12:05:32] -- DEBUG -- Still running
+[2013-09-13 12:05:34] -- DEBUG -- Still running
+[2013-09-13 12:05:36] -- DEBUG -- Still running
+[2013-09-13 12:05:38] -- DEBUG -- Still running
+[2013-09-13 12:05:40] -- DEBUG -- Still running
+[2013-09-13 12:05:42] -- DEBUG -- Still running
+[2013-09-13 12:05:44] -- DEBUG -- Still running
+[2013-09-13 12:05:46] -- DEBUG -- Still running
+[2013-09-13 12:05:48] -- DEBUG -- Still running
+[2013-09-13 12:05:50] -- DEBUG -- Still running
+[2013-09-13 12:05:52] -- DEBUG -- Still running
+[2013-09-13 12:05:54] -- DEBUG -- Still running
+[2013-09-13 12:05:56] -- DEBUG -- Still running
+[2013-09-13 12:05:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:05:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:05:58] -- DEBUG -- Still running
+[2013-09-13 12:06:00] -- DEBUG -- Still running
+[2013-09-13 12:06:02] -- DEBUG -- Still running
+[2013-09-13 12:06:04] -- DEBUG -- Still running
+[2013-09-13 12:06:06] -- DEBUG -- Still running
+[2013-09-13 12:06:08] -- DEBUG -- Still running
+[2013-09-13 12:06:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:06:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:06:10] -- DEBUG -- Still running
+[2013-09-13 12:06:12] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:06:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:06:12] -- DEBUG -- Still running
+[2013-09-13 12:06:14] -- DEBUG -- Still running
+[2013-09-13 12:06:16] -- DEBUG -- Still running
+[2013-09-13 12:06:18] -- DEBUG -- Still running
+[2013-09-13 12:06:20] -- DEBUG -- Still running
+[2013-09-13 12:06:22] -- DEBUG -- Still running
+[2013-09-13 12:06:24] -- DEBUG -- Still running
+[2013-09-13 12:06:26] -- DEBUG -- Still running
+[2013-09-13 12:06:28] -- DEBUG -- Still running
+[2013-09-13 12:06:30] -- DEBUG -- Still running
+[2013-09-13 12:06:32] -- DEBUG -- Still running
+[2013-09-13 12:06:34] -- DEBUG -- Still running
+[2013-09-13 12:06:36] -- DEBUG -- Still running
+[2013-09-13 12:06:38] -- DEBUG -- Still running
+[2013-09-13 12:06:40] -- DEBUG -- Still running
+[2013-09-13 12:06:42] -- DEBUG -- Still running
+[2013-09-13 12:06:44] -- DEBUG -- Still running
+[2013-09-13 12:06:46] -- DEBUG -- Still running
+[2013-09-13 12:06:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:06:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:06:48] -- DEBUG -- Still running
+[2013-09-13 12:06:50] -- DEBUG -- Still running
+[2013-09-13 12:06:52] -- DEBUG -- Still running
+[2013-09-13 12:06:54] -- DEBUG -- Still running
+[2013-09-13 12:06:56] -- DEBUG -- Still running
+[2013-09-13 12:06:58] -- DEBUG -- Still running
+[2013-09-13 12:06:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:06:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:07:00] -- DEBUG -- Still running
+[2013-09-13 12:07:02] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:07:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:07:02] -- DEBUG -- Still running
+[2013-09-13 12:07:04] -- DEBUG -- Still running
+[2013-09-13 12:07:06] -- DEBUG -- Still running
+[2013-09-13 12:07:08] -- DEBUG -- Still running
+[2013-09-13 12:07:10] -- DEBUG -- Still running
+[2013-09-13 12:07:12] -- DEBUG -- Still running
+[2013-09-13 12:07:14] -- DEBUG -- Still running
+[2013-09-13 12:07:16] -- DEBUG -- Still running
+[2013-09-13 12:07:18] -- DEBUG -- Still running
+[2013-09-13 12:07:20] -- DEBUG -- Still running
+[2013-09-13 12:07:22] -- DEBUG -- Still running
+[2013-09-13 12:07:24] -- DEBUG -- Still running
+[2013-09-13 12:07:26] -- DEBUG -- Still running
+[2013-09-13 12:07:28] -- DEBUG -- Still running
+[2013-09-13 12:07:30] -- DEBUG -- Still running
+[2013-09-13 12:07:32] -- DEBUG -- Still running
+[2013-09-13 12:07:34] -- DEBUG -- Still running
+[2013-09-13 12:07:36] -- DEBUG -- Still running
+[2013-09-13 12:07:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:07:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:07:38] -- DEBUG -- Still running
+[2013-09-13 12:07:40] -- DEBUG -- Still running
+[2013-09-13 12:07:42] -- DEBUG -- Still running
+[2013-09-13 12:07:44] -- DEBUG -- Still running
+[2013-09-13 12:07:47] -- DEBUG -- Still running
+[2013-09-13 12:07:49] -- DEBUG -- Still running
+[2013-09-13 12:07:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:07:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:07:51] -- DEBUG -- Still running
+[2013-09-13 12:07:52] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:07:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:07:53] -- DEBUG -- Still running
+[2013-09-13 12:07:55] -- DEBUG -- Still running
+[2013-09-13 12:07:57] -- DEBUG -- Still running
+[2013-09-13 12:07:59] -- DEBUG -- Still running
+[2013-09-13 12:08:01] -- DEBUG -- Still running
+[2013-09-13 12:08:03] -- DEBUG -- Still running
+[2013-09-13 12:08:05] -- DEBUG -- Still running
+[2013-09-13 12:08:07] -- DEBUG -- Still running
+[2013-09-13 12:08:09] -- DEBUG -- Still running
+[2013-09-13 12:08:11] -- DEBUG -- Still running
+[2013-09-13 12:08:13] -- DEBUG -- Still running
+[2013-09-13 12:08:15] -- DEBUG -- Still running
+[2013-09-13 12:08:17] -- DEBUG -- Still running
+[2013-09-13 12:08:19] -- DEBUG -- Still running
+[2013-09-13 12:08:21] -- DEBUG -- Still running
+[2013-09-13 12:08:23] -- DEBUG -- Still running
+[2013-09-13 12:08:25] -- DEBUG -- Still running
+[2013-09-13 12:08:27] -- DEBUG -- Still running
+[2013-09-13 12:08:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:08:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:08:29] -- DEBUG -- Still running
+[2013-09-13 12:08:31] -- DEBUG -- Still running
+[2013-09-13 12:08:33] -- DEBUG -- Still running
+[2013-09-13 12:08:35] -- DEBUG -- Still running
+[2013-09-13 12:08:37] -- DEBUG -- Still running
+[2013-09-13 12:08:39] -- DEBUG -- Still running
+[2013-09-13 12:08:39] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:08:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:08:41] -- DEBUG -- Still running
+[2013-09-13 12:08:42] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:08:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:08:43] -- DEBUG -- Still running
+[2013-09-13 12:08:45] -- DEBUG -- Still running
+[2013-09-13 12:08:47] -- DEBUG -- Still running
+[2013-09-13 12:08:49] -- DEBUG -- Still running
+[2013-09-13 12:08:51] -- DEBUG -- Still running
+[2013-09-13 12:08:53] -- DEBUG -- Still running
+[2013-09-13 12:08:55] -- DEBUG -- Still running
+[2013-09-13 12:08:57] -- DEBUG -- Still running
+[2013-09-13 12:08:59] -- DEBUG -- Still running
+[2013-09-13 12:09:01] -- DEBUG -- Still running
+[2013-09-13 12:09:03] -- DEBUG -- Still running
+[2013-09-13 12:09:05] -- DEBUG -- Still running
+[2013-09-13 12:09:07] -- DEBUG -- Still running
+[2013-09-13 12:09:09] -- DEBUG -- Still running
+[2013-09-13 12:09:11] -- DEBUG -- Still running
+[2013-09-13 12:09:13] -- DEBUG -- Still running
+[2013-09-13 12:09:15] -- DEBUG -- Still running
+[2013-09-13 12:09:17] -- DEBUG -- Still running
+[2013-09-13 12:09:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:09:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:09:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:09:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:09:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 12:09:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 12:09:19] -- DEBUG -- Still running
+[2013-09-13 12:09:21] -- DEBUG -- Still running
+[2013-09-13 12:09:23] -- DEBUG -- Still running
+[2013-09-13 12:09:25] -- DEBUG -- Still running
+[2013-09-13 12:09:27] -- DEBUG -- Still running
+[2013-09-13 12:09:29] -- DEBUG -- Still running
+[2013-09-13 12:09:29] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:09:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:09:31] -- DEBUG -- Still running
+[2013-09-13 12:09:32] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:09:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:09:33] -- DEBUG -- Still running
+[2013-09-13 12:09:35] -- DEBUG -- Still running
+[2013-09-13 12:09:37] -- DEBUG -- Still running
+[2013-09-13 12:09:39] -- DEBUG -- Still running
+[2013-09-13 12:09:41] -- DEBUG -- Still running
+[2013-09-13 12:09:43] -- DEBUG -- Still running
+[2013-09-13 12:09:45] -- DEBUG -- Still running
+[2013-09-13 12:09:47] -- DEBUG -- Still running
+[2013-09-13 12:09:49] -- DEBUG -- Still running
+[2013-09-13 12:09:51] -- DEBUG -- Still running
+[2013-09-13 12:09:53] -- DEBUG -- Still running
+[2013-09-13 12:09:55] -- DEBUG -- Still running
+[2013-09-13 12:09:57] -- DEBUG -- Still running
+[2013-09-13 12:09:59] -- DEBUG -- Still running
+[2013-09-13 12:10:01] -- DEBUG -- Still running
+[2013-09-13 12:10:03] -- DEBUG -- Still running
+[2013-09-13 12:10:05] -- DEBUG -- Still running
+[2013-09-13 12:10:07] -- DEBUG -- Still running
+[2013-09-13 12:10:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:10:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:10:09] -- DEBUG -- Still running
+[2013-09-13 12:10:11] -- DEBUG -- Still running
+[2013-09-13 12:10:13] -- DEBUG -- Still running
+[2013-09-13 12:10:15] -- DEBUG -- Still running
+[2013-09-13 12:10:17] -- DEBUG -- Still running
+[2013-09-13 12:10:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:10:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:10:19] -- DEBUG -- Still running
+[2013-09-13 12:10:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:10:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:10:21] -- DEBUG -- Still running
+[2013-09-13 12:10:22] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:10:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:10:23] -- DEBUG -- Still running
+[2013-09-13 12:10:25] -- DEBUG -- Still running
+[2013-09-13 12:10:27] -- DEBUG -- Still running
+[2013-09-13 12:10:29] -- DEBUG -- Still running
+[2013-09-13 12:10:31] -- DEBUG -- Still running
+[2013-09-13 12:10:33] -- DEBUG -- Still running
+[2013-09-13 12:10:35] -- DEBUG -- Still running
+[2013-09-13 12:10:37] -- DEBUG -- Still running
+[2013-09-13 12:10:39] -- DEBUG -- Still running
+[2013-09-13 12:10:41] -- DEBUG -- Still running
+[2013-09-13 12:10:43] -- DEBUG -- Still running
+[2013-09-13 12:10:45] -- DEBUG -- Still running
+[2013-09-13 12:10:47] -- DEBUG -- Still running
+[2013-09-13 12:10:49] -- DEBUG -- Still running
+[2013-09-13 12:10:51] -- DEBUG -- Still running
+[2013-09-13 12:10:53] -- DEBUG -- Still running
+[2013-09-13 12:10:55] -- DEBUG -- Still running
+[2013-09-13 12:10:57] -- DEBUG -- Still running
+[2013-09-13 12:10:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:10:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:10:59] -- DEBUG -- Still running
+[2013-09-13 12:11:01] -- DEBUG -- Still running
+[2013-09-13 12:11:03] -- DEBUG -- Still running
+[2013-09-13 12:11:05] -- DEBUG -- Still running
+[2013-09-13 12:11:07] -- DEBUG -- Still running
+[2013-09-13 12:11:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:11:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:11:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:09] -- DEBUG -- Still running
+[2013-09-13 12:11:11] -- DEBUG -- Still running
+[2013-09-13 12:11:12] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:11:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:13] -- DEBUG -- Still running
+[2013-09-13 12:11:15] -- DEBUG -- Still running
+[2013-09-13 12:11:17] -- DEBUG -- Still running
+[2013-09-13 12:11:19] -- DEBUG -- Still running
+[2013-09-13 12:11:21] -- DEBUG -- Still running
+[2013-09-13 12:11:23] -- DEBUG -- Still running
+[2013-09-13 12:11:25] -- DEBUG -- Still running
+[2013-09-13 12:11:27] -- DEBUG -- Still running
+[2013-09-13 12:11:29] -- DEBUG -- Still running
+[2013-09-13 12:11:31] -- DEBUG -- Still running
+[2013-09-13 12:11:33] -- DEBUG -- Still running
+[2013-09-13 12:11:35] -- DEBUG -- Still running
+[2013-09-13 12:11:37] -- DEBUG -- Still running
+[2013-09-13 12:11:39] -- DEBUG -- Still running
+[2013-09-13 12:11:41] -- DEBUG -- Still running
+[2013-09-13 12:11:43] -- DEBUG -- Still running
+[2013-09-13 12:11:45] -- DEBUG -- Still running
+[2013-09-13 12:11:47] -- DEBUG -- Still running
+[2013-09-13 12:11:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:11:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:49] -- DEBUG -- Still running
+[2013-09-13 12:11:51] -- DEBUG -- Still running
+[2013-09-13 12:11:53] -- DEBUG -- Still running
+[2013-09-13 12:11:55] -- DEBUG -- Still running
+[2013-09-13 12:11:57] -- DEBUG -- Still running
+[2013-09-13 12:11:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:11:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:11:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:11:59] -- DEBUG -- Still running
+[2013-09-13 12:12:01] -- DEBUG -- Still running
+[2013-09-13 12:12:02] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:12:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:12:03] -- DEBUG -- Still running
+[2013-09-13 12:12:05] -- DEBUG -- Still running
+[2013-09-13 12:12:07] -- DEBUG -- Still running
+[2013-09-13 12:12:09] -- DEBUG -- Still running
+[2013-09-13 12:12:11] -- DEBUG -- Still running
+[2013-09-13 12:12:13] -- DEBUG -- Still running
+[2013-09-13 12:12:15] -- DEBUG -- Still running
+[2013-09-13 12:12:17] -- DEBUG -- Still running
+[2013-09-13 12:12:19] -- DEBUG -- Still running
+[2013-09-13 12:12:21] -- DEBUG -- Still running
+[2013-09-13 12:12:23] -- DEBUG -- Still running
+[2013-09-13 12:12:25] -- DEBUG -- Still running
+[2013-09-13 12:12:27] -- DEBUG -- Still running
+[2013-09-13 12:12:29] -- DEBUG -- Still running
+[2013-09-13 12:12:31] -- DEBUG -- Still running
+[2013-09-13 12:12:33] -- DEBUG -- Still running
+[2013-09-13 12:12:35] -- DEBUG -- Still running
+[2013-09-13 12:12:37] -- DEBUG -- Still running
+[2013-09-13 12:12:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:12:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:12:39] -- DEBUG -- Still running
+[2013-09-13 12:12:41] -- DEBUG -- Still running
+[2013-09-13 12:12:43] -- DEBUG -- Still running
+[2013-09-13 12:12:45] -- DEBUG -- Still running
+[2013-09-13 12:12:47] -- DEBUG -- Still running
+[2013-09-13 12:12:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:12:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:12:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:12:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:12:49] -- DEBUG -- Still running
+[2013-09-13 12:12:51] -- DEBUG -- Still running
+[2013-09-13 12:12:52] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:12:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:12:53] -- DEBUG -- Still running
+[2013-09-13 12:12:55] -- DEBUG -- Still running
+[2013-09-13 12:12:57] -- DEBUG -- Still running
+[2013-09-13 12:12:59] -- DEBUG -- Still running
+[2013-09-13 12:13:01] -- DEBUG -- Still running
+[2013-09-13 12:13:03] -- DEBUG -- Still running
+[2013-09-13 12:13:05] -- DEBUG -- Still running
+[2013-09-13 12:13:07] -- DEBUG -- Still running
+[2013-09-13 12:13:09] -- DEBUG -- Still running
+[2013-09-13 12:13:11] -- DEBUG -- Still running
+[2013-09-13 12:13:13] -- DEBUG -- Still running
+[2013-09-13 12:13:15] -- DEBUG -- Still running
+[2013-09-13 12:13:17] -- DEBUG -- Still running
+[2013-09-13 12:13:19] -- DEBUG -- Still running
+[2013-09-13 12:13:21] -- DEBUG -- Still running
+[2013-09-13 12:13:23] -- DEBUG -- Still running
+[2013-09-13 12:13:25] -- DEBUG -- Still running
+[2013-09-13 12:13:27] -- DEBUG -- Still running
+[2013-09-13 12:13:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:13:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:13:29] -- DEBUG -- Still running
+[2013-09-13 12:13:31] -- DEBUG -- Still running
+[2013-09-13 12:13:33] -- DEBUG -- Still running
+[2013-09-13 12:13:35] -- DEBUG -- Still running
+[2013-09-13 12:13:37] -- DEBUG -- Still running
+[2013-09-13 12:13:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:13:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:13:39] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:13:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:13:39] -- DEBUG -- Still running
+[2013-09-13 12:13:41] -- DEBUG -- Still running
+[2013-09-13 12:13:42] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:13:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:13:43] -- DEBUG -- Still running
+[2013-09-13 12:13:45] -- DEBUG -- Still running
+[2013-09-13 12:13:47] -- DEBUG -- Still running
+[2013-09-13 12:13:49] -- DEBUG -- Still running
+[2013-09-13 12:13:51] -- DEBUG -- Still running
+[2013-09-13 12:13:53] -- DEBUG -- Still running
+[2013-09-13 12:13:55] -- DEBUG -- Still running
+[2013-09-13 12:13:57] -- DEBUG -- Still running
+[2013-09-13 12:13:59] -- DEBUG -- Still running
+[2013-09-13 12:14:01] -- DEBUG -- Still running
+[2013-09-13 12:14:03] -- DEBUG -- Still running
+[2013-09-13 12:14:05] -- DEBUG -- Still running
+[2013-09-13 12:14:07] -- DEBUG -- Still running
+[2013-09-13 12:14:09] -- DEBUG -- Still running
+[2013-09-13 12:14:11] -- DEBUG -- Still running
+[2013-09-13 12:14:13] -- DEBUG -- Still running
+[2013-09-13 12:14:15] -- DEBUG -- Still running
+[2013-09-13 12:14:17] -- DEBUG -- Still running
+[2013-09-13 12:14:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>[2013-09-13 12:14:18] -- DEBUG -- Returning new database object
+
+[2013-09-13 12:14:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:14:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:14:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 12:14:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 12:14:19] -- DEBUG -- Still running
+[2013-09-13 12:14:21] -- DEBUG -- Still running
+[2013-09-13 12:14:23] -- DEBUG -- Still running
+[2013-09-13 12:14:25] -- DEBUG -- Still running
+[2013-09-13 12:14:27] -- DEBUG -- Still running
+[2013-09-13 12:14:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:14:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:14:29] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:14:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:14:29] -- DEBUG -- Still running
+[2013-09-13 12:14:31] -- DEBUG -- Still running
+[2013-09-13 12:14:32] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:14:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:14:33] -- DEBUG -- Still running
+[2013-09-13 12:14:35] -- DEBUG -- Still running
+[2013-09-13 12:14:37] -- DEBUG -- Still running
+[2013-09-13 12:14:39] -- DEBUG -- Still running
+[2013-09-13 12:14:41] -- DEBUG -- Still running
+[2013-09-13 12:14:43] -- DEBUG -- Still running
+[2013-09-13 12:14:45] -- DEBUG -- Still running
+[2013-09-13 12:14:47] -- DEBUG -- Still running
+[2013-09-13 12:14:49] -- DEBUG -- Still running
+[2013-09-13 12:14:51] -- DEBUG -- Still running
+[2013-09-13 12:14:53] -- DEBUG -- Still running
+[2013-09-13 12:14:55] -- DEBUG -- Still running
+[2013-09-13 12:14:57] -- DEBUG -- Still running
+[2013-09-13 12:14:59] -- DEBUG -- Still running
+[2013-09-13 12:15:01] -- DEBUG -- Still running
+[2013-09-13 12:15:03] -- DEBUG -- Still running
+[2013-09-13 12:15:05] -- DEBUG -- Still running
+[2013-09-13 12:15:07] -- DEBUG -- Still running
+[2013-09-13 12:15:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:15:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:09] -- DEBUG -- Still running
+[2013-09-13 12:15:11] -- DEBUG -- Still running
+[2013-09-13 12:15:13] -- DEBUG -- Still running
+[2013-09-13 12:15:15] -- DEBUG -- Still running
+[2013-09-13 12:15:17] -- DEBUG -- Still running
+[2013-09-13 12:15:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:15:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:15:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:15:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:19] -- DEBUG -- Still running
+[2013-09-13 12:15:21] -- DEBUG -- Still running
+[2013-09-13 12:15:22] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:15:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:23] -- DEBUG -- Still running
+[2013-09-13 12:15:25] -- DEBUG -- Still running
+[2013-09-13 12:15:27] -- DEBUG -- Still running
+[2013-09-13 12:15:29] -- DEBUG -- Still running
+[2013-09-13 12:15:31] -- DEBUG -- Still running
+[2013-09-13 12:15:33] -- DEBUG -- Still running
+[2013-09-13 12:15:35] -- DEBUG -- Still running
+[2013-09-13 12:15:37] -- DEBUG -- Still running
+[2013-09-13 12:15:39] -- DEBUG -- Still running
+[2013-09-13 12:15:41] -- DEBUG -- Still running
+[2013-09-13 12:15:43] -- DEBUG -- Still running
+[2013-09-13 12:15:45] -- DEBUG -- Still running
+[2013-09-13 12:15:47] -- DEBUG -- Still running
+[2013-09-13 12:15:49] -- DEBUG -- Still running
+[2013-09-13 12:15:51] -- DEBUG -- Still running
+[2013-09-13 12:15:53] -- DEBUG -- Still running
+[2013-09-13 12:15:55] -- DEBUG -- Still running
+[2013-09-13 12:15:57] -- DEBUG -- Still running
+[2013-09-13 12:15:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:15:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:15:59] -- DEBUG -- Still running
+[2013-09-13 12:16:01] -- DEBUG -- Still running
+[2013-09-13 12:16:03] -- DEBUG -- Still running
+[2013-09-13 12:16:05] -- DEBUG -- Still running
+[2013-09-13 12:16:07] -- DEBUG -- Still running
+[2013-09-13 12:16:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:16:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:16:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:16:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:09] -- DEBUG -- Still running
+[2013-09-13 12:16:11] -- DEBUG -- Still running
+[2013-09-13 12:16:12] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:16:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:13] -- DEBUG -- Still running
+[2013-09-13 12:16:15] -- DEBUG -- Still running
+[2013-09-13 12:16:17] -- DEBUG -- Still running
+[2013-09-13 12:16:19] -- DEBUG -- Still running
+[2013-09-13 12:16:21] -- DEBUG -- Still running
+[2013-09-13 12:16:23] -- DEBUG -- Still running
+[2013-09-13 12:16:25] -- DEBUG -- Still running
+[2013-09-13 12:16:27] -- DEBUG -- Still running
+[2013-09-13 12:16:29] -- DEBUG -- Still running
+[2013-09-13 12:16:31] -- DEBUG -- Still running
+[2013-09-13 12:16:33] -- DEBUG -- Still running
+[2013-09-13 12:16:35] -- DEBUG -- Still running
+[2013-09-13 12:16:37] -- DEBUG -- Still running
+[2013-09-13 12:16:39] -- DEBUG -- Still running
+[2013-09-13 12:16:41] -- DEBUG -- Still running
+[2013-09-13 12:16:43] -- DEBUG -- Still running
+[2013-09-13 12:16:45] -- DEBUG -- Still running
+[2013-09-13 12:16:47] -- DEBUG -- Still running
+[2013-09-13 12:16:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:16:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:49] -- DEBUG -- Still running
+[2013-09-13 12:16:51] -- DEBUG -- Still running
+[2013-09-13 12:16:53] -- DEBUG -- Still running
+[2013-09-13 12:16:55] -- DEBUG -- Still running
+[2013-09-13 12:16:57] -- DEBUG -- Still running
+[2013-09-13 12:16:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:16:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:16:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:16:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:16:59] -- DEBUG -- Still running
+[2013-09-13 12:17:01] -- DEBUG -- Still running
+[2013-09-13 12:17:02] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:17:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:03] -- DEBUG -- Still running
+[2013-09-13 12:17:05] -- DEBUG -- Still running
+[2013-09-13 12:17:07] -- DEBUG -- Still running
+[2013-09-13 12:17:09] -- DEBUG -- Still running
+[2013-09-13 12:17:11] -- DEBUG -- Still running
+[2013-09-13 12:17:13] -- DEBUG -- Still running
+[2013-09-13 12:17:15] -- DEBUG -- Still running
+[2013-09-13 12:17:17] -- DEBUG -- Still running
+[2013-09-13 12:17:19] -- DEBUG -- Still running
+[2013-09-13 12:17:21] -- DEBUG -- Still running
+[2013-09-13 12:17:23] -- DEBUG -- Still running
+[2013-09-13 12:17:25] -- DEBUG -- Still running
+[2013-09-13 12:17:27] -- DEBUG -- Still running
+[2013-09-13 12:17:29] -- DEBUG -- Still running
+[2013-09-13 12:17:31] -- DEBUG -- Still running
+[2013-09-13 12:17:33] -- DEBUG -- Still running
+[2013-09-13 12:17:35] -- DEBUG -- Still running
+[2013-09-13 12:17:37] -- DEBUG -- Still running
+[2013-09-13 12:17:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:17:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:39] -- DEBUG -- Still running
+[2013-09-13 12:17:41] -- DEBUG -- Still running
+[2013-09-13 12:17:43] -- DEBUG -- Still running
+[2013-09-13 12:17:45] -- DEBUG -- Still running
+[2013-09-13 12:17:47] -- DEBUG -- Still running
+[2013-09-13 12:17:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:17:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:17:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:17:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:49] -- DEBUG -- Still running
+[2013-09-13 12:17:51] -- DEBUG -- Still running
+[2013-09-13 12:17:52] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:17:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:17:53] -- DEBUG -- Still running
+[2013-09-13 12:17:55] -- DEBUG -- Still running
+[2013-09-13 12:17:57] -- DEBUG -- Still running
+[2013-09-13 12:17:59] -- DEBUG -- Still running
+[2013-09-13 12:18:01] -- DEBUG -- Still running
+[2013-09-13 12:18:03] -- DEBUG -- Still running
+[2013-09-13 12:18:05] -- DEBUG -- Still running
+[2013-09-13 12:18:07] -- DEBUG -- Still running
+[2013-09-13 12:18:09] -- DEBUG -- Still running
+[2013-09-13 12:18:11] -- DEBUG -- Still running
+[2013-09-13 12:18:13] -- DEBUG -- Still running
+[2013-09-13 12:18:15] -- DEBUG -- Still running
+[2013-09-13 12:18:17] -- DEBUG -- Still running
+[2013-09-13 12:18:19] -- DEBUG -- Still running
+[2013-09-13 12:18:21] -- DEBUG -- Still running
+[2013-09-13 12:18:23] -- DEBUG -- Still running
+[2013-09-13 12:18:25] -- DEBUG -- Still running
+[2013-09-13 12:18:27] -- DEBUG -- Still running
+[2013-09-13 12:18:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:18:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:18:29] -- DEBUG -- Still running
+[2013-09-13 12:18:31] -- DEBUG -- Still running
+[2013-09-13 12:18:33] -- DEBUG -- Still running
+[2013-09-13 12:18:35] -- DEBUG -- Still running
+[2013-09-13 12:18:37] -- DEBUG -- Still running
+[2013-09-13 12:18:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:18:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:18:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:18:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:18:39] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:18:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:18:39] -- DEBUG -- Still running
+[2013-09-13 12:18:41] -- DEBUG -- Still running
+[2013-09-13 12:18:42] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:18:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:18:43] -- DEBUG -- Still running
+[2013-09-13 12:18:45] -- DEBUG -- Still running
+[2013-09-13 12:18:47] -- DEBUG -- Still running
+[2013-09-13 12:18:49] -- DEBUG -- Still running
+[2013-09-13 12:18:51] -- DEBUG -- Still running
+[2013-09-13 12:18:53] -- DEBUG -- Still running
+[2013-09-13 12:18:55] -- DEBUG -- Still running
+[2013-09-13 12:18:57] -- DEBUG -- Still running
+[2013-09-13 12:18:59] -- DEBUG -- Still running
+[2013-09-13 12:19:01] -- DEBUG -- Still running
+[2013-09-13 12:19:03] -- DEBUG -- Still running
+[2013-09-13 12:19:05] -- DEBUG -- Still running
+[2013-09-13 12:19:07] -- DEBUG -- Still running
+[2013-09-13 12:19:09] -- DEBUG -- Still running
+[2013-09-13 12:19:11] -- DEBUG -- Still running
+[2013-09-13 12:19:13] -- DEBUG -- Still running
+[2013-09-13 12:19:15] -- DEBUG -- Still running
+[2013-09-13 12:19:17] -- DEBUG -- Still running
+[2013-09-13 12:19:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:19:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:19:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:19:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:19:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 12:19:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 12:19:19] -- DEBUG -- Still running
+[2013-09-13 12:19:21] -- DEBUG -- Still running
+[2013-09-13 12:19:23] -- DEBUG -- Still running
+[2013-09-13 12:19:25] -- DEBUG -- Still running
+[2013-09-13 12:19:27] -- DEBUG -- Still running
+[2013-09-13 12:19:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:19:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:19:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:19:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:19:29] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:19:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:19:29] -- DEBUG -- Still running
+[2013-09-13 12:19:31] -- DEBUG -- Still running
+[2013-09-13 12:19:32] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:19:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:19:33] -- DEBUG -- Still running
+[2013-09-13 12:19:35] -- DEBUG -- Still running
+[2013-09-13 12:19:37] -- DEBUG -- Still running
+[2013-09-13 12:19:39] -- DEBUG -- Still running
+[2013-09-13 12:19:41] -- DEBUG -- Still running
+[2013-09-13 12:19:43] -- DEBUG -- Still running
+[2013-09-13 12:19:45] -- DEBUG -- Still running
+[2013-09-13 12:19:47] -- DEBUG -- Still running
+[2013-09-13 12:19:49] -- DEBUG -- Still running
+[2013-09-13 12:19:51] -- DEBUG -- Still running
+[2013-09-13 12:19:53] -- DEBUG -- Still running
+[2013-09-13 12:19:55] -- DEBUG -- Still running
+[2013-09-13 12:19:57] -- DEBUG -- Still running
+[2013-09-13 12:19:59] -- DEBUG -- Still running
+[2013-09-13 12:20:01] -- DEBUG -- Still running
+[2013-09-13 12:20:03] -- DEBUG -- Still running
+[2013-09-13 12:20:05] -- DEBUG -- Still running
+[2013-09-13 12:20:07] -- DEBUG -- Still running
+[2013-09-13 12:20:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:20:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:09] -- DEBUG -- Still running
+[2013-09-13 12:20:11] -- DEBUG -- Still running
+[2013-09-13 12:20:13] -- DEBUG -- Still running
+[2013-09-13 12:20:15] -- DEBUG -- Still running
+[2013-09-13 12:20:17] -- DEBUG -- Still running
+[2013-09-13 12:20:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:20:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:20:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:20:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:20:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:19] -- DEBUG -- Still running
+[2013-09-13 12:20:21] -- DEBUG -- Still running
+[2013-09-13 12:20:22] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:20:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:23] -- DEBUG -- Still running
+[2013-09-13 12:20:25] -- DEBUG -- Still running
+[2013-09-13 12:20:27] -- DEBUG -- Still running
+[2013-09-13 12:20:29] -- DEBUG -- Still running
+[2013-09-13 12:20:31] -- DEBUG -- Still running
+[2013-09-13 12:20:33] -- DEBUG -- Still running
+[2013-09-13 12:20:35] -- DEBUG -- Still running
+[2013-09-13 12:20:37] -- DEBUG -- Still running
+[2013-09-13 12:20:39] -- DEBUG -- Still running
+[2013-09-13 12:20:41] -- DEBUG -- Still running
+[2013-09-13 12:20:43] -- DEBUG -- Still running
+[2013-09-13 12:20:45] -- DEBUG -- Still running
+[2013-09-13 12:20:47] -- DEBUG -- Still running
+[2013-09-13 12:20:49] -- DEBUG -- Still running
+[2013-09-13 12:20:51] -- DEBUG -- Still running
+[2013-09-13 12:20:53] -- DEBUG -- Still running
+[2013-09-13 12:20:55] -- DEBUG -- Still running
+[2013-09-13 12:20:57] -- DEBUG -- Still running
+[2013-09-13 12:20:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:20:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:20:59] -- DEBUG -- Still running
+[2013-09-13 12:21:01] -- DEBUG -- Still running
+[2013-09-13 12:21:03] -- DEBUG -- Still running
+[2013-09-13 12:21:05] -- DEBUG -- Still running
+[2013-09-13 12:21:07] -- DEBUG -- Still running
+[2013-09-13 12:21:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:21:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:21:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:21:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:21:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:09] -- DEBUG -- Still running
+[2013-09-13 12:21:11] -- DEBUG -- Still running
+[2013-09-13 12:21:12] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:21:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:13] -- DEBUG -- Still running
+[2013-09-13 12:21:15] -- DEBUG -- Still running
+[2013-09-13 12:21:17] -- DEBUG -- Still running
+[2013-09-13 12:21:19] -- DEBUG -- Still running
+[2013-09-13 12:21:21] -- DEBUG -- Still running
+[2013-09-13 12:21:23] -- DEBUG -- Still running
+[2013-09-13 12:21:25] -- DEBUG -- Still running
+[2013-09-13 12:21:27] -- DEBUG -- Still running
+[2013-09-13 12:21:29] -- DEBUG -- Still running
+[2013-09-13 12:21:31] -- DEBUG -- Still running
+[2013-09-13 12:21:33] -- DEBUG -- Still running
+[2013-09-13 12:21:35] -- DEBUG -- Still running
+[2013-09-13 12:21:37] -- DEBUG -- Still running
+[2013-09-13 12:21:39] -- DEBUG -- Still running
+[2013-09-13 12:21:41] -- DEBUG -- Still running
+[2013-09-13 12:21:43] -- DEBUG -- Still running
+[2013-09-13 12:21:45] -- DEBUG -- Still running
+[2013-09-13 12:21:47] -- DEBUG -- Still running
+[2013-09-13 12:21:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:21:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:49] -- DEBUG -- Still running
+[2013-09-13 12:21:51] -- DEBUG -- Still running
+[2013-09-13 12:21:53] -- DEBUG -- Still running
+[2013-09-13 12:21:55] -- DEBUG -- Still running
+[2013-09-13 12:21:57] -- DEBUG -- Still running
+[2013-09-13 12:21:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:21:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:21:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:21:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:21:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:21:59] -- DEBUG -- Still running
+[2013-09-13 12:22:01] -- DEBUG -- Still running
+[2013-09-13 12:22:02] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:22:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:03] -- DEBUG -- Still running
+[2013-09-13 12:22:05] -- DEBUG -- Still running
+[2013-09-13 12:22:07] -- DEBUG -- Still running
+[2013-09-13 12:22:09] -- DEBUG -- Still running
+[2013-09-13 12:22:11] -- DEBUG -- Still running
+[2013-09-13 12:22:13] -- DEBUG -- Still running
+[2013-09-13 12:22:15] -- DEBUG -- Still running
+[2013-09-13 12:22:17] -- DEBUG -- Still running
+[2013-09-13 12:22:19] -- DEBUG -- Still running
+[2013-09-13 12:22:21] -- DEBUG -- Still running
+[2013-09-13 12:22:23] -- DEBUG -- Still running
+[2013-09-13 12:22:25] -- DEBUG -- Still running
+[2013-09-13 12:22:27] -- DEBUG -- Still running
+[2013-09-13 12:22:29] -- DEBUG -- Still running
+[2013-09-13 12:22:31] -- DEBUG -- Still running
+[2013-09-13 12:22:33] -- DEBUG -- Still running
+[2013-09-13 12:22:35] -- DEBUG -- Still running
+[2013-09-13 12:22:37] -- DEBUG -- Still running
+[2013-09-13 12:22:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:22:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:39] -- DEBUG -- Still running
+[2013-09-13 12:22:41] -- DEBUG -- Still running
+[2013-09-13 12:22:43] -- DEBUG -- Still running
+[2013-09-13 12:22:45] -- DEBUG -- Still running
+[2013-09-13 12:22:47] -- DEBUG -- Still running
+[2013-09-13 12:22:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:22:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:22:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:22:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:22:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:49] -- DEBUG -- Still running
+[2013-09-13 12:22:51] -- DEBUG -- Still running
+[2013-09-13 12:22:52] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:22:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:22:53] -- DEBUG -- Still running
+[2013-09-13 12:22:55] -- DEBUG -- Still running
+[2013-09-13 12:22:57] -- DEBUG -- Still running
+[2013-09-13 12:22:59] -- DEBUG -- Still running
+[2013-09-13 12:23:02] -- DEBUG -- Still running
+[2013-09-13 12:23:04] -- DEBUG -- Still running
+[2013-09-13 12:23:06] -- DEBUG -- Still running
+[2013-09-13 12:23:08] -- DEBUG -- Still running
+[2013-09-13 12:23:10] -- DEBUG -- Still running
+[2013-09-13 12:23:12] -- DEBUG -- Still running
+[2013-09-13 12:23:14] -- DEBUG -- Still running
+[2013-09-13 12:23:16] -- DEBUG -- Still running
+[2013-09-13 12:23:18] -- DEBUG -- Still running
+[2013-09-13 12:23:20] -- DEBUG -- Still running
+[2013-09-13 12:23:22] -- DEBUG -- Still running
+[2013-09-13 12:23:24] -- DEBUG -- Still running
+[2013-09-13 12:23:26] -- DEBUG -- Still running
+[2013-09-13 12:23:28] -- DEBUG -- Still running
+[2013-09-13 12:23:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:23:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:30] -- DEBUG -- Still running
+[2013-09-13 12:23:32] -- DEBUG -- Still running
+[2013-09-13 12:23:34] -- DEBUG -- Still running
+[2013-09-13 12:23:36] -- DEBUG -- Still running
+[2013-09-13 12:23:38] -- DEBUG -- Still running
+[2013-09-13 12:23:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:23:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:23:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:23:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:39] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:23:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:40] -- DEBUG -- Still running
+[2013-09-13 12:23:42] -- DEBUG -- Still running
+[2013-09-13 12:23:42] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:23:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:23:44] -- DEBUG -- Still running
+[2013-09-13 12:23:46] -- DEBUG -- Still running
+[2013-09-13 12:23:48] -- DEBUG -- Still running
+[2013-09-13 12:23:50] -- DEBUG -- Still running
+[2013-09-13 12:23:52] -- DEBUG -- Still running
+[2013-09-13 12:23:54] -- DEBUG -- Still running
+[2013-09-13 12:23:56] -- DEBUG -- Still running
+[2013-09-13 12:23:58] -- DEBUG -- Still running
+[2013-09-13 12:24:00] -- DEBUG -- Still running
+[2013-09-13 12:24:02] -- DEBUG -- Still running
+[2013-09-13 12:24:04] -- DEBUG -- Still running
+[2013-09-13 12:24:06] -- DEBUG -- Still running
+[2013-09-13 12:24:08] -- DEBUG -- Still running
+[2013-09-13 12:24:10] -- DEBUG -- Still running
+[2013-09-13 12:24:12] -- DEBUG -- Still running
+[2013-09-13 12:24:14] -- DEBUG -- Still running
+[2013-09-13 12:24:16] -- DEBUG -- Still running
+[2013-09-13 12:24:18] -- DEBUG -- Still running
+[2013-09-13 12:24:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:24:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:18] -- DEBUG -- Running the metajob for account: 2
+[2013-09-13 12:24:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:24:18] -- DEBUG -- Returning new database object
+[2013-09-13 12:24:18] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-13 12:24:18] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-13 12:24:20] -- DEBUG -- Still running
+[2013-09-13 12:24:22] -- DEBUG -- Still running
+[2013-09-13 12:24:24] -- DEBUG -- Still running
+[2013-09-13 12:24:26] -- DEBUG -- Still running
+[2013-09-13 12:24:28] -- DEBUG -- Still running
+[2013-09-13 12:24:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:24:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:24:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:24:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:29] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:24:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:30] -- DEBUG -- Still running
+[2013-09-13 12:24:32] -- DEBUG -- Still running
+[2013-09-13 12:24:32] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:24:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:24:34] -- DEBUG -- Still running
+[2013-09-13 12:24:36] -- DEBUG -- Still running
+[2013-09-13 12:24:38] -- DEBUG -- Still running
+[2013-09-13 12:24:40] -- DEBUG -- Still running
+[2013-09-13 12:24:42] -- DEBUG -- Still running
+[2013-09-13 12:24:44] -- DEBUG -- Still running
+[2013-09-13 12:24:46] -- DEBUG -- Still running
+[2013-09-13 12:24:48] -- DEBUG -- Still running
+[2013-09-13 12:24:50] -- DEBUG -- Still running
+[2013-09-13 12:24:52] -- DEBUG -- Still running
+[2013-09-13 12:24:54] -- DEBUG -- Still running
+[2013-09-13 12:24:56] -- DEBUG -- Still running
+[2013-09-13 12:24:58] -- DEBUG -- Still running
+[2013-09-13 12:25:00] -- DEBUG -- Still running
+[2013-09-13 12:25:02] -- DEBUG -- Still running
+[2013-09-13 12:25:04] -- DEBUG -- Still running
+[2013-09-13 12:25:06] -- DEBUG -- Still running
+[2013-09-13 12:25:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:25:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:08] -- DEBUG -- Still running
+[2013-09-13 12:25:10] -- DEBUG -- Still running
+[2013-09-13 12:25:12] -- DEBUG -- Still running
+[2013-09-13 12:25:14] -- DEBUG -- Still running
+[2013-09-13 12:25:16] -- DEBUG -- Still running
+[2013-09-13 12:25:18] -- DEBUG -- Still running
+[2013-09-13 12:25:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:25:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x865686c>
+[2013-09-13 12:25:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:25:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:18] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:25:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:19] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:25:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:20] -- DEBUG -- Still running
+[2013-09-13 12:25:22] -- DEBUG -- Still running
+[2013-09-13 12:25:22] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:25:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:24] -- DEBUG -- Still running
+[2013-09-13 12:25:26] -- DEBUG -- Still running
+[2013-09-13 12:25:28] -- DEBUG -- Still running
+[2013-09-13 12:25:30] -- DEBUG -- Still running
+[2013-09-13 12:25:32] -- DEBUG -- Still running
+[2013-09-13 12:25:34] -- DEBUG -- Still running
+[2013-09-13 12:25:36] -- DEBUG -- Still running
+[2013-09-13 12:25:38] -- DEBUG -- Still running
+[2013-09-13 12:25:40] -- DEBUG -- Still running
+[2013-09-13 12:25:42] -- DEBUG -- Still running
+[2013-09-13 12:25:44] -- DEBUG -- Still running
+[2013-09-13 12:25:46] -- DEBUG -- Still running
+[2013-09-13 12:25:48] -- DEBUG -- Still running
+[2013-09-13 12:25:50] -- DEBUG -- Still running
+[2013-09-13 12:25:52] -- DEBUG -- Still running
+[2013-09-13 12:25:54] -- DEBUG -- Still running
+[2013-09-13 12:25:56] -- DEBUG -- Still running
+[2013-09-13 12:25:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:25:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:25:58] -- DEBUG -- Still running
+[2013-09-13 12:26:00] -- DEBUG -- Still running
+[2013-09-13 12:26:02] -- DEBUG -- Still running
+[2013-09-13 12:26:04] -- DEBUG -- Still running
+[2013-09-13 12:26:06] -- DEBUG -- Still running
+[2013-09-13 12:26:08] -- DEBUG -- Still running
+[2013-09-13 12:26:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:26:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x865686c>
+[2013-09-13 12:26:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:26:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:08] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:26:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:09] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:26:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:10] -- DEBUG -- Still running
+[2013-09-13 12:26:12] -- DEBUG -- Still running
+[2013-09-13 12:26:12] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:26:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:14] -- DEBUG -- Still running
+[2013-09-13 12:26:16] -- DEBUG -- Still running
+[2013-09-13 12:26:18] -- DEBUG -- Still running
+[2013-09-13 12:26:20] -- DEBUG -- Still running
+[2013-09-13 12:26:22] -- DEBUG -- Still running
+[2013-09-13 12:26:24] -- DEBUG -- Still running
+[2013-09-13 12:26:26] -- DEBUG -- Still running
+[2013-09-13 12:26:28] -- DEBUG -- Still running
+[2013-09-13 12:26:30] -- DEBUG -- Still running
+[2013-09-13 12:26:32] -- DEBUG -- Still running
+[2013-09-13 12:26:34] -- DEBUG -- Still running
+[2013-09-13 12:26:36] -- DEBUG -- Still running
+[2013-09-13 12:26:38] -- DEBUG -- Still running
+[2013-09-13 12:26:40] -- DEBUG -- Still running
+[2013-09-13 12:26:42] -- DEBUG -- Still running
+[2013-09-13 12:26:44] -- DEBUG -- Still running
+[2013-09-13 12:26:46] -- DEBUG -- Still running
+[2013-09-13 12:26:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:26:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:48] -- DEBUG -- Still running
+[2013-09-13 12:26:50] -- DEBUG -- Still running
+[2013-09-13 12:26:52] -- DEBUG -- Still running
+[2013-09-13 12:26:54] -- DEBUG -- Still running
+[2013-09-13 12:26:56] -- DEBUG -- Still running
+[2013-09-13 12:26:58] -- DEBUG -- Still running
+[2013-09-13 12:26:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:26:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x865686c>
+[2013-09-13 12:26:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:26:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:58] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:26:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:26:59] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:26:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:00] -- DEBUG -- Still running
+[2013-09-13 12:27:02] -- DEBUG -- Still running
+[2013-09-13 12:27:02] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:27:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:04] -- DEBUG -- Still running
+[2013-09-13 12:27:06] -- DEBUG -- Still running
+[2013-09-13 12:27:08] -- DEBUG -- Still running
+[2013-09-13 12:27:10] -- DEBUG -- Still running
+[2013-09-13 12:27:12] -- DEBUG -- Still running
+[2013-09-13 12:27:14] -- DEBUG -- Still running
+[2013-09-13 12:27:16] -- DEBUG -- Still running
+[2013-09-13 12:27:18] -- DEBUG -- Still running
+[2013-09-13 12:27:20] -- DEBUG -- Still running
+[2013-09-13 12:27:22] -- DEBUG -- Still running
+[2013-09-13 12:27:24] -- DEBUG -- Still running
+[2013-09-13 12:27:26] -- DEBUG -- Still running
+[2013-09-13 12:27:28] -- DEBUG -- Still running
+[2013-09-13 12:27:30] -- DEBUG -- Still running
+[2013-09-13 12:27:32] -- DEBUG -- Still running
+[2013-09-13 12:27:34] -- DEBUG -- Still running
+[2013-09-13 12:27:36] -- DEBUG -- Still running
+[2013-09-13 12:27:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:27:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:38] -- DEBUG -- Still running
+[2013-09-13 12:27:40] -- DEBUG -- Still running
+[2013-09-13 12:27:42] -- DEBUG -- Still running
+[2013-09-13 12:27:44] -- DEBUG -- Still running
+[2013-09-13 12:27:46] -- DEBUG -- Still running
+[2013-09-13 12:27:48] -- DEBUG -- Still running
+[2013-09-13 12:27:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:27:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x865686c>
+[2013-09-13 12:27:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x864c52c>
+[2013-09-13 12:27:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:48] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x86139ac>
+[2013-09-13 12:27:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:49] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85fe2ec>
+[2013-09-13 12:27:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:50] -- DEBUG -- Still running
+[2013-09-13 12:27:52] -- DEBUG -- Still running
+[2013-09-13 12:27:52] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8607fec>
+[2013-09-13 12:27:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:27:54] -- DEBUG -- Still running
+[2013-09-13 12:27:56] -- DEBUG -- Still running
+[2013-09-13 12:27:58] -- DEBUG -- Still running
+[2013-09-13 12:28:00] -- DEBUG -- Still running
+[2013-09-13 12:28:02] -- DEBUG -- Still running
+[2013-09-13 12:28:04] -- DEBUG -- Still running
+[2013-09-13 12:28:06] -- DEBUG -- Still running
+[2013-09-13 12:28:08] -- DEBUG -- Still running
+[2013-09-13 12:28:10] -- DEBUG -- Still running
+[2013-09-13 12:28:12] -- DEBUG -- Still running
+[2013-09-13 12:28:14] -- DEBUG -- Still running
+[2013-09-13 12:28:16] -- DEBUG -- Still running
+[2013-09-13 12:28:18] -- DEBUG -- Still running
+[2013-09-13 12:28:20] -- DEBUG -- Still running
+[2013-09-13 12:28:22] -- DEBUG -- Still running
+[2013-09-13 12:28:24] -- DEBUG -- Still running
+[2013-09-13 12:28:26] -- DEBUG -- Still running
+[2013-09-13 12:28:28] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x85dd6cc>
+[2013-09-13 12:28:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-13 12:28:28] -- DEBUG -- Still running
+[2013-09-13 12:28:30] -- DEBUG -- Still running
+[2013-09-13 12:28:32] -- DEBUG -- Still running
+[2013-09-13 12:28:34] -- DEBUG -- Still running
+[2013-09-13 12:28:36] -- DEBUG -- Still running
+[2013-09-13 12:28:38] -- DEBUG -- Still running
+[2013-09-13 12:28:38] -- DEBUG -- Running the job for account: 2
+<account.Account instance at 0x8641b8c>
+[2013-09-13 12:28:38] -- DEBUG -- Running the interval job for ac
