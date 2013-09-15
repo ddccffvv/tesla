@@ -940,3 +940,27 @@
 [2013-09-15 17:36:33] -- DEBUG -- Running the interval job for account: 2
 [2013-09-15 17:37:23] -- DEBUG -- Running the job for account: 2
 [2013-09-15 17:37:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:38:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:38:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:38:13] -- DEBUG -- Returning new database object
+[2013-09-15 17:38:13] -- DEBUG -- Returning new database object
+[2013-09-15 17:38:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:38:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:38:13] -- DEBUG -- Welkom
+[2013-09-15 17:39:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:39:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:39:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:39:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:40:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:40:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:41:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:41:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:42:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:42:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:43:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:43:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:43:13] -- DEBUG -- Returning new database object
+[2013-09-15 17:43:13] -- DEBUG -- Returning new database object
+[2013-09-15 17:43:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:43:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:43:13] -- DEBUG -- Welkom
