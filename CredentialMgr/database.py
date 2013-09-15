@@ -5,7 +5,7 @@ import base64
 class Database():
 
 	def __init__(self):
-		self.connection = sqlite3.connect("credentialvault")
+		self.connection = sqlite3.connect("/home/alice/tesla/CredentialMgr/credentialvault")
 	
 		try:
 			cursor = self.connection.cursor()
