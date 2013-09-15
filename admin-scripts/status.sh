@@ -1,7 +1,7 @@
 #!/bin/bash
 
-data=`ps aux | grep -e "datadaemonscheduler.py" | grep -v grep | tr -s ' ' | cut -d" " -f 2`
-cred=`ps aux | grep -e "credentialmanager.py" | grep -v grep | tr -s ' ' | cut -d" " -f 2`
+data=`ps aux | grep -e "python.*datadaemonscheduler.py" | grep -v grep | tr -s ' ' | cut -d" " -f 2`
+cred=`ps aux | grep -e "python.*credentialmanager.py" | grep -v grep | tr -s ' ' | cut -d" " -f 2`
 
 if [ -z "$data" ]; then
 	echo -e "\e[1;31m[ERROR] Datadaemonscheduler not running.\e[0m"

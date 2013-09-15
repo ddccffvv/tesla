@@ -964,3 +964,1089 @@
 [2013-09-15 17:43:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
 [2013-09-15 17:43:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
 [2013-09-15 17:43:13] -- DEBUG -- Welkom
+[2013-09-15 17:44:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:44:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:44:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:44:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:45:13] -- DEBUG -- Bye!
+[2013-09-15 17:45:13] -- DEBUG -- Bye!
+[2013-09-15 17:46:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:46:01] -- DEBUG -- Loading logger
+[2013-09-15 17:46:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:46:01] -- DEBUG -- Loading complete
+[2013-09-15 17:46:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:46:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:46:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:46:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:46:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:46:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:46:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:46:01] -- DEBUG -- Welkom
+[2013-09-15 17:46:01] -- DEBUG -- Bye!
+[2013-09-15 17:47:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:47:01] -- DEBUG -- Loading logger
+[2013-09-15 17:47:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:47:01] -- DEBUG -- Loading complete
+[2013-09-15 17:47:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:47:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:47:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:47:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:47:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:47:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:47:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:47:01] -- DEBUG -- Welkom
+[2013-09-15 17:47:01] -- DEBUG -- Bye!
+[2013-09-15 17:48:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:48:01] -- DEBUG -- Loading logger
+[2013-09-15 17:48:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:48:01] -- DEBUG -- Loading complete
+[2013-09-15 17:48:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:48:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:48:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:48:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:48:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:48:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:48:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:48:01] -- DEBUG -- Welkom
+[2013-09-15 17:48:01] -- DEBUG -- Bye!
+[2013-09-15 17:49:02] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:49:02] -- DEBUG -- Loading logger
+[2013-09-15 17:49:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:49:02] -- DEBUG -- Loading complete
+[2013-09-15 17:49:02] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:49:02] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:49:02] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:49:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:49:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:49:02] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:49:02] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:49:02] -- DEBUG -- Welkom
+[2013-09-15 17:49:02] -- DEBUG -- Bye!
+[2013-09-15 17:50:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:50:01] -- DEBUG -- Loading logger
+[2013-09-15 17:50:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:50:01] -- DEBUG -- Loading complete
+[2013-09-15 17:50:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:50:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:50:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:50:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:50:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:50:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:50:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:50:01] -- DEBUG -- Welkom
+[2013-09-15 17:50:01] -- DEBUG -- Bye!
+[2013-09-15 17:51:02] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:51:02] -- DEBUG -- Loading logger
+[2013-09-15 17:51:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:51:02] -- DEBUG -- Loading complete
+[2013-09-15 17:51:02] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:51:02] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:51:02] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:51:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:51:02] -- DEBUG -- Returning new database object
+[2013-09-15 17:51:02] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:51:02] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:51:02] -- DEBUG -- Welkom
+[2013-09-15 17:51:02] -- DEBUG -- Bye!
+[2013-09-15 17:52:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:52:01] -- DEBUG -- Loading logger
+[2013-09-15 17:52:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:52:01] -- DEBUG -- Loading complete
+[2013-09-15 17:52:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:52:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:52:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:52:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:52:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:52:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:52:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:52:01] -- DEBUG -- Welkom
+[2013-09-15 17:52:01] -- DEBUG -- Bye!
+[2013-09-15 17:53:01] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:53:01] -- DEBUG -- Loading logger
+[2013-09-15 17:53:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:01] -- DEBUG -- Loading complete
+[2013-09-15 17:53:01] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:53:01] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:53:01] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:53:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:01] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:01] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:53:01] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:53:01] -- DEBUG -- Welkom
+[2013-09-15 17:53:01] -- DEBUG -- Bye!
+[2013-09-15 17:53:57] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 17:53:57] -- DEBUG -- Loading logger
+[2013-09-15 17:53:57] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:57] -- DEBUG -- Loading complete
+[2013-09-15 17:53:57] -- DEBUG -- Starting the schedule manager
+[2013-09-15 17:53:57] -- DEBUG -- Starting the scheduler object
+[2013-09-15 17:53:57] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 17:53:57] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:57] -- DEBUG -- Returning new database object
+[2013-09-15 17:53:57] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:53:57] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:53:57] -- DEBUG -- Welkom
+[2013-09-15 17:53:57] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 17:53:57] -- DEBUG -- here we go for Tesla
+[2013-09-15 17:54:08] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-15 17:54:08] -- DEBUG -- Start the scheduler!
+[2013-09-15 17:54:08] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-15 17:54:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:54:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:55:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:55:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:56:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:56:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:57:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:57:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:58:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:58:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:59:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:59:08] -- DEBUG -- Returning new database object
+[2013-09-15 17:59:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 17:59:08] -- DEBUG -- Returning new database object
+[2013-09-15 17:59:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 17:59:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 17:59:08] -- DEBUG -- Welkom
+[2013-09-15 17:59:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 17:59:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 17:59:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 17:59:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:00:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:00:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:00:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:00:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:00:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:00:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:01:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:01:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:01:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:01:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:02:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:02:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:02:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:02:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:03:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:03:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:03:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:03:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:04:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:04:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:04:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:04:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:04:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:04:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:04:08] -- DEBUG -- Welkom
+[2013-09-15 18:04:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:04:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:04:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:04:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:04:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:04:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:05:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:05:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:05:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:05:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:05:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:05:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:05:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:05:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:05:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:05:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:06:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:06:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:06:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:06:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:06:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:06:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:07:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:07:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:07:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:07:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:07:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:07:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:08:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:08:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:08:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:08:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:08:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:08:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:09:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:09:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:09:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:09:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:09:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:09:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:09:08] -- DEBUG -- Welkom
+[2013-09-15 18:09:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:09:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:09:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:09:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:09:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:09:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:09:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:09:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:10:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:11:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:11:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:11:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:12:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:12:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:12:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:13:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:13:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:13:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:14:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:14:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:14:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:14:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:14:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:14:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:14:08] -- DEBUG -- Welkom
+[2013-09-15 18:14:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:14:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:14:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:14:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:14:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:14:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:14:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:14:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:14:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:14:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:15:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:15:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:16:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:16:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:16:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:16:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:16:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:17:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:17:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:17:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:17:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:17:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:18:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:18:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:18:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:18:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:18:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:19:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:19:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:19:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:19:08] -- DEBUG -- Welkom
+[2013-09-15 18:19:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:19:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:19:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:19:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:19:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:20:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:20:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:14] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:14] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:21:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:21:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:04] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:04] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:22:54] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:22:54] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:23:44] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:23:44] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:08] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 18:24:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:24:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:24:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:24:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:24:08] -- DEBUG -- Welkom
+[2013-09-15 18:24:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:24:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:24:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:34] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:34] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:24:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:24:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:24] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:24] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:25:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:25:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:14] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:14] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:26:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:26:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:04] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:04] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:27:54] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:27:54] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:28:44] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:28:44] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:29:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:29:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:29:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:29:08] -- DEBUG -- Welkom
+[2013-09-15 18:29:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:29:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:29:15] -- DEBUG -- !!!Failed to fetch the charging data for account 2 and vehicle 4. See error printing below!!!
+[2013-09-15 18:29:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:34] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:34] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:29:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:29:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:10] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:10] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:24] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:24] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:30:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:30:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:00] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:00] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:14] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:14] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:31:50] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:31:50] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:04] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:04] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:40] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:40] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:32:54] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:32:54] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:30] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:30] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:33:44] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:33:44] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:34:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:34:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:34:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:34:08] -- DEBUG -- Welkom
+[2013-09-15 18:34:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:34:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:34:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 18:34:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:20] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:20] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:34] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:34] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:34:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:34:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:10] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:10] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:24] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:24] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:35:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:00] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:00] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:14] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:14] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:36:50] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:36:50] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:04] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:04] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:40] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:40] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:37:54] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:37:54] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:30] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:30] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:38:44] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:38:44] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:39:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:39:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:39:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:39:08] -- DEBUG -- Welkom
+[2013-09-15 18:39:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:39:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:39:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:20] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:20] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:34] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:34] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:39:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:39:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:09] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:10] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:10] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:24] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:24] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:58] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:40:59] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:00] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:00] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:14] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:14] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:48] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:49] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:41:50] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:41:50] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:04] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:04] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:38] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:39] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:40] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:40] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:42:54] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:42:54] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:28] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:29] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:30] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:30] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:43:44] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:43:44] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:08] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:44:08] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:08] -- DEBUG -- Returning new database object
+[2013-09-15 18:44:08] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 18:44:08] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 18:44:08] -- DEBUG -- Welkom
+[2013-09-15 18:44:08] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 18:44:08] -- DEBUG -- here we go for Tesla
+[2013-09-15 18:44:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:18] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:18] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:19] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:20] -- DEBUG -- Running the job for account: 2
+[2013-09-15 18:44:20] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 18:44:27] -- DEBUG -- Bye!
+[2013-09-15 21:46:33] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 21:46:33] -- DEBUG -- Loading logger
+[2013-09-15 21:46:33] -- DEBUG -- Returning new database object
+[2013-09-15 21:46:33] -- DEBUG -- Loading complete
+[2013-09-15 21:46:33] -- DEBUG -- Starting the schedule manager
+[2013-09-15 21:46:33] -- DEBUG -- Starting the scheduler object
+[2013-09-15 21:46:33] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 21:46:33] -- DEBUG -- Returning new database object
+[2013-09-15 21:46:33] -- DEBUG -- Returning new database object
+[2013-09-15 21:46:33] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:46:33] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:46:33] -- DEBUG -- Welkom
+[2013-09-15 21:46:33] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:46:33] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:46:43] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-15 21:46:43] -- DEBUG -- Start the scheduler!
+[2013-09-15 21:46:43] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-15 21:47:24] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 21:47:24] -- DEBUG -- Loading logger
+[2013-09-15 21:47:24] -- DEBUG -- Returning new database object
+[2013-09-15 21:47:24] -- DEBUG -- Loading complete
+[2013-09-15 21:47:24] -- DEBUG -- Starting the schedule manager
+[2013-09-15 21:47:24] -- DEBUG -- Starting the scheduler object
+[2013-09-15 21:47:24] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 21:47:24] -- DEBUG -- Returning new database object
+[2013-09-15 21:47:24] -- DEBUG -- Returning new database object
+[2013-09-15 21:47:24] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:47:24] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:47:24] -- DEBUG -- Welkom
+[2013-09-15 21:47:24] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:47:24] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:47:33] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-15 21:47:33] -- DEBUG -- Start the scheduler!
+[2013-09-15 21:47:33] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-15 21:47:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:47:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:48:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:48:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:48:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:48:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:49:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:49:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:49:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:49:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:50:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:50:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:50:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:50:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:50:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:50:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:50:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:50:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:51:32] -- DEBUG -- Starting the dataDaemon
+[2013-09-15 21:51:32] -- DEBUG -- Loading logger
+[2013-09-15 21:51:32] -- DEBUG -- Returning new database object
+[2013-09-15 21:51:32] -- DEBUG -- Loading complete
+[2013-09-15 21:51:32] -- DEBUG -- Starting the schedule manager
+[2013-09-15 21:51:32] -- DEBUG -- Starting the scheduler object
+[2013-09-15 21:51:32] -- DEBUG -- Creating all the required objects from our database
+[2013-09-15 21:51:32] -- DEBUG -- Returning new database object
+[2013-09-15 21:51:32] -- DEBUG -- Returning new database object
+[2013-09-15 21:51:32] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:51:32] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:51:32] -- DEBUG -- Welkom
+[2013-09-15 21:51:32] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:51:32] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:51:42] -- DEBUG -- Automate the previous creation on a 5 minute basis
+[2013-09-15 21:51:42] -- DEBUG -- Start the scheduler!
+[2013-09-15 21:51:42] -- DEBUG -- Schedule managr is loading, resorting to loop to keep the process alive
+[2013-09-15 21:51:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:51:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:51:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:51:43] -- DEBUG -- Returning new database object
+[2013-09-15 21:51:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:51:43] -- DEBUG -- Returning new database object
+[2013-09-15 21:51:43] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:51:43] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:51:43] -- DEBUG -- Welkom
+[2013-09-15 21:51:43] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:51:43] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:52:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:52:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:52:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:52:33] -- DEBUG -- Returning new database object
+[2013-09-15 21:52:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:52:33] -- DEBUG -- Returning new database object
+[2013-09-15 21:52:33] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:52:33] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:52:33] -- DEBUG -- Welkom
+[2013-09-15 21:52:33] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:52:33] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:52:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:52:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:52:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:52:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:53:00] -- DEBUG -- Bye!
+[2013-09-15 21:53:00] -- DEBUG -- Bye!
+[2013-09-15 21:53:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:53:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:53:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:53:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:53:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:53:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:53:40] -- DEBUG -- Bye!
+[2013-09-15 21:53:40] -- DEBUG -- Bye!
+[2013-09-15 21:54:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:54:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:55:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:55:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:55:52] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:55:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:56:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:56:42] -- DEBUG -- Returning new database object
+[2013-09-15 21:56:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:56:42] -- DEBUG -- Returning new database object
+[2013-09-15 21:56:42] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 21:56:42] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 21:56:42] -- DEBUG -- Welkom
+[2013-09-15 21:56:42] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 21:56:42] -- DEBUG -- here we go for Tesla
+[2013-09-15 21:57:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:57:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:57:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:57:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:58:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:58:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:58:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:58:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:59:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:59:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 21:59:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 21:59:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:00:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:00:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:00:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:00:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:00:52] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:00:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:01:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:01:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:01:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:01:42] -- DEBUG -- Returning new database object
+[2013-09-15 22:01:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:01:42] -- DEBUG -- Returning new database object
+[2013-09-15 22:01:42] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 22:01:42] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 22:01:42] -- DEBUG -- Welkom
+[2013-09-15 22:01:42] -- DEBUG -- Got the credentials, logging in and returning object
+[2013-09-15 22:01:42] -- DEBUG -- here we go for Tesla
+[2013-09-15 22:01:52] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:01:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:02:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:02:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:02:41] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:02:41] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:02:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:02:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:03:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:03:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:03:31] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:03:31] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:03:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:03:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:04:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:04:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:04:21] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:04:21] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:04:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:04:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:05:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:05:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:05:11] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:05:11] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:05:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:05:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:05:52] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:05:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:06:01] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:06:01] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:06:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:06:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:06:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:06:42] -- DEBUG -- Returning new database object
+[2013-09-15 22:06:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:06:42] -- DEBUG -- Returning new database object
+[2013-09-15 22:06:42] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 22:06:42] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 22:06:42] -- DEBUG -- Welkom
+[2013-09-15 22:06:51] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:06:51] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:06:52] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:06:52] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:07:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:07:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:07:41] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:07:41] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:07:42] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:07:42] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:08:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:08:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:08:31] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:08:31] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:08:32] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:08:32] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:09:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:09:12] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:09:21] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:09:21] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:09:22] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:09:22] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:10:02] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:10:02] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:10:11] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:10:11] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 22:10:12] -- DEBUG -- Running the job for account: 2
+[2013-09-15 22:10:12] -- DEBUG -- Running the interval job for account: 2

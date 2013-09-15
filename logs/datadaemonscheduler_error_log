@@ -1,0 +1,726 @@
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+Traceback (most recent call last):
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 43, in <module>
+    dd = dataDaemon()
+  File "/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py", line 25, in __init__
+    self.schedulemanager = schedulemanager.ScheduleManager(self)
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 26, in __init__
+    self.createCarObjects()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 55, in createCarObjects
+    self.startAllAccounts()
+  File "/home/alice/tesla/dataDaemonScheduler/schedulemanager.py", line 64, in startAllAccounts
+    account.prepareJob()
+  File "/home/alice/tesla/dataDaemonScheduler/account.py", line 27, in prepareJob
+    self.pyteslaobj = self.c.root.getLoginToken(self.accountid)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 196, in __call__
+    return syncreq(_self, consts.HANDLE_CALL, args, kwargs)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/netref.py", line 71, in syncreq
+    return conn.sync_request(handler, oid, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 438, in sync_request
+    raise obj
+TypeError: 'NoneType' object is unsubscriptable
+
+========= Remote Traceback (1) =========
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 300, in _dispatch_request
+    res = self._HANDLERS[handler](self, *args)
+  File "/usr/local/lib/python2.6/dist-packages/rpyc/core/protocol.py", line 532, in _handle_call
+    return self._local_objects[oid](*args, **dict(kwargs))
+  File "/home/alice/tesla/CredentialMgr/credentialmanager.py", line 25, in exposed_getLoginToken
+    credentials = dbobject.getCredentials(accountid, cartype)
+  File "/home/alice/tesla/CredentialMgr/database.py", line 28, in getCredentials
+    return [base64.b64decode(data[0]), base64.b64decode(data[1])]
+TypeError: 'NoneType' object is unsubscriptable
+
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: syntax error near unexpected token `fi'
+/home/alice/tesla/admin-scripts/watchdog_datadaemonscheduler.sh: line 9: `fi'

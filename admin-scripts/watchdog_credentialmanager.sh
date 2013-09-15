@@ -5,5 +5,5 @@ pid=`ps aux | grep credentialmanager.py | grep -v grep | perl -ne 'chomp and pri
 filename="/home/alice/tesla/CredentialMgr/credentialmanager.py";
 
 if [ -z "$pid" ]; then
-	nohup /usr/bin/python $filename 
+	#nohup /usr/bin/python $filename 
 fi

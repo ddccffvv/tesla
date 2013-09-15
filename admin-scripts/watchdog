@@ -1,0 +1,29 @@
+#!/bin/bash
+
+while :
+do
+	echo -e "\e[1;32m`date \"+%Y-%m-%d %T\"` [OK] Running.\e[0m"
+
+	pid=`ps aux | grep -e "python.*credentialmanager.py" | grep -v grep | perl -ne 'chomp and print'`;
+	filename="/home/alice/tesla/CredentialMgr/credentialmanager.py";
+
+	if [ -z "$pid" ]; then
+		echo -e "\e[1;31m`date \"+%Y-%m-%d %T\"` [ERROR] Credentialmanager not running, restarting...\e[0m"
+		/usr/bin/python $filename &
+		echo $pid
+		sleep 5
+	fi
+
+	pid=`ps aux | grep -e "python.*datadaemonscheduler.py" | grep -v grep | perl -ne 'chomp and print'`;
+
+	filename="/home/alice/tesla/dataDaemonScheduler/datadaemonscheduler.py";
+
+	if [ -z "$pid" ]; then
+		echo -e "\e[1;31m`date \"+%Y-%m-%d %T\"` [ERROR] Datadaemon not running, restarting...\e[0m"
+		echo $pid
+		/usr/bin/python $filename &
+	fi
+
+
+	sleep 30
+done
