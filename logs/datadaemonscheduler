@@ -208,3 +208,278 @@
 [2013-09-15 13:49:53] -- DEBUG -- Running the interval job for account: 2
 [2013-09-15 13:50:43] -- DEBUG -- Running the job for account: 2
 [2013-09-15 13:50:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:51:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:51:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:52:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:52:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:53:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:53:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:53:13] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 13:53:13] -- DEBUG -- Returning new database object
+[2013-09-15 13:53:13] -- DEBUG -- Returning new database object
+[2013-09-15 13:53:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 13:53:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 13:54:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:54:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:54:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:54:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:55:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:55:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:56:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:56:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:57:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:57:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:58:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:58:13] -- DEBUG -- Returning new database object
+[2013-09-15 13:58:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:58:13] -- DEBUG -- Returning new database object
+[2013-09-15 13:58:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 13:58:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 13:59:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:59:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 13:59:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 13:59:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:00:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:00:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:01:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:01:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:02:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:02:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:03:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:03:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:03:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:03:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:03:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:03:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:04:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:04:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:04:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:04:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:05:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:05:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:06:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:06:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:07:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:07:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:08:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:08:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:08:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:08:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:08:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:08:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:09:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:09:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:09:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:09:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:10:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:10:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:11:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:11:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:12:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:12:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:13:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:13:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:13:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:13:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:13:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:13:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:14:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:14:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:14:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:14:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:15:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:15:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:16:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:16:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:17:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:17:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:18:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:18:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:18:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:18:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:18:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:18:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:19:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:19:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:19:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:19:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:20:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:20:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:21:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:21:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:22:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:22:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:23:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:23:13] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 14:23:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:23:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:23:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:23:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:23:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:24:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:24:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:24:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:24:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:25:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:25:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:26:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:26:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:27:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:27:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:28:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:28:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:28:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:28:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:28:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:28:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:29:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:29:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:29:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:29:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:30:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:30:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:31:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:31:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:32:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:32:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:33:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:33:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:33:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:33:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:33:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:33:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:34:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:34:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:34:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:34:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:35:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:35:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:36:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:36:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:37:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:37:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:38:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:38:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:38:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:38:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:38:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:38:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:39:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:39:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:39:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:39:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:40:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:40:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:41:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:41:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:42:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:42:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:43:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:43:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:43:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:43:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:43:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:43:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:44:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:44:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:44:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:44:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:45:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:45:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:46:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:46:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:47:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:47:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:48:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:48:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:48:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:48:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:48:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:48:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:49:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:49:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:49:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:49:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:50:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:50:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:51:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:51:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:52:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:52:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:53:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:53:13] -- DEBUG -- Running the metajob for account: 2
+[2013-09-15 14:53:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:53:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:53:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:53:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:53:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:54:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:54:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:54:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:54:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:55:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:55:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:56:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:56:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:57:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:57:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:58:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:58:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:58:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:58:13] -- DEBUG -- Returning new database object
+[2013-09-15 14:58:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 14:58:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 14:59:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:59:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 14:59:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 14:59:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:00:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:00:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:01:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:01:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:02:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:02:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:03:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:03:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:03:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:03:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:03:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 15:03:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 15:04:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:04:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:04:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:04:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:05:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:05:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:06:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:06:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:07:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:07:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:08:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:08:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:08:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:08:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:08:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 15:08:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 15:09:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:09:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:09:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:09:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:10:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:10:43] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:11:33] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:11:33] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:12:23] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:12:23] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:13:13] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:13:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:13:13] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:13:13] -- DEBUG -- Returning new database object
+[2013-09-15 15:13:13] -- DEBUG -- Starting all the accounts. We append a runJob and a runMetaJob to the scheduler
+[2013-09-15 15:13:13] -- DEBUG -- Preparing the object; setting up the connection to the credential manager. Account: 2
+[2013-09-15 15:14:03] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:14:03] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:14:53] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:14:53] -- DEBUG -- Running the interval job for account: 2
+[2013-09-15 15:15:43] -- DEBUG -- Running the job for account: 2
+[2013-09-15 15:15:43] -- DEBUG -- Running the interval job for account: 2
