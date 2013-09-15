@@ -3,13 +3,13 @@ from flask import render_template, flash, request, session, redirect, url_for
 from flask.ext.bcrypt import Bcrypt
 import sqlite3, sys, os
 import MySQLdb
-import pytesla
 import rpyc
 import time
 
-#ENVIRON = "prod" # Change to PROD for other stuff
 ENVIRON = "dev"
+ENVIRON = "prod" # Change to PROD for other stuff
 app = Flask(__name__)
+app.secret_key = os.urandom(30)
 bcrypt = Bcrypt(app)
 
 @app.route("/login", methods=["GET", "POST"])
@@ -22,7 +22,6 @@ def login():
 		cursor = dbconnection.cursor()
 		cursor.execute("SELECT id, accountid, password from users WHERE username=%s", (username, ))
 		content = cursor.fetchone()
-		print content
 		if content == None:
 			error = "Invalid username or password."
 		elif not bcrypt.check_password_hash(content[2], password):
@@ -33,6 +32,7 @@ def login():
 			carid = cursor.fetchone()
 			if carid:
 				session['carid'] = carid[0]
+
 			session['logged_in'] = True
 			session['username'] = username
 			session["userid"] = content[0]
@@ -142,9 +142,9 @@ def change_password():
 			error = "Invalid password, please try again."
 			return render_template("change_password.html", error=error)
 		# Update the password...
-		cursor.execute("update users set password=%s WHERE id=%s",(bcrypt.generate_password_hash(newpassword1)))
-		cursor.submit()
-		success = "Password succesfully changed"
+		cursor.execute("update users set password=%s WHERE id=%s",(bcrypt.generate_password_hash(newpassword1), session["userid"]))
+		dbconnection.commit()
+		success = "Password successfully changed"
 		return render_template("change_password.html", success=success)
 	return render_template("change_password.html")
 
@@ -236,6 +236,16 @@ def distance(origin, destination):
 	d = radius * c
 	return d
 
+def init_db(db_location, db_username, db_password, db_database):
+	global dbconnection
+	dbconnection = MySQLdb.connect(db_location, db_username, db_password, db_database)
+
+def close_db():
+	dbconnection.close()
+
+dbconnection = None
+
+
 if __name__ == "__main__":
 
 	# Setup sql connection
@@ -251,7 +261,6 @@ if __name__ == "__main__":
 		db_database = "tesla"	
 	else:
 		sys.exit(1)
-	dbconnection = MySQLdb.connect(db_location, db_username, db_password, db_database)
+	init_db(db_location, db_username, db_password, db_database)
 	
-	app.secret_key = os.urandom(30)
     	app.run(host='0.0.0.0',debug=True,port=4343)
